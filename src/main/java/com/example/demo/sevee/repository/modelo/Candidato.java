@@ -3,7 +3,6 @@ package com.example.demo.sevee.repository.modelo;
 import java.io.Serializable;
 import java.math.BigInteger;
 import java.util.List;
-
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -23,23 +22,23 @@ public class Candidato implements Serializable{
 	
 	@Id
 	//@GeneratedValue(strategy = GenerationType.SEQUENCE)
-	@Column(name = "voto_id")
+	@Column(name = "cand_id")
 	private Integer id;
 
-	@Column(name = "cand_nombre")
+	@Column(name = "cand_nombres")
 	private String nombre;
 	
-	@Column(name = "cand_dignidad_codigo")
-	private Integer dignidadCodigo;
+	@Column(name = "cand_apellidos")
+	private String apellido;
 	
-	@Column(name = "cand_votos_primera_v")
-	private BigInteger votosPrimeraV;
+	@Column(name = "cand_nombre_partido")
+	private String nombrePartido;
 	
-	@Column(name = "cand_votos_segunda_v")
-	private BigInteger votosSegundaV;
+	@Column(name = "cand_num_lista")
+	private String numLista;
 	
-	@Column(name = "cand_lista_perteneciente")
-	private Integer listaPerteneciente;
+	@Column(name = "cand_dignidad")
+	private BigInteger dignidad;
 	
 	@OneToMany(mappedBy = "candidato", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	private List<Voto> votos;
@@ -60,36 +59,36 @@ public class Candidato implements Serializable{
 		this.nombre = nombre;
 	}
 
-	public Integer getDignidadCodigo() {
-		return dignidadCodigo;
+	public String getApellido() {
+		return apellido;
 	}
 
-	public void setDignidadCodigo(Integer dignidadCodigo) {
-		this.dignidadCodigo = dignidadCodigo;
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
 	}
 
-	public BigInteger getVotosPrimeraV() {
-		return votosPrimeraV;
+	public String getNombrePartido() {
+		return nombrePartido;
 	}
 
-	public void setVotosPrimeraV(BigInteger votosPrimeraV) {
-		this.votosPrimeraV = votosPrimeraV;
+	public void setNombrePartido(String nombrePartido) {
+		this.nombrePartido = nombrePartido;
 	}
 
-	public BigInteger getVotosSegundaV() {
-		return votosSegundaV;
+	public String getNumLista() {
+		return numLista;
 	}
 
-	public void setVotosSegundaV(BigInteger votosSegundaV) {
-		this.votosSegundaV = votosSegundaV;
+	public void setNumLista(String numLista) {
+		this.numLista = numLista;
 	}
 
-	public Integer getListaPerteneciente() {
-		return listaPerteneciente;
+	public BigInteger getDignidad() {
+		return dignidad;
 	}
 
-	public void setListaPerteneciente(Integer listaPerteneciente) {
-		this.listaPerteneciente = listaPerteneciente;
+	public void setDignidad(BigInteger dignidad) {
+		this.dignidad = dignidad;
 	}
 
 	public List<Voto> getVotos() {
@@ -99,6 +98,8 @@ public class Candidato implements Serializable{
 	public void setVotos(List<Voto> votos) {
 		this.votos = votos;
 	}
+
+	
 	
 	
 	

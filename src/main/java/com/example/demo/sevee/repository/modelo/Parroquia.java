@@ -1,12 +1,14 @@
 package com.example.demo.sevee.repository.modelo;
 
 import java.io.Serializable;
+import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
@@ -25,6 +27,9 @@ public class Parroquia implements Serializable{
 	
 	@Column(name = "parr_nombre")
 	private String nombre;
+	
+	@OneToMany(mappedBy = "parroquia", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+	private List<Voto> votos;
 
 	public Integer getId() {
 		return id;
@@ -41,12 +46,15 @@ public class Parroquia implements Serializable{
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
+
+	public List<Voto> getVotos() {
+		return votos;
+	}
+
+	public void setVotos(List<Voto> votos) {
+		this.votos = votos;
+	}
 	
-	/*
-	@ManyToOne
-	@JoinColumn(name = "parr_cant_nombre")
-	private Canton canton;
-	*/
 	
 	
 }
