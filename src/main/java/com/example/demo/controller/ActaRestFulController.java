@@ -23,5 +23,10 @@ public class ActaRestFulController {
 	public BigInteger votosBlancos(@PathVariable("actTipo") String actTipo) {
 		return this.actaService.sumaVotoBlanco(actTipo);
 	}
+	
+	@GetMapping(path="/nulos/{actTipo}")
+	public BigInteger votosNulos(@PathVariable("actTipo") String actTipo) {
+		return this.actaService.sumaVotoNulo(actTipo);
+	}
 
 }

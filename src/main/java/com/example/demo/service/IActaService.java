@@ -6,5 +6,7 @@ public interface IActaService {
 	
 	
 	public BigInteger sumaVotoBlanco(String act_tipo);
+	
+	public BigInteger sumaVotoNulo(String act_tipo);
 
 }
