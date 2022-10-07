@@ -29,4 +29,10 @@ public class ActaRestFulController {
 		return this.actaService.sumaVotoNulo(actTipo);
 	}
 
+	
+	@GetMapping(path="/ausentes/{actTipo}")
+	public BigInteger muestraAusentes(@PathVariable("actTipo") String actTipo) {
+		return this.actaService.sumaVotoAusente(actTipo);
+	}
+
 }

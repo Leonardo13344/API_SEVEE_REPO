@@ -37,4 +37,10 @@ public class ActaServiceImpl implements IActaService{
 		return sum;
 	}
 
+	@Override
+	public BigInteger sumaVotoAusente(String actTipo) {
+		// TODO LUIS
+		return null;
+	}
+
 }

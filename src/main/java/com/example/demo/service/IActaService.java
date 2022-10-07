@@ -9,4 +9,6 @@ public interface IActaService {
 	
 	public BigInteger sumaVotoNulo(String act_tipo);
 
+	public BigInteger sumaVotoAusente(String actTipo);
+
 }
