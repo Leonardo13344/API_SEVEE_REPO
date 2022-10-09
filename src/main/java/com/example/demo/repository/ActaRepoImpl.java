@@ -34,5 +34,12 @@ public class ActaRepoImpl implements IActaRepo{
 		myQuery.setParameter("actTipo", actTipo);
 		return myQuery.getResultList();
 	}
+	@Override
+	public List<Acta> votosAusentes(String actTipo) {
+		TypedQuery<Acta> myQuery = this.em
+				.createQuery("SELECT a FROM Acta a WHERE a.tipo =: actTipo", Acta.class);
+		myQuery.setParameter("actTipo", actTipo);
+		return myQuery.getResultList();
+	}
 
 }

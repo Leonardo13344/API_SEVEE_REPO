@@ -8,5 +8,6 @@ public interface IActaRepo {
 	
 	public List<Acta> votosBlancos(String actTipo);
 	public List<Acta> votosNulos(String actTipo);
+	public List<Acta> votosAusentes(String actTipo);
 
 }

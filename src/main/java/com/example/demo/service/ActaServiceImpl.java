@@ -40,7 +40,12 @@ public class ActaServiceImpl implements IActaService{
 	@Override
 	public BigInteger sumaVotoAusente(String actTipo) {
 		// TODO LUIS
-		return null;
+		List<Acta> lista = this.actaRepo.votosAusentes(actTipo);
+		BigInteger sum = new BigInteger("0");
+		for(Acta acta : lista) {
+			sum = sum.add(acta.getAusentes());
+		}
+		return sum;
 	}
 
 }
