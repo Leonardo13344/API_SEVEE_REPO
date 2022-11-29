@@ -8,4 +8,6 @@ import com.example.demo.sevee.repository.modelo.Voto;
 public interface IVotoService {
 
 	public BigInteger votoSuma(List<Voto> votosAsociadoACandidato, Integer prov_id);
+
+	public BigInteger muestraMasculino(List<Voto> votosAsociadoACandidato);
 }

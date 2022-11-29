@@ -1,5 +1,6 @@
 package com.example.demo.repository;
 
+import java.math.BigInteger;
 import java.util.List;
 
 import javax.persistence.EntityManager;
@@ -10,6 +11,7 @@ import javax.transaction.Transactional;
 import org.springframework.stereotype.Repository;
 
 import com.example.demo.sevee.repository.modelo.Acta;
+import com.example.demo.sevee.repository.modelo.Voto;
 
 @Repository
 @Transactional

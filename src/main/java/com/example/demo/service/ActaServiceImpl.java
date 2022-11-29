@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 
 import com.example.demo.repository.IActaRepo;
 import com.example.demo.sevee.repository.modelo.Acta;
+import com.example.demo.sevee.repository.modelo.Voto;
 
 @Service
 public class ActaServiceImpl implements IActaService{
@@ -47,5 +48,7 @@ public class ActaServiceImpl implements IActaService{
 		}
 		return sum;
 	}
+
+
 
 }
