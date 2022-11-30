@@ -10,4 +10,10 @@ public interface IVotoService {
 	public BigInteger votoSuma(List<Voto> votosAsociadoACandidato, Integer prov_id);
 
 	public BigInteger muestraMasculino(List<Voto> votosAsociadoACandidato);
+	
+	//5
+		BigInteger votoGeneralPorCandidato(Integer codCandidato, boolean vuelta,Integer idProvincia,Integer idCanton);
+
+		//12
+		BigInteger muestraPorGenero(String genero, Integer codCandidato, boolean vuelta,Integer idProvincia,Integer idCanton);
 }

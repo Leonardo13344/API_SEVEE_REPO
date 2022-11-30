@@ -5,6 +5,7 @@ import java.util.List;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
 import javax.transaction.Transactional;
 
 import org.springframework.stereotype.Repository;
@@ -24,5 +25,33 @@ public class VotoRepoImpl implements IVotoRepo{
 		return null;
 	}
 
+	@Override
+	public List<Voto> votoGeneralPorCandidato(Integer codCandidato, boolean vuelta, Integer idProvincia,
+			Integer idCanton) {
+		// TODO Auto-generated method stub
+		TypedQuery<Voto> myQ = this.entityManager.createQuery(
+				"SELECT v FROM Voto v where v.candidato.id=:codCandidato and v.vuelta=:vuelta and v.provincia.id=:idProv and v.canton.id=:idCanton",
+				Voto.class);
+		return myQ.setParameter("codCandidato", codCandidato)
+				.setParameter("vuelta", vuelta)
+				.setParameter("idProv", idProvincia)
+				.setParameter("idCanton", idCanton)
+				.getResultList();
+	}
+
+	@Override
+	public List<Voto> muestraPorGenero(String genero, Integer codCandidato, boolean vuelta, Integer idProvincia,
+									   Integer idCanton) {
+		TypedQuery<Voto> myQ = this.entityManager.createQuery(
+				"SELECT v FROM Voto v where v.candidato.id=:codCandidato and v.vuelta=:vuelta and v.genero=:genero and v.provincia.id=:idProv and v.canton.id=:idCanton",
+				Voto.class);
+		return myQ.setParameter("codCandidato", codCandidato).
+				setParameter("vuelta", vuelta)
+				.setParameter("genero", genero).
+				setParameter("idProv", idProvincia).
+				setParameter("idCanton", idCanton)
+				.getResultList();
+	}
+	
 
 }
