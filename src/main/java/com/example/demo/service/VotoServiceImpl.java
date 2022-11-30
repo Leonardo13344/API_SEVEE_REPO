@@ -63,4 +63,10 @@ public class VotoServiceImpl implements IVotoService {
 		}
 		return acum;
 	}
+
+	@Override
+	public List<Voto> votosAsociadoCandidato(String num_lista, Boolean vuelta) {
+		List<Voto> lista = this.votoRepo.votosAsociadoCandidato(num_lista, vuelta);
+		return lista;
+	}
 }

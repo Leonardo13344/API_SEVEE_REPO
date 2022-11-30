@@ -6,6 +6,10 @@ import java.util.List;
 import com.example.demo.sevee.repository.modelo.Voto;
 
 public interface IVotoRepo {
+
+	//2
+	public List<Voto> votosAsociadoCandidato(String num_lista, Boolean vuelta);
+	
 	public BigInteger muestraMasculino(List<Voto> votosAsociadoACandidato);
 	
 	//5

@@ -52,6 +52,13 @@ public class VotoRepoImpl implements IVotoRepo{
 				setParameter("idCanton", idCanton)
 				.getResultList();
 	}
+
+	@Override
+	public List<Voto> votosAsociadoCandidato(String num_lista, Boolean vuelta) {
+		TypedQuery<Voto> myQ = this.entityManager.createQuery(
+				"SELECT v FROM Voto v where v.candidatonumLista=:num_lista and v.vuelta=:vuelta",Voto.class);
+		return myQ.setParameter("vuelta", vuelta).getResultList();
+	}
 	
 
 }

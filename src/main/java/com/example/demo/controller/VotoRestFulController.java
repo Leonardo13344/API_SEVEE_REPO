@@ -1,6 +1,7 @@
 package com.example.demo.controller;
 
 import java.math.BigInteger;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.service.IActaService;
 import com.example.demo.service.IVotoService;
+import com.example.demo.sevee.repository.modelo.Voto;
 
 @RestController
 @RequestMapping("/votos")
@@ -19,7 +21,10 @@ public class VotoRestFulController {
 	
 	@Autowired
 	private IVotoService votoService;
-	
-		
 
+	@GetMapping(path="/votos/{numLista}")
+	public List<Voto> muestraVotosAsopciados(@PathVariable("numLista") String numLista) {
+		return this.votoService.votosAsociadoCandidato(numLista, true);
+	}
+	
 }
