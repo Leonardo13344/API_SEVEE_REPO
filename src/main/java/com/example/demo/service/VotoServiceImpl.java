@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 
 import com.example.demo.repository.IVotoRepo;
 import com.example.demo.sevee.repository.modelo.Voto;
+import com.example.demo.sevee.repository.modelo.to.CandidatoGenero;
 
 @Service
 public class VotoServiceImpl implements IVotoService {
@@ -39,34 +40,33 @@ public class VotoServiceImpl implements IVotoService {
 		return sum;
 	}
 	
-	@Override
-	@Async
-	public BigInteger votoGeneralPorCandidato(Integer codCandidato, boolean vuelta, Integer idProvincia,
-											  Integer idCanton) {
-		// TODO Auto-generated method stub
-		BigInteger acum = new BigInteger("0");
-		List<Voto> lista = this.votoRepo.votoGeneralPorCandidato(codCandidato, vuelta, idProvincia, idCanton);
-		for (Voto voto : lista) {
-			acum = acum.add(voto.getValidos());
-		}
-		return acum;
-	}
-
-	@Override
-	@Async
-	public BigInteger muestraPorGenero(String genero, Integer codCandidato, boolean vuelta, Integer idProvincia,
-									   Integer idCanton) {
-		List<Voto> lista = this.votoRepo.muestraPorGenero(genero, codCandidato, vuelta, idProvincia, idCanton);
-		BigInteger acum = new BigInteger("0");
-		for (Voto voto : lista) {
-			acum = acum.add(voto.getValidos());
-		}
-		return acum;
-	}
 
 	@Override
 	public List<Voto> votosAsociadoCandidato(String num_lista, Boolean vuelta) {
 		List<Voto> lista = this.votoRepo.votosAsociadoCandidato(num_lista, vuelta);
 		return lista;
+	}
+	
+	@Override
+	@Async
+	public BigInteger votoGeneralPorCandidato(Integer codCandidato, Boolean vuelta) {
+		// TODO Auto-generated method stub
+		List<CandidatoGenero> lista = this.votoRepo.votoGeneralPorCandidato(new CandidatoGenero(codCandidato,vuelta));
+		BigInteger acum = new BigInteger("0");
+		for (CandidatoGenero voto : lista) {
+			acum = acum.add(voto.getValidos());
+		}
+		return acum;
+	}
+
+	@Override
+	@Async
+	public BigInteger votoCandidatoGeneroGeneral(Integer codCandidato, String genero, Boolean vuelta) {
+		List<CandidatoGenero> lista = this.votoRepo.votoCandidatoGeneroGeneral(new CandidatoGenero(genero,codCandidato,vuelta));
+		BigInteger acum = new BigInteger("0");
+		for (CandidatoGenero voto : lista) {
+			acum = acum.add(voto.getValidos());
+		}
+		return acum;
 	}
 }

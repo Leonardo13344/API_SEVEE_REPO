@@ -7,16 +7,16 @@ import com.example.demo.sevee.repository.modelo.Voto;
 
 public interface IVotoService {
 
-	//2
+	// 2
 	public List<Voto> votosAsociadoCandidato(String num_lista, Boolean vuelta);
 
 	public BigInteger votoSuma(List<Voto> votosAsociadoACandidato, Integer prov_id);
 
 	public BigInteger muestraMasculino(List<Voto> votosAsociadoACandidato);
-	
-	//5
-		BigInteger votoGeneralPorCandidato(Integer codCandidato, boolean vuelta,Integer idProvincia,Integer idCanton);
 
-		//12
-		BigInteger muestraPorGenero(String genero, Integer codCandidato, boolean vuelta,Integer idProvincia,Integer idCanton);
+	// 5
+	BigInteger votoGeneralPorCandidato(Integer codCandidato, Boolean vuelta);
+
+	// 12
+	BigInteger votoCandidatoGeneroGeneral(Integer codCandidato, String genero, Boolean vuelta);
 }
