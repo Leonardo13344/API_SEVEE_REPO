@@ -2,8 +2,6 @@ package com.example.demo.service;
 
 import java.math.BigInteger;
 import java.util.List;
-
-import com.example.demo.sevee.repository.modelo.Candidato;
 import com.example.demo.sevee.repository.modelo.Voto;
 import com.example.demo.sevee.repository.modelo.to.CandidatoGenero;
 

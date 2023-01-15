@@ -3,6 +3,7 @@ package com.example.demo.service;
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,16 +16,17 @@ import com.example.demo.sevee.repository.modelo.Acta;
 import com.example.demo.sevee.repository.modelo.Candidato;
 import com.example.demo.sevee.repository.modelo.Voto;
 import com.example.demo.sevee.repository.modelo.to.CandidatoGenero;
+import com.example.demo.sevee.repository.modelo.to.Funciones;
 
 @Service
 public class VotoServiceImpl implements IVotoService {
 
 	@Autowired
 	private IVotoRepo votoRepo;
-	
+
 	@Autowired
 	private IActaRepo actaRepo;
-	
+
 	@Override
 	public BigInteger votoSuma(List<Voto> votosAsociadoACandidato, Integer prov_id) {
 		// TODO Auto-generated method stub
@@ -41,26 +43,25 @@ public class VotoServiceImpl implements IVotoService {
 	public BigInteger muestraMasculino(List<Voto> votosAsociadoACandidato) {
 		BigInteger sum = new BigInteger("0");
 		for (Voto voto : votosAsociadoACandidato) {
-			if (voto.getGenero()=="M") {
+			if (voto.getGenero() == "M") {
 				sum = sum.add(voto.getValidos());
 			}
 		}
 		return sum;
 	}
-	
 
 	@Override
 	public List<Voto> votosAsociadoCandidato(String num_lista, Boolean vuelta) {
 		List<Voto> lista = this.votoRepo.votosAsociadoCandidato(num_lista, vuelta);
 		return lista;
 	}
-	
+
 	@Override
 	@Async
 	public BigInteger votoGeneralPorCandidato(Integer codCandidato, Boolean vuelta) {
 		// TODO Auto-generated method stub
-		List<CandidatoGenero> lista = this.votoRepo.votoGeneralPorCandidato(new CandidatoGenero(codCandidato,vuelta));
-		BigInteger acum = new BigInteger("0");
+		List<CandidatoGenero> lista = this.votoRepo.votoGeneralPorCandidato(new CandidatoGenero(codCandidato, vuelta));
+		BigInteger acum = BigInteger.ZERO;
 		for (CandidatoGenero voto : lista) {
 			acum = acum.add(voto.getValidos());
 		}
@@ -70,53 +71,70 @@ public class VotoServiceImpl implements IVotoService {
 	@Override
 	@Async
 	public BigInteger votoCandidatoGeneroGeneral(Integer codCandidato, String genero, Boolean vuelta) {
-		List<CandidatoGenero> lista = this.votoRepo.votoCandidatoGeneroGeneral(new CandidatoGenero(genero,codCandidato,vuelta));
-		BigInteger acum = new BigInteger("0");
+		List<CandidatoGenero> lista = this.votoRepo
+				.votoCandidatoGeneroGeneral(new CandidatoGenero(genero, codCandidato, vuelta));
+		BigInteger acum = BigInteger.ZERO;
 		for (CandidatoGenero voto : lista) {
 			acum = acum.add(voto.getValidos());
 		}
 		return acum;
 	}
-	
-	public BigInteger votoValidoSum(Boolean vuelta){
+
+	public BigInteger votoValidoSum(Boolean vuelta) {
 		List<Voto> votosValidos = this.votoRepo.votosValidosSum(vuelta);
 		String actTipo = "";
-		if(vuelta) {
+		if (vuelta) {
 			actTipo = "presi1v";
-		}else {
+		} else {
 			actTipo = "presi2v";
 		}
 		List<Acta> blancos = this.actaRepo.votosBlancos(actTipo);
 		List<Acta> nulos = this.actaRepo.votosNulos(actTipo);
 		BigInteger sum = new BigInteger("0");
-		for(Voto voto : votosValidos) {
+		for (Voto voto : votosValidos) {
 			sum = sum.add(voto.getValidos());
 		}
-		for(Acta voto : blancos) {
+		for (Acta voto : blancos) {
 			sum = sum.add(voto.getBlancos());
 		}
-		for(Acta voto : nulos) {
+		for (Acta voto : nulos) {
 			sum = sum.add(voto.getNulos());
 		}
 		return sum;
-
 	}
 
 	@Override
 	public List<CandidatoGenero> inforVueltaProvCant(Boolean vuelta, String provincia, String canton) {
 		// TODO Auto-generated method stub
 		List<Voto> votos = this.votoRepo.inforVueltaProvCant(vuelta, provincia, canton);
-		//System.out.println(votos.get(0).getCandidato().getNombre());
+		List<Integer> codCandList = votos.stream().filter(Funciones.distinctPorCodigo(c -> c.getCandidato().getId()))
+				.map(x -> x.getCandidato().getId()).collect(Collectors.toList());
+
 		List<CandidatoGenero> candidatos = new ArrayList<>();
-		for(Voto voto: votos) {
+
+		for (int i = 0; i < codCandList.size(); i++) {
+			BigInteger acum1 = BigInteger.ZERO;
+			for (int j = 0; j < votos.size(); j++) {
+				if (codCandList.get(i).equals(votos.get(j).getCandidato().getId())) {
+					acum1 = acum1.add(votos.get(j).getValidos());
+				}
+			}
+
 			CandidatoGenero cg = new CandidatoGenero();
+			cg.setCodCandidato(votos.get(i).getCandidato().getId());
+			cg.setCandidatoNombre(votos.get(i).getCandidato().getNombre());
+			cg.setCandidatoApellido(votos.get(i).getCandidato().getApellido());
 			cg.setVuelta(vuelta);
-			cg.setProvNombre(voto.getProvincia().getNombre());
-			cg.setCantNombre(voto.getCanton().getNombre());
-			cg.setValidos(voto.getValidos());
+			cg.setProvNombre(votos.get(i).getProvincia().getNombre());
+			cg.setIdProvincia(votos.get(i).getProvincia().getId());
+			cg.setCantNombre(votos.get(i).getCanton().getNombre());
+			cg.setIdCanton(votos.get(i).getCanton().getId());
+			cg.setValidos(acum1);
+
 			candidatos.add(cg);
+
 		}
-		//votos.stream().map((v) -> v.getCandidato()).collect(Collectors.toList())
+
 		return candidatos;
 	}
 }

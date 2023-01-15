@@ -5,6 +5,8 @@ import java.math.BigInteger;
 public class CandidatoGenero {
 	private String genero;
 	private Integer codCandidato ;
+	private String candidatoNombre;
+	private String candidatoApellido;
 	private Boolean vuelta;
 	private Integer idProvincia;
 	private Integer idCanton;
@@ -102,8 +104,28 @@ public class CandidatoGenero {
 	public void setCantNombre(String cantNombre) {
 		this.cantNombre = cantNombre;
 	}
+
+	
+	public String getCandidatoNombre() {
+		return candidatoNombre;
+	}
+
+	public void setCandidatoNombre(String candidatoNombre) {
+		this.candidatoNombre = candidatoNombre;
+	}
+
+	public void setVuelta(Boolean vuelta) {
+		this.vuelta = vuelta;
+	}
 	
 	
-	
-	
+
+	public String getCandidatoApellido() {
+		return candidatoApellido;
+	}
+
+	public void setCandidatoApellido(String candidatoApellido) {
+		this.candidatoApellido = candidatoApellido;
+	}
+		
 }
