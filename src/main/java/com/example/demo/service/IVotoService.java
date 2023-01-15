@@ -22,5 +22,7 @@ public interface IVotoService {
 	
 	public BigInteger votoValidoSum(Boolean vuleta);
 	
+	BigInteger votosSufragioPorGenero(Boolean vuelta, String genero);
+	
 	List<CandidatoGenero> inforVueltaProvCant(Boolean vuelta, String provincia, String canton);
 }

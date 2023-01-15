@@ -41,19 +41,36 @@ public class VotoRestFulController {
 		return this.votoService.votoCandidatoGeneroGeneral(codCandidato, genero, vuelta);
 	}
 
-	@GetMapping(path = "/votosValidos/{vuelta}")
-	public BigInteger votoValidoSum(@PathVariable("vuelta") Boolean vuelta) {
+	@GetMapping(path = "/votosGenero/{vuelta}/{genero}")
+	public BigInteger votosTotalGenero(@PathVariable("vuelta") String vuelta, @PathVariable("genero") String genero) {
+				
+		Boolean vueltaB = true;
+		if (vuelta.equalsIgnoreCase("presi1v")) {
+			vueltaB = true;
+		} else {
+			vueltaB = false;
+		}
+			return this.votoService.votosSufragioPorGenero(vueltaB,genero);
 		
-		return this.votoService.votoValidoSum(vuelta);
+
 	}
 
-	
+	@GetMapping(path = "/votosValidos/{vuelta}")
+	public BigInteger votoValidoSum(@PathVariable("vuelta") String vuelta) {
+		Boolean vueltaB = true;
+		if (vuelta.equalsIgnoreCase("presi1v")) {
+			vueltaB = true;
+		} else {
+			vueltaB = false;
+		}
+		return this.votoService.votoValidoSum(vueltaB);
+	}
 
 	@GetMapping(path = "/filtroIzquierda/{vuelta}/{provincia}/{canton}")
 	public List<CandidatoGenero> busquedaIzquierda(@PathVariable("vuelta") Boolean vuelta,
 			@PathVariable("provincia") String provincia, @PathVariable("canton") String canton) {
-		
-		System.out.println(vuelta.getClass().getSimpleName()+" prov: "+provincia+" cant: "+canton);
+
+		System.out.println(vuelta.getClass().getSimpleName() + " prov: " + provincia + " cant: " + canton);
 		return this.votoService.inforVueltaProvCant(vuelta, provincia.toUpperCase(), canton.toUpperCase());
 	}
 

@@ -16,22 +16,21 @@ import com.example.demo.sevee.repository.modelo.to.CandidatoGenero;
 
 @Repository
 @Transactional
-public class VotoRepoImpl implements IVotoRepo{
-	
+public class VotoRepoImpl implements IVotoRepo {
+
 	@PersistenceContext
 	private EntityManager entityManager;
 
 	@Override
 	public BigInteger muestraMasculino(List<Voto> votosAsociadoACandidato) {
-	
+
 		return null;
 	}
-
 
 	@Override
 	public List<Voto> votosAsociadoCandidato(String num_lista, Boolean vuelta) {
 		TypedQuery<Voto> myQ = this.entityManager.createQuery(
-				"SELECT v FROM Voto v where v.candidatonumLista=:num_lista and v.vuelta=:vuelta",Voto.class);
+				"SELECT v FROM Voto v where v.candidatonumLista=:num_lista and v.vuelta=:vuelta", Voto.class);
 		return myQ.setParameter("vuelta", vuelta).getResultList();
 	}
 
@@ -41,49 +40,47 @@ public class VotoRepoImpl implements IVotoRepo{
 		TypedQuery<CandidatoGenero> myQ = this.entityManager.createQuery(
 				"SELECT new com.example.demo.sevee.repository.modelo.to.CandidatoGenero(v.candidato.id,v.vuelta,v.validos) "
 						+ "FROM Voto v where v.candidato.id=:codCandidato and v.vuelta=:vuelta",
-						CandidatoGenero.class);
+				CandidatoGenero.class);
 		return myQ.setParameter("codCandidato", candidatoGen.getCodCandidato())
-				.setParameter("vuelta", candidatoGen.getVuelta())
-				.getResultList();
+				.setParameter("vuelta", candidatoGen.getVuelta()).getResultList();
 	}
-	
+
 	@Override
 	public List<CandidatoGenero> votoCandidatoGeneroGeneral(CandidatoGenero candidatoGen) {
 		// TODO Auto-generated method stub
 		TypedQuery<CandidatoGenero> myQ = this.entityManager.createQuery(
 				"SELECT new com.example.demo.sevee.repository.modelo.to.CandidatoGenero(v.candidato.id,v.vuelta,v.genero,v.validos) "
-				+ "FROM Voto v where v.candidato.id=:codCandidato and v.vuelta=:vuelta and v.genero=:genero",
+						+ "FROM Voto v where v.candidato.id=:codCandidato and v.vuelta=:vuelta and v.genero=:genero",
 				CandidatoGenero.class);
 		return myQ.setParameter("codCandidato", candidatoGen.getCodCandidato())
-				.setParameter("vuelta", candidatoGen.getVuelta())
-				.setParameter("genero", candidatoGen.getGenero())				
+				.setParameter("vuelta", candidatoGen.getVuelta()).setParameter("genero", candidatoGen.getGenero())
 				.getResultList();
 	}
-
-
-
 
 	@Override
 	public List<Voto> votosValidosSum(Boolean vuelta) {
 		// TODO Auto-generated method stub
-		TypedQuery<Voto> myQ = this.entityManager.createQuery(
-				"SELECT v FROM Voto v where v.vuelta=:vuelta",Voto.class);
+		TypedQuery<Voto> myQ = this.entityManager.createQuery("SELECT v FROM Voto v where v.vuelta=:vuelta",
+				Voto.class);
 		return myQ.setParameter("vuelta", vuelta).getResultList();
 	}
-
-
-
 
 	@Override
 	public List<Voto> inforVueltaProvCant(Boolean vuelta, String provincia, String canton) {
 		// TODO Auto-generated method stub
 		TypedQuery<Voto> myQ = this.entityManager.createQuery(
-				"SELECT v FROM Voto v where v.vuelta=:vuelta AND v.provincia.nombre =: provincia AND v.canton.nombre =: canton",Voto.class);
-		return myQ.setParameter("vuelta", vuelta)
-				.setParameter("provincia", provincia)
-				.setParameter("canton", canton)
+				"SELECT v FROM Voto v where v.vuelta=:vuelta AND v.provincia.nombre =: provincia AND v.canton.nombre =: canton",
+				Voto.class);
+		return myQ.setParameter("vuelta", vuelta).setParameter("provincia", provincia).setParameter("canton", canton)
 				.getResultList();
 	}
-	
+
+	@Override
+	public List<Voto> votosSufragioPorGenero(Boolean vuelta, String genero) {
+		// TODO Auto-generated method stub
+		TypedQuery<Voto> myQ = this.entityManager
+				.createQuery("SELECT v FROM Voto v where v.vuelta=:vuelta AND v.genero =: genero", Voto.class);
+		return myQ.setParameter("vuelta", vuelta).setParameter("genero", genero).getResultList();
+	}
 
 }
