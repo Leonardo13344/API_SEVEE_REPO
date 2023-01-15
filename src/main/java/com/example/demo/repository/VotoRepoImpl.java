@@ -10,6 +10,7 @@ import javax.transaction.Transactional;
 
 import org.springframework.stereotype.Repository;
 
+import com.example.demo.sevee.repository.modelo.Candidato;
 import com.example.demo.sevee.repository.modelo.Voto;
 import com.example.demo.sevee.repository.modelo.to.CandidatoGenero;
 
@@ -25,8 +26,6 @@ public class VotoRepoImpl implements IVotoRepo{
 	
 		return null;
 	}
-
-	
 
 
 	@Override
@@ -70,6 +69,20 @@ public class VotoRepoImpl implements IVotoRepo{
 		TypedQuery<Voto> myQ = this.entityManager.createQuery(
 				"SELECT v FROM Voto v where v.vuelta=:vuelta",Voto.class);
 		return myQ.setParameter("vuelta", vuelta).getResultList();
+	}
+
+
+
+
+	@Override
+	public List<Voto> inforVueltaProvCant(Boolean vuelta, String provincia, String canton) {
+		// TODO Auto-generated method stub
+		TypedQuery<Voto> myQ = this.entityManager.createQuery(
+				"SELECT v FROM Voto v where v.vuelta=:vuelta AND v.provincia.nombre =: provincia AND v.canton.nombre =: canton",Voto.class);
+		return myQ.setParameter("vuelta", vuelta)
+				.setParameter("provincia", provincia)
+				.setParameter("canton", canton)
+				.getResultList();
 	}
 	
 

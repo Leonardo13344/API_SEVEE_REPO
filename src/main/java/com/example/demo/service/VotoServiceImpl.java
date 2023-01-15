@@ -1,7 +1,9 @@
 package com.example.demo.service;
 
 import java.math.BigInteger;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
@@ -10,6 +12,7 @@ import org.springframework.stereotype.Service;
 import com.example.demo.repository.IActaRepo;
 import com.example.demo.repository.IVotoRepo;
 import com.example.demo.sevee.repository.modelo.Acta;
+import com.example.demo.sevee.repository.modelo.Candidato;
 import com.example.demo.sevee.repository.modelo.Voto;
 import com.example.demo.sevee.repository.modelo.to.CandidatoGenero;
 
@@ -97,5 +100,18 @@ public class VotoServiceImpl implements IVotoService {
 		}
 		return sum;
 
+	}
+
+	@Override
+	public List<Candidato> inforVueltaProvCant(Boolean vuelta, String provincia, String canton) {
+		// TODO Auto-generated method stub
+		List<Voto> votos = this.votoRepo.inforVueltaProvCant(vuelta, provincia, canton);
+		//System.out.println(votos.get(0).getCandidato().getNombre());
+		List<Candidato> candidatos = new ArrayList<>();
+		for(Voto voto: votos) {
+			candidatos.add(voto.getCandidato());
+		}
+		//votos.stream().map((v) -> v.getCandidato()).collect(Collectors.toList())
+		return candidatos;
 	}
 }

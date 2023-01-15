@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.service.IActaService;
 import com.example.demo.service.IVotoService;
+import com.example.demo.sevee.repository.modelo.Candidato;
 import com.example.demo.sevee.repository.modelo.Voto;
 import com.example.demo.sevee.repository.modelo.to.CandidatoGenero;
 
@@ -48,6 +49,17 @@ public class VotoRestFulController {
 			vuletaB = false;
 		}
 		return this.votoService.votoValidoSum(vuletaB);
+	}
+	
+	@GetMapping(path="/infoCandidatos/{vuelta}/{provincia}/{canton}")
+	public List<Candidato> inforVueltaProvCant(@PathVariable("vuelta") String vuelta, @PathVariable("provincia") String provincia, @PathVariable("canton") String canton){
+		Boolean vuletaB = true;
+		if(vuelta.equalsIgnoreCase("presi1v")) {
+			vuletaB = true;
+		}else {
+			vuletaB = false;
+		}
+		return this.votoService.inforVueltaProvCant(vuletaB, provincia, canton);
 	}
 
 }

@@ -3,6 +3,7 @@ package com.example.demo.repository;
 import java.math.BigInteger;
 import java.util.List;
 
+import com.example.demo.sevee.repository.modelo.Candidato;
 import com.example.demo.sevee.repository.modelo.Voto;
 import com.example.demo.sevee.repository.modelo.to.CandidatoGenero;
 
@@ -20,4 +21,6 @@ public interface IVotoRepo {
     List<CandidatoGenero> votoCandidatoGeneroGeneral(CandidatoGenero candidatoGen);
     
     List<Voto> votosValidosSum(Boolean vuelta);
+    
+    List<Voto> inforVueltaProvCant(Boolean vuelta, String provincia, String canton);
 }
