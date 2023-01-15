@@ -38,6 +38,7 @@ public class VotoRestFulController {
 			@PathVariable("genero") String genero, @PathVariable("vuelta") Boolean vuelta) {
 		return this.votoService.votoCandidatoGeneroGeneral(codCandidato,genero, vuelta);
 	}
+<<<<<<< Updated upstream
 	
 	@GetMapping(path="/votosValidos/{vuelta}")
 	public BigInteger votoValidoSum(@PathVariable("vuelta") String vuelta) {
@@ -48,6 +49,20 @@ public class VotoRestFulController {
 			vuletaB = false;
 		}
 		return this.votoService.votoValidoSum(vuletaB);
+=======
+
+	@GetMapping(path = "/votosValidos/{vuelta}")
+	public BigInteger votoValidoSum(@PathVariable("vuelta") Boolean vuelta) {
+		return this.votoService.votoValidoSum(vuelta);
+	}
+
+	@GetMapping(path = "/filtroIzquierda/{vuelta}/{provincia}/{canton}")
+	public List<CandidatoGenero> busquedaIzquierda(@PathVariable("vuelta") Boolean vuelta,
+			@PathVariable("provincia") String provincia, @PathVariable("canton") String canton) {
+		
+		System.out.println(vuelta.getClass().getSimpleName()+" prov: "+provincia+" cant: "+canton);
+		return this.votoService.inforVueltaProvCant(vuelta, provincia.toUpperCase(), canton.toUpperCase());
+>>>>>>> Stashed changes
 	}
 
 }
