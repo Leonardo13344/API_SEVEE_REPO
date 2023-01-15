@@ -28,7 +28,7 @@ public class Provincia implements Serializable{
 	@Column(name = "prov_nombre")
 	private String nombre;
 	
-	@OneToMany(mappedBy = "provincia", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+	@OneToMany(mappedBy = "provincia", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
 	private List<Voto> votos;
 
 	public Integer getId() {

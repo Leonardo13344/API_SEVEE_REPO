@@ -28,7 +28,7 @@ public class Parroquia implements Serializable{
 	@Column(name = "parr_nombre")
 	private String nombre;
 	
-	@OneToMany(mappedBy = "parroquia", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+	@OneToMany(mappedBy = "parroquia", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
 	private List<Voto> votos;
 
 	public Integer getId() {

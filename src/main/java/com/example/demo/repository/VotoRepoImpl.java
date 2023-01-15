@@ -60,6 +60,17 @@ public class VotoRepoImpl implements IVotoRepo{
 				.setParameter("genero", candidatoGen.getGenero())				
 				.getResultList();
 	}
+
+
+
+
+	@Override
+	public List<Voto> votosValidosSum(Boolean vuelta) {
+		// TODO Auto-generated method stub
+		TypedQuery<Voto> myQ = this.entityManager.createQuery(
+				"SELECT v FROM Voto v where v.vuelta=:vuelta",Voto.class);
+		return myQ.setParameter("vuelta", vuelta).getResultList();
+	}
 	
 
 }

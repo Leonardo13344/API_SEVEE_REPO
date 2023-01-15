@@ -40,7 +40,7 @@ public class Candidato implements Serializable{
 	@Column(name = "cand_dignidad")
 	private BigInteger dignidad;
 	
-	@OneToMany(mappedBy = "candidato", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+	@OneToMany(mappedBy = "candidato", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
 	private List<Voto> votos;
 
 	public Integer getId() {

@@ -19,4 +19,6 @@ public interface IVotoService {
 
 	// 12
 	BigInteger votoCandidatoGeneroGeneral(Integer codCandidato, String genero, Boolean vuelta);
+	
+	public BigInteger votoValidoSum(Boolean vuleta);
 }

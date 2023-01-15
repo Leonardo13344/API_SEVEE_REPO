@@ -28,7 +28,7 @@ public class Canton implements Serializable{
 	@Column(name = "cant_nombre")
 	private String nombre;
 
-	@OneToMany(mappedBy = "canton", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+	@OneToMany(mappedBy = "canton", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
 	private List<Voto> votos;
 
 	public Integer getId() {
