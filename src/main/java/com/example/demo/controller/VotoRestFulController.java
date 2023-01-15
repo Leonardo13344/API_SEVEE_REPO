@@ -52,7 +52,7 @@ public class VotoRestFulController {
 	}
 	
 	@GetMapping(path="/infoCandidatos/{vuelta}/{provincia}/{canton}")
-	public List<Candidato> inforVueltaProvCant(@PathVariable("vuelta") String vuelta, @PathVariable("provincia") String provincia, @PathVariable("canton") String canton){
+	public List<CandidatoGenero> inforVueltaProvCant(@PathVariable("vuelta") String vuelta, @PathVariable("provincia") String provincia, @PathVariable("canton") String canton){
 		Boolean vuletaB = true;
 		if(vuelta.equalsIgnoreCase("presi1v")) {
 			vuletaB = true;

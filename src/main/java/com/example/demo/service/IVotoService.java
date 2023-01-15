@@ -5,6 +5,7 @@ import java.util.List;
 
 import com.example.demo.sevee.repository.modelo.Candidato;
 import com.example.demo.sevee.repository.modelo.Voto;
+import com.example.demo.sevee.repository.modelo.to.CandidatoGenero;
 
 public interface IVotoService {
 
@@ -23,5 +24,5 @@ public interface IVotoService {
 	
 	public BigInteger votoValidoSum(Boolean vuleta);
 	
-	List<Candidato> inforVueltaProvCant(Boolean vuelta, String provincia, String canton);
+	List<CandidatoGenero> inforVueltaProvCant(Boolean vuelta, String provincia, String canton);
 }

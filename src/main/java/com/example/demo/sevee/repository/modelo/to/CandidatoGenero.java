@@ -9,6 +9,13 @@ public class CandidatoGenero {
 	private Integer idProvincia;
 	private Integer idCanton;
 	private BigInteger validos;
+	private String provNombre;
+	private String cantNombre;
+	
+	
+	public CandidatoGenero() {
+		
+	}
 		
 	public CandidatoGenero(Integer codCandidato, Boolean vuelta) {
 		super();
@@ -78,6 +85,22 @@ public class CandidatoGenero {
 
 	public void setValidos(BigInteger validos) {
 		this.validos = validos;
+	}
+
+	public String getProvNombre() {
+		return provNombre;
+	}
+
+	public void setProvNombre(String provNombre) {
+		this.provNombre = provNombre;
+	}
+
+	public String getCantNombre() {
+		return cantNombre;
+	}
+
+	public void setCantNombre(String cantNombre) {
+		this.cantNombre = cantNombre;
 	}
 	
 	

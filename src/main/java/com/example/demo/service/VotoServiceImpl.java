@@ -103,13 +103,18 @@ public class VotoServiceImpl implements IVotoService {
 	}
 
 	@Override
-	public List<Candidato> inforVueltaProvCant(Boolean vuelta, String provincia, String canton) {
+	public List<CandidatoGenero> inforVueltaProvCant(Boolean vuelta, String provincia, String canton) {
 		// TODO Auto-generated method stub
 		List<Voto> votos = this.votoRepo.inforVueltaProvCant(vuelta, provincia, canton);
 		//System.out.println(votos.get(0).getCandidato().getNombre());
-		List<Candidato> candidatos = new ArrayList<>();
+		List<CandidatoGenero> candidatos = new ArrayList<>();
 		for(Voto voto: votos) {
-			candidatos.add(voto.getCandidato());
+			CandidatoGenero cg = new CandidatoGenero();
+			cg.setVuelta(vuelta);
+			cg.setProvNombre(voto.getProvincia().getNombre());
+			cg.setCantNombre(voto.getCanton().getNombre());
+			cg.setValidos(voto.getValidos());
+			candidatos.add(cg);
 		}
 		//votos.stream().map((v) -> v.getCandidato()).collect(Collectors.toList())
 		return candidatos;
