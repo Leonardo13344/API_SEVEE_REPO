@@ -48,6 +48,13 @@ public class ActaServiceImpl implements IActaService{
 		}
 		return sum;
 	}
+	
+	/*public BigInteger sumaVotoSufragantes(String actTipo) {
+		List<Acta> blancos = this.actaRepo.votosBlancos(actTipo);
+		List<Acta> ausentes = this.actaRepo.votosAusentes(actTipo);
+		List<Acta> nulos = this.actaRepo.votosNulos(actTipo);
+		
+	}*/
 
 
 

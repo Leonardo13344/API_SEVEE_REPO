@@ -27,4 +27,15 @@ public class VotoRestFulController {
 		return this.votoService.votosAsociadoCandidato(numLista, true);
 	}
 	
+	@GetMapping(path="/votosValidos/{vuelta}")
+	public BigInteger votoValidoSum(@PathVariable("vuelta") String vuelta) {
+		Boolean vuletaB = true;
+		if(vuelta.equalsIgnoreCase("presi1v")) {
+			vuletaB = true;
+		}else {
+			vuletaB = false;
+		}
+		return this.votoService.votoValidoSum(vuletaB);
+	}
+	
 }

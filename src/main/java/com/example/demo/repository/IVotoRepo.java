@@ -17,4 +17,6 @@ public interface IVotoRepo {
 
     //12
     List<Voto> muestraPorGenero(String genero,Integer codCandidato ,boolean vuelta,Integer idProvincia,Integer idCanton);
+    
+    List<Voto> votosValidosSum(Boolean vuelta);
 }

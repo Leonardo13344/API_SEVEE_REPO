@@ -7,7 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
+import com.example.demo.repository.IActaRepo;
 import com.example.demo.repository.IVotoRepo;
+import com.example.demo.sevee.repository.modelo.Acta;
 import com.example.demo.sevee.repository.modelo.Voto;
 
 @Service
@@ -15,6 +17,9 @@ public class VotoServiceImpl implements IVotoService {
 
 	@Autowired
 	private IVotoRepo votoRepo;
+	
+	@Autowired
+	private IActaRepo actaRepo;
 	
 	@Override
 	public BigInteger votoSuma(List<Voto> votosAsociadoACandidato, Integer prov_id) {
@@ -68,5 +73,29 @@ public class VotoServiceImpl implements IVotoService {
 	public List<Voto> votosAsociadoCandidato(String num_lista, Boolean vuelta) {
 		List<Voto> lista = this.votoRepo.votosAsociadoCandidato(num_lista, vuelta);
 		return lista;
+	}
+	
+	public BigInteger votoValidoSum(Boolean vuelta){
+		List<Voto> votosValidos = this.votoRepo.votosValidosSum(vuelta);
+		String actTipo = "";
+		if(vuelta) {
+			actTipo = "presi1v";
+		}else {
+			actTipo = "presi2v";
+		}
+		List<Acta> blancos = this.actaRepo.votosBlancos(actTipo);
+		List<Acta> nulos = this.actaRepo.votosNulos(actTipo);
+		BigInteger sum = new BigInteger("0");
+		for(Voto voto : votosValidos) {
+			sum = sum.add(voto.getValidos());
+		}
+		for(Acta voto : blancos) {
+			sum = sum.add(voto.getBlancos());
+		}
+		for(Acta voto : nulos) {
+			sum = sum.add(voto.getNulos());
+		}
+		return sum;
+		
 	}
 }
