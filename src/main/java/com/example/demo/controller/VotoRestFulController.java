@@ -15,6 +15,7 @@ import com.example.demo.service.IVotoService;
 import com.example.demo.sevee.repository.modelo.Candidato;
 import com.example.demo.sevee.repository.modelo.Voto;
 import com.example.demo.sevee.repository.modelo.to.CandidatoGenero;
+import com.example.demo.sevee.repository.modelo.to.TotalConteo;
 
 @RestController
 @RequestMapping("/votos")
@@ -33,6 +34,13 @@ public class VotoRestFulController {
 	public BigInteger muestraVotosCandidato(@PathVariable("codCandidato") Integer codCandidato,
 			@PathVariable("vuelta") Boolean vuelta) {
 		return this.votoService.votoGeneralPorCandidato(codCandidato, vuelta);
+	}
+
+	// Traer votos con candidato
+
+	@GetMapping(path = "/totalVotosCandidato/{vuelta}")
+	public List<TotalConteo> totalVotosCandidato(@PathVariable("vuelta") Boolean vuelta) {
+		return this.votoService.votosTotalCandidato( vuelta);
 	}
 
 	@GetMapping(path = "/votosCandidatoGeneroGeneral/{codCandidato}/{genero}/{vuelta}")

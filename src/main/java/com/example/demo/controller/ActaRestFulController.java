@@ -34,5 +34,5 @@ public class ActaRestFulController {
 	public BigInteger muestraAusentes(@PathVariable("actTipo") String actTipo) {
 		return this.actaService.sumaVotoAusente(actTipo);
 	}
-
+	
 }

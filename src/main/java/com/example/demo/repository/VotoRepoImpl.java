@@ -10,9 +10,9 @@ import javax.transaction.Transactional;
 
 import org.springframework.stereotype.Repository;
 
-import com.example.demo.sevee.repository.modelo.Candidato;
 import com.example.demo.sevee.repository.modelo.Voto;
 import com.example.demo.sevee.repository.modelo.to.CandidatoGenero;
+import com.example.demo.sevee.repository.modelo.to.TotalConteo;
 
 @Repository
 @Transactional
@@ -81,6 +81,16 @@ public class VotoRepoImpl implements IVotoRepo {
 		TypedQuery<Voto> myQ = this.entityManager
 				.createQuery("SELECT v FROM Voto v where v.vuelta=:vuelta AND v.genero =: genero", Voto.class);
 		return myQ.setParameter("vuelta", vuelta).setParameter("genero", genero).getResultList();
+	}
+
+	@Override
+	public List<TotalConteo> votosTotalCandidato(Boolean condicion) {
+		TypedQuery<TotalConteo> myQ = this.entityManager.createQuery(
+				"SELECT new com.example.demo.sevee.repository.modelo.to.TotalConteo( SUM(v.validos), v.candidato.id) FROM Voto v WHERE v.vuelta = :condicion GROUP BY v.candidato.id",
+				TotalConteo.class).setParameter( "condicion", condicion);
+
+		return myQ.getResultList();
+
 	}
 
 }
