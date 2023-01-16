@@ -3,7 +3,6 @@ package com.example.demo.service;
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,10 +12,10 @@ import org.springframework.stereotype.Service;
 import com.example.demo.repository.IActaRepo;
 import com.example.demo.repository.IVotoRepo;
 import com.example.demo.sevee.repository.modelo.Acta;
-import com.example.demo.sevee.repository.modelo.Candidato;
 import com.example.demo.sevee.repository.modelo.Voto;
 import com.example.demo.sevee.repository.modelo.to.CandidatoGenero;
 import com.example.demo.sevee.repository.modelo.to.Funciones;
+import com.example.demo.sevee.repository.modelo.to.TotalConteo;
 
 @Service
 public class VotoServiceImpl implements IVotoService {
@@ -147,6 +146,13 @@ public class VotoServiceImpl implements IVotoService {
 		}
 
 		return candidatos;
+	}
+
+	@Override
+	public List<TotalConteo> votosTotalCandidato(Boolean vuelta) {
+		
+		return this.votoRepo.votosTotalCandidato(vuelta);
+		
 	}
 
 	
