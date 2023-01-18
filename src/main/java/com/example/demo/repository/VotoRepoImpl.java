@@ -12,7 +12,7 @@ import org.springframework.stereotype.Repository;
 
 import com.example.demo.sevee.repository.modelo.Candidato;
 import com.example.demo.sevee.repository.modelo.Voto;
-import com.example.demo.sevee.repository.modelo.to.CandidatoGenero;
+import com.example.demo.sevee.repository.modelo.to.CandidatoDTO;
 
 @Repository
 @Transactional
@@ -35,23 +35,23 @@ public class VotoRepoImpl implements IVotoRepo {
 	}
 
 	@Override
-	public List<CandidatoGenero> votoGeneralPorCandidato(CandidatoGenero candidatoGen) {
+	public List<CandidatoDTO> votoGeneralPorCandidato(CandidatoDTO candidatoGen) {
 		// TODO Auto-generated method stub
-		TypedQuery<CandidatoGenero> myQ = this.entityManager.createQuery(
-				"SELECT new com.example.demo.sevee.repository.modelo.to.CandidatoGenero(v.candidato.id,v.vuelta,v.validos) "
+		TypedQuery<CandidatoDTO> myQ = this.entityManager.createQuery(
+				"SELECT new com.example.demo.sevee.repository.modelo.to.CandidatoDTO(v.candidato.id,v.vuelta,v.validos) "
 						+ "FROM Voto v where v.candidato.id=:codCandidato and v.vuelta=:vuelta",
-				CandidatoGenero.class);
+				CandidatoDTO.class);
 		return myQ.setParameter("codCandidato", candidatoGen.getCodCandidato())
 				.setParameter("vuelta", candidatoGen.getVuelta()).getResultList();
 	}
 
 	@Override
-	public List<CandidatoGenero> votoCandidatoGeneroGeneral(CandidatoGenero candidatoGen) {
+	public List<CandidatoDTO> votoCandidatoGeneroGeneral(CandidatoDTO candidatoGen) {
 		// TODO Auto-generated method stub
-		TypedQuery<CandidatoGenero> myQ = this.entityManager.createQuery(
-				"SELECT new com.example.demo.sevee.repository.modelo.to.CandidatoGenero(v.candidato.id,v.vuelta,v.genero,v.validos) "
+		TypedQuery<CandidatoDTO> myQ = this.entityManager.createQuery(
+				"SELECT new com.example.demo.sevee.repository.modelo.to.CandidaDTO(v.candidato.id,v.vuelta,v.genero,v.validos) "
 						+ "FROM Voto v where v.candidato.id=:codCandidato and v.vuelta=:vuelta and v.genero=:genero",
-				CandidatoGenero.class);
+				CandidatoDTO.class);
 		return myQ.setParameter("codCandidato", candidatoGen.getCodCandidato())
 				.setParameter("vuelta", candidatoGen.getVuelta()).setParameter("genero", candidatoGen.getGenero())
 				.getResultList();
@@ -75,6 +75,17 @@ public class VotoRepoImpl implements IVotoRepo {
 				.getResultList();
 	}
 
+	@Override
+	public List<Voto> inforVueltaProvCantParr(Boolean vuelta, String provincia, String canton, String parroquia) {
+		// TODO Auto-generated method stub
+		TypedQuery<Voto> myQ = this.entityManager.createQuery(
+				"SELECT v FROM Voto v where v.vuelta=:vuelta AND v.provincia.nombre =: provincia AND v.canton.nombre =: canton AND v.parroquia.nombre=:parroquia",
+				Voto.class);
+
+		return myQ.setParameter("vuelta", vuelta).setParameter("provincia", provincia).setParameter("canton", canton)
+				.setParameter("parroquia", parroquia).getResultList();
+	}
+	
 	@Override
 	public List<Voto> votosSufragioPorGenero(Boolean vuelta, String genero) {
 		// TODO Auto-generated method stub

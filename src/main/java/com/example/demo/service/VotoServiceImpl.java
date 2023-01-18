@@ -1,9 +1,10 @@
 package com.example.demo.service;
 
+import java.math.BigDecimal;
 import java.math.BigInteger;
+import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,9 +14,8 @@ import org.springframework.stereotype.Service;
 import com.example.demo.repository.IActaRepo;
 import com.example.demo.repository.IVotoRepo;
 import com.example.demo.sevee.repository.modelo.Acta;
-import com.example.demo.sevee.repository.modelo.Candidato;
 import com.example.demo.sevee.repository.modelo.Voto;
-import com.example.demo.sevee.repository.modelo.to.CandidatoGenero;
+import com.example.demo.sevee.repository.modelo.to.CandidatoDTO;
 import com.example.demo.sevee.repository.modelo.to.Funciones;
 
 @Service
@@ -60,9 +60,9 @@ public class VotoServiceImpl implements IVotoService {
 	@Async
 	public BigInteger votoGeneralPorCandidato(Integer codCandidato, Boolean vuelta) {
 		// TODO Auto-generated method stub
-		List<CandidatoGenero> lista = this.votoRepo.votoGeneralPorCandidato(new CandidatoGenero(codCandidato, vuelta));
+		List<CandidatoDTO> lista = this.votoRepo.votoGeneralPorCandidato(new CandidatoDTO(codCandidato, vuelta));
 		BigInteger acum = BigInteger.ZERO;
-		for (CandidatoGenero voto : lista) {
+		for (CandidatoDTO voto : lista) {
 			acum = acum.add(voto.getValidos());
 		}
 		return acum;
@@ -71,22 +71,22 @@ public class VotoServiceImpl implements IVotoService {
 	@Override
 	@Async
 	public BigInteger votoCandidatoGeneroGeneral(Integer codCandidato, String genero, Boolean vuelta) {
-		List<CandidatoGenero> lista = this.votoRepo
-				.votoCandidatoGeneroGeneral(new CandidatoGenero(genero, codCandidato, vuelta));
+		List<CandidatoDTO> lista = this.votoRepo
+				.votoCandidatoGeneroGeneral(new CandidatoDTO(genero, codCandidato, vuelta));
 		BigInteger acum = BigInteger.ZERO;
-		for (CandidatoGenero voto : lista) {
+		for (CandidatoDTO voto : lista) {
 			acum = acum.add(voto.getValidos());
 		}
 		return acum;
 	}
-	
+
 	@Override
 	public BigInteger votosSufragioPorGenero(Boolean vuelta, String genero) {
 		// TODO Auto-generated method stub
-		List<Voto> votosGenero=this.votoRepo.votosSufragioPorGenero(vuelta, genero);
-		BigInteger sum1=new BigInteger("0");
-		for(Voto voto:votosGenero) {
-			sum1=sum1.add(voto.getValidos());
+		List<Voto> votosGenero = this.votoRepo.votosSufragioPorGenero(vuelta, genero);
+		BigInteger sum1 = new BigInteger("0");
+		for (Voto voto : votosGenero) {
+			sum1 = sum1.add(voto.getValidos());
 		}
 		return sum1;
 	}
@@ -115,14 +115,15 @@ public class VotoServiceImpl implements IVotoService {
 	}
 
 	@Override
-	public List<CandidatoGenero> inforVueltaProvCant(Boolean vuelta, String provincia, String canton) {
+	public List<CandidatoDTO> inforVueltaProvCant(Boolean vuelta, String provincia, String canton) {
 		// TODO Auto-generated method stub
-		List<Voto> votos = this.votoRepo.inforVueltaProvCant(vuelta, provincia, canton);
+		List<Voto> votos = this.votoRepo.inforVueltaProvCant(vuelta, provincia.toUpperCase(), canton.toUpperCase());
+
 		List<Integer> codCandList = votos.stream().filter(Funciones.distinctPorCodigo(c -> c.getCandidato().getId()))
 				.map(x -> x.getCandidato().getId()).collect(Collectors.toList());
 
-		List<CandidatoGenero> candidatos = new ArrayList<>();
-
+		List<CandidatoDTO> candidatos = new ArrayList<>();
+		BigInteger validosGeneral = BigInteger.ZERO;
 		for (int i = 0; i < codCandList.size(); i++) {
 			BigInteger acum1 = BigInteger.ZERO;
 			for (int j = 0; j < votos.size(); j++) {
@@ -130,8 +131,8 @@ public class VotoServiceImpl implements IVotoService {
 					acum1 = acum1.add(votos.get(j).getValidos());
 				}
 			}
-
-			CandidatoGenero cg = new CandidatoGenero();
+			validosGeneral = validosGeneral.add(acum1);
+			CandidatoDTO cg = new CandidatoDTO();
 			cg.setCodCandidato(votos.get(i).getCandidato().getId());
 			cg.setCandidatoNombre(votos.get(i).getCandidato().getNombre());
 			cg.setCandidatoApellido(votos.get(i).getCandidato().getApellido());
@@ -145,9 +146,59 @@ public class VotoServiceImpl implements IVotoService {
 			candidatos.add(cg);
 
 		}
-
+		for (CandidatoDTO cand : candidatos) {
+			cand.setPorcentaje((new BigDecimal(cand.getValidos()).multiply(new BigDecimal(100)))
+					.divide(new BigDecimal(validosGeneral), 2, RoundingMode.HALF_UP));
+			cand.setValidosGeneral(validosGeneral);
+		}
 		return candidatos;
 	}
 
-	
+	@Override
+	public List<CandidatoDTO> inforVueltaProvCantParr(Boolean vuelta, String provincia, String canton,
+			String parroquia) {
+		// TODO Auto-generated method stub
+		List<Voto> votos = this.votoRepo.inforVueltaProvCantParr(vuelta, provincia.toUpperCase(), canton.toUpperCase(),
+				parroquia.toUpperCase());
+
+		List<Integer> codCandList = votos.stream().filter(Funciones.distinctPorCodigo(c -> c.getCandidato().getId()))
+				.map(x -> x.getCandidato().getId()).collect(Collectors.toList());
+
+		List<CandidatoDTO> candidatos = new ArrayList<>();
+		BigInteger validosGeneral = BigInteger.ZERO;
+		for (int i = 0; i < codCandList.size(); i++) {
+			BigInteger acum1 = BigInteger.ZERO;
+			for (int j = 0; j < votos.size(); j++) {
+				if (codCandList.get(i).equals(votos.get(j).getCandidato().getId())) {
+					acum1 = acum1.add(votos.get(j).getValidos());
+				}
+			}
+			validosGeneral = validosGeneral.add(acum1);
+
+			CandidatoDTO cg = new CandidatoDTO();
+			cg.setVuelta(vuelta);
+			cg.setCodCandidato(votos.get(i).getCandidato().getId());
+			cg.setCandidatoNombre(votos.get(i).getCandidato().getNombre());
+			cg.setCandidatoApellido(votos.get(i).getCandidato().getApellido());
+			cg.setIdProvincia(votos.get(i).getProvincia().getId());
+			cg.setProvNombre(votos.get(i).getProvincia().getNombre());
+			cg.setIdCanton(votos.get(i).getCanton().getId());
+			cg.setCantNombre(votos.get(i).getCanton().getNombre());
+			cg.setIdParroquia(votos.get(i).getParroquia().getId());
+			cg.setNombreParroquia(votos.get(i).getParroquia().getNombre());
+
+			cg.setValidos(acum1);
+
+			candidatos.add(cg);
+
+		}
+
+		for (CandidatoDTO cand : candidatos) {
+			cand.setPorcentaje((new BigDecimal(cand.getValidos()).multiply(new BigDecimal(100)))
+					.divide(new BigDecimal(validosGeneral), 2, RoundingMode.HALF_UP));
+			cand.setValidosGeneral(validosGeneral);
+		}
+		return candidatos;
+	}
+
 }

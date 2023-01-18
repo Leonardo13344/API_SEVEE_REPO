@@ -14,7 +14,7 @@ import com.example.demo.service.IActaService;
 import com.example.demo.service.IVotoService;
 import com.example.demo.sevee.repository.modelo.Candidato;
 import com.example.demo.sevee.repository.modelo.Voto;
-import com.example.demo.sevee.repository.modelo.to.CandidatoGenero;
+import com.example.demo.sevee.repository.modelo.to.CandidatoDTO;
 
 @RestController
 @RequestMapping("/votos")
@@ -66,12 +66,17 @@ public class VotoRestFulController {
 		return this.votoService.votoValidoSum(vueltaB);
 	}
 
-	@GetMapping(path = "/filtroIzquierda/{vuelta}/{provincia}/{canton}")
-	public List<CandidatoGenero> busquedaIzquierda(@PathVariable("vuelta") Boolean vuelta,
+	@GetMapping(path = "/filtroIzquierdaCanton/{vuelta}/{provincia}/{canton}")
+	public List<CandidatoDTO> busquedaIzquierda(@PathVariable("vuelta") Boolean vuelta,
 			@PathVariable("provincia") String provincia, @PathVariable("canton") String canton) {
-
-		System.out.println(vuelta.getClass().getSimpleName() + " prov: " + provincia + " cant: " + canton);
-		return this.votoService.inforVueltaProvCant(vuelta, provincia.toUpperCase(), canton.toUpperCase());
+		return this.votoService.inforVueltaProvCant(vuelta, provincia, canton);
+	}
+	
+	
+	@GetMapping(path = "/filtroIzquierdaParroquia/{vuelta}/{provincia}/{canton}/{parroquia}")
+	public List<CandidatoDTO> busquedaIzquierdaParroquia(@PathVariable("vuelta") Boolean vuelta,
+			@PathVariable("provincia") String provincia, @PathVariable("canton") String canton,@PathVariable("parroquia") String parroquia) {
+		return this.votoService.inforVueltaProvCantParr(vuelta, provincia, canton,parroquia);
 	}
 
 }
