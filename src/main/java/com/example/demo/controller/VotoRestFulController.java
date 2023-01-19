@@ -69,14 +69,15 @@ public class VotoRestFulController {
 	@GetMapping(path = "/filtroIzquierdaCanton/{vuelta}/{provincia}/{canton}")
 	public List<CandidatoDTO> busquedaIzquierda(@PathVariable("vuelta") Boolean vuelta,
 			@PathVariable("provincia") String provincia, @PathVariable("canton") String canton) {
-		return this.votoService.inforVueltaProvCant(vuelta, provincia, canton);
+		return this.votoService.inforVueltaProvCant(vuelta, provincia.toUpperCase(), canton.toUpperCase());
 	}
 	
 	
 	@GetMapping(path = "/filtroIzquierdaParroquia/{vuelta}/{provincia}/{canton}/{parroquia}")
 	public List<CandidatoDTO> busquedaIzquierdaParroquia(@PathVariable("vuelta") Boolean vuelta,
 			@PathVariable("provincia") String provincia, @PathVariable("canton") String canton,@PathVariable("parroquia") String parroquia) {
-		return this.votoService.inforVueltaProvCantParr(vuelta, provincia, canton,parroquia);
+		System.out.println(parroquia);
+		return this.votoService.inforVueltaProvCantParr(vuelta, provincia.toUpperCase(), canton.toUpperCase(),parroquia.toUpperCase());
 	}
 
 }
