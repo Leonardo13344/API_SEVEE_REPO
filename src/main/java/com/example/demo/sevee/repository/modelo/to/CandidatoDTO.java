@@ -5,6 +5,7 @@ import java.math.BigDecimal;
 import java.math.BigInteger;
 
 public class CandidatoDTO implements Serializable{
+	
 	private static final long serialVersionUID = 1L;
 	
 	private Boolean vuelta;

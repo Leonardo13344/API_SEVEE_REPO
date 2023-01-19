@@ -4,6 +4,7 @@ import java.math.BigInteger;
 import java.util.List;
 import com.example.demo.sevee.repository.modelo.Voto;
 import com.example.demo.sevee.repository.modelo.to.CandidatoDTO;
+import com.example.demo.sevee.repository.modelo.to.ProvinciaDTO;
 
 public interface IVotoService {
 
@@ -24,7 +25,9 @@ public interface IVotoService {
 	
 	BigInteger votosSufragioPorGenero(Boolean vuelta, String genero);
 	
-	List<CandidatoDTO> inforVueltaProvCant(Boolean vuelta, String provincia, String canton);
+	List<CandidatoDTO> inforVueltaProvCant(Boolean vuelta, Integer idProvincia, Integer idCanton);
 	
-	List<CandidatoDTO> inforVueltaProvCantParr(Boolean vuelta, String provincia, String canton,String parroquia);
+	List<CandidatoDTO> inforVueltaProvCantParr(Boolean vuelta, Integer idProvincia, Integer idCanton,Integer idParroquia);
+	
+	
 }

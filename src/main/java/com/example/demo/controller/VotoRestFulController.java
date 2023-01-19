@@ -10,11 +10,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.service.IActaService;
 import com.example.demo.service.IVotoService;
-import com.example.demo.sevee.repository.modelo.Candidato;
 import com.example.demo.sevee.repository.modelo.Voto;
 import com.example.demo.sevee.repository.modelo.to.CandidatoDTO;
+import com.example.demo.sevee.repository.modelo.to.ProvinciaDTO;
 
 @RestController
 @RequestMapping("/votos")
@@ -66,18 +65,18 @@ public class VotoRestFulController {
 		return this.votoService.votoValidoSum(vueltaB);
 	}
 
-	@GetMapping(path = "/filtroIzquierdaCanton/{vuelta}/{provincia}/{canton}")
+	@GetMapping(path = "/filtroIzquierdaCanton/{vuelta}/{idProvincia}/{idCanton}")
 	public List<CandidatoDTO> busquedaIzquierda(@PathVariable("vuelta") Boolean vuelta,
-			@PathVariable("provincia") String provincia, @PathVariable("canton") String canton) {
-		return this.votoService.inforVueltaProvCant(vuelta, provincia.toUpperCase(), canton.toUpperCase());
+			@PathVariable("idProvincia") Integer idProvincia, @PathVariable("idCanton") Integer idCanton) {
+		return this.votoService.inforVueltaProvCant(vuelta, idProvincia, idCanton);
 	}
 	
 	
-	@GetMapping(path = "/filtroIzquierdaParroquia/{vuelta}/{provincia}/{canton}/{parroquia}")
+	@GetMapping(path = "/filtroIzquierdaParroquia/{vuelta}/{idProvincia}/{idCanton}/{idParroquia}")
 	public List<CandidatoDTO> busquedaIzquierdaParroquia(@PathVariable("vuelta") Boolean vuelta,
-			@PathVariable("provincia") String provincia, @PathVariable("canton") String canton,@PathVariable("parroquia") String parroquia) {
-		System.out.println(parroquia);
-		return this.votoService.inforVueltaProvCantParr(vuelta, provincia.toUpperCase(), canton.toUpperCase(),parroquia.toUpperCase());
+			@PathVariable("idProvincia") Integer idProvincia, @PathVariable("idCanton") Integer idCanton,@PathVariable("idParroquia") Integer idParroquia) {
+		return this.votoService.inforVueltaProvCantParr(vuelta, idProvincia, idCanton,idParroquia);
 	}
+	
 
 }

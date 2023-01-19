@@ -4,6 +4,7 @@ import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.math.RoundingMode;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -12,11 +13,15 @@ import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.repository.IActaRepo;
+import com.example.demo.repository.IProvinciaRepo;
 import com.example.demo.repository.IVotoRepo;
 import com.example.demo.sevee.repository.modelo.Acta;
+import com.example.demo.sevee.repository.modelo.Canton;
+import com.example.demo.sevee.repository.modelo.Parroquia;
 import com.example.demo.sevee.repository.modelo.Voto;
 import com.example.demo.sevee.repository.modelo.to.CandidatoDTO;
 import com.example.demo.sevee.repository.modelo.to.Funciones;
+import com.example.demo.sevee.repository.modelo.to.ProvinciaDTO;
 
 @Service
 public class VotoServiceImpl implements IVotoService {
@@ -26,6 +31,9 @@ public class VotoServiceImpl implements IVotoService {
 
 	@Autowired
 	private IActaRepo actaRepo;
+
+	@Autowired
+	private IProvinciaRepo provinciaRepo;
 
 	@Override
 	public BigInteger votoSuma(List<Voto> votosAsociadoACandidato, Integer prov_id) {
@@ -115,9 +123,11 @@ public class VotoServiceImpl implements IVotoService {
 	}
 
 	@Override
-	public List<CandidatoDTO> inforVueltaProvCant(Boolean vuelta, String provincia, String canton) {
+	public List<CandidatoDTO> inforVueltaProvCant(Boolean vuelta, Integer idProvincia, Integer idCanton) {
 		// TODO Auto-generated method stub
-		List<Voto> votos = this.votoRepo.inforVueltaProvCant(vuelta, provincia.toUpperCase(), canton.toUpperCase());
+		ProvinciaDTO pvDto= this.provinciaRepo.obtenerHastaCanton(idProvincia, idCanton);
+		
+		List<Voto> votos = this.votoRepo.inforVueltaProvCant(vuelta, pvDto.getProvincia().getNombre(), pvDto.getCanton().getNombre());
 
 		List<Integer> codCandList = votos.stream().filter(Funciones.distinctPorCodigo(c -> c.getCandidato().getId()))
 				.map(x -> x.getCandidato().getId()).collect(Collectors.toList());
@@ -155,11 +165,13 @@ public class VotoServiceImpl implements IVotoService {
 	}
 
 	@Override
-	public List<CandidatoDTO> inforVueltaProvCantParr(Boolean vuelta, String provincia, String canton,
-			String parroquia) {
+	public List<CandidatoDTO> inforVueltaProvCantParr(Boolean vuelta, Integer idProvincia, Integer idCanton,
+			Integer idParroquia) {
 		// TODO Auto-generated method stub
-		List<Voto> votos = this.votoRepo.inforVueltaProvCantParr(vuelta, provincia.toUpperCase(), canton.toUpperCase(),
-				parroquia.toUpperCase());
+		ProvinciaDTO pvDto= this.provinciaRepo.obtenerDatos(idProvincia, idCanton, idParroquia);//Busqueda por id de provincia hasta parroquia
+		
+		List<Voto> votos = this.votoRepo.inforVueltaProvCantParr(vuelta, pvDto.getProvincia().getNombre(),pvDto.getCanton().getNombre(),
+				pvDto.getParroquia().getNombre());
 
 		List<Integer> codCandList = votos.stream().filter(Funciones.distinctPorCodigo(c -> c.getCandidato().getId()))
 				.map(x -> x.getCandidato().getId()).collect(Collectors.toList());
