@@ -1,5 +1,6 @@
 package com.example.demo.service;
 
+import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +12,9 @@ import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.repository.IActaRepo;
+import com.example.demo.repository.ICandidatoRepo;
 import com.example.demo.repository.IVotoRepo;
+import com.example.demo.repository.DTO.ResultadosNacionales;
 import com.example.demo.sevee.repository.modelo.Acta;
 import com.example.demo.sevee.repository.modelo.Candidato;
 import com.example.demo.sevee.repository.modelo.Voto;
@@ -26,6 +29,9 @@ public class VotoServiceImpl implements IVotoService {
 
 	@Autowired
 	private IActaRepo actaRepo;
+
+	@Autowired
+	private ICandidatoRepo candidatoRepo;
 
 	@Override
 	public BigInteger votoSuma(List<Voto> votosAsociadoACandidato, Integer prov_id) {
@@ -79,14 +85,31 @@ public class VotoServiceImpl implements IVotoService {
 		}
 		return acum;
 	}
-	
+
+	@Override
+	public List<ResultadosNacionales> votoListaCandidatoGeneroGeneral( Boolean vuelta) {
+		List<Candidato> listaCan = this.candidatoRepo.todosCandidatos();
+
+		List<ResultadosNacionales> listResultadosNacionales = new ArrayList<>();
+		for (Candidato candidato : listaCan) {
+			BigInteger totalMujeres = this.votoCandidatoGeneroGeneral(candidato.getId(), "F", vuelta);
+			BigInteger totalHombres = this.votoCandidatoGeneroGeneral(candidato.getId(), "M", vuelta);
+			BigDecimal porcentaje = new BigDecimal(totalHombres.add(totalMujeres));
+			
+			listResultadosNacionales.add(new ResultadosNacionales(candidato.getApellido(),
+					candidato.getNombrePartido(), totalMujeres, totalHombres, porcentaje));
+		}
+		
+		return listResultadosNacionales;
+	}
+
 	@Override
 	public BigInteger votosSufragioPorGenero(Boolean vuelta, String genero) {
 		// TODO Auto-generated method stub
-		List<Voto> votosGenero=this.votoRepo.votosSufragioPorGenero(vuelta, genero);
-		BigInteger sum1=new BigInteger("0");
-		for(Voto voto:votosGenero) {
-			sum1=sum1.add(voto.getValidos());
+		List<Voto> votosGenero = this.votoRepo.votosSufragioPorGenero(vuelta, genero);
+		BigInteger sum1 = new BigInteger("0");
+		for (Voto voto : votosGenero) {
+			sum1 = sum1.add(voto.getValidos());
 		}
 		return sum1;
 	}
@@ -149,5 +172,4 @@ public class VotoServiceImpl implements IVotoService {
 		return candidatos;
 	}
 
-	
 }

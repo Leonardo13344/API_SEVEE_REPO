@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.demo.repository.DTO.ResultadosNacionales;
 import com.example.demo.service.IActaService;
 import com.example.demo.service.IVotoService;
 import com.example.demo.sevee.repository.modelo.Candidato;
@@ -39,6 +40,12 @@ public class VotoRestFulController {
 	public BigInteger muestraVotosCandidatoGeneral(@PathVariable("codCandidato") Integer codCandidato,
 			@PathVariable("genero") String genero, @PathVariable("vuelta") Boolean vuelta) {
 		return this.votoService.votoCandidatoGeneroGeneral(codCandidato, genero, vuelta);
+	}
+	
+	//Metodo para las tablas de conteo general
+	@GetMapping(path = "/votosListaCandidatoGeneroGeneral/{vuelta}")
+	public List<ResultadosNacionales> muestraListaVotosCandidatoGeneral(@PathVariable("vuelta") Boolean vuelta) {
+		return this.votoService.votoListaCandidatoGeneroGeneral(vuelta);
 	}
 
 	@GetMapping(path = "/votosGenero/{vuelta}/{genero}")
