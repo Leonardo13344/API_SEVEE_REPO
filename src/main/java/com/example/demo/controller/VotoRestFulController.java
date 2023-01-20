@@ -65,10 +65,10 @@ public class VotoRestFulController {
 		return this.votoService.votoValidoSum(vueltaB);
 	}
 
-	@GetMapping(path = "/filtroIzquierdaCanton/{vuelta}/{idProvincia}/{idCanton}")
-	public List<CandidatoDTO> busquedaIzquierda(@PathVariable("vuelta") Boolean vuelta,
-			@PathVariable("idProvincia") Integer idProvincia, @PathVariable("idCanton") Integer idCanton) {
-		return this.votoService.inforVueltaProvCant(vuelta, idProvincia, idCanton);
+	@GetMapping(path = "/filtroIzquierdaCanton/{vuelta}/{provinciaNombre}/{cantonNombre}")
+	public List<CandidatoDTO> busquedaIzquierda(@PathVariable("vuelta") Integer vuelta,
+			@PathVariable("provinciaNombre") String provinciaNombre, @PathVariable("cantonNombre") String cantonNombre) {
+		return this.votoService.inforVueltaProvCant(vuelta, provinciaNombre, cantonNombre);
 	}
 	
 	

@@ -25,7 +25,7 @@ public interface IVotoService {
 	
 	BigInteger votosSufragioPorGenero(Boolean vuelta, String genero);
 	
-	List<CandidatoDTO> inforVueltaProvCant(Boolean vuelta, Integer idProvincia, Integer idCanton);
+	List<CandidatoDTO> inforVueltaProvCant(Integer vuelta, String idProvincia, String idCanton);
 	
 	List<CandidatoDTO> inforVueltaProvCantParr(Boolean vuelta, Integer idProvincia, Integer idCanton,Integer idParroquia);
 	

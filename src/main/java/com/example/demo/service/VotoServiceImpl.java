@@ -123,11 +123,14 @@ public class VotoServiceImpl implements IVotoService {
 	}
 
 	@Override
-	public List<CandidatoDTO> inforVueltaProvCant(Boolean vuelta, Integer idProvincia, Integer idCanton) {
+	public List<CandidatoDTO> inforVueltaProvCant(Integer vuelta, String provinciaNombre, String cantonNombre) {
 		// TODO Auto-generated method stub
-		ProvinciaDTO pvDto= this.provinciaRepo.obtenerHastaCanton(idProvincia, idCanton);
+		ProvinciaDTO pvDto = this.provinciaRepo.obtenerHastaCanton(Funciones.provChange(provinciaNombre), Funciones.cantonChange(cantonNombre));
+		boolean vueltaB = true;//True = segunda vuelta
 		
-		List<Voto> votos = this.votoRepo.inforVueltaProvCant(vuelta, pvDto.getProvincia().getNombre(), pvDto.getCanton().getNombre());
+		if(vuelta != 2) vueltaB = false;
+		
+		List<Voto> votos = this.votoRepo.inforVueltaProvCant(vueltaB, pvDto.getProvincia().getNombre(), pvDto.getCanton().getNombre());
 
 		List<Integer> codCandList = votos.stream().filter(Funciones.distinctPorCodigo(c -> c.getCandidato().getId()))
 				.map(x -> x.getCandidato().getId()).collect(Collectors.toList());
@@ -146,7 +149,7 @@ public class VotoServiceImpl implements IVotoService {
 			cg.setCodCandidato(votos.get(i).getCandidato().getId());
 			cg.setCandidatoNombre(votos.get(i).getCandidato().getNombre());
 			cg.setCandidatoApellido(votos.get(i).getCandidato().getApellido());
-			cg.setVuelta(vuelta);
+			cg.setVuelta(vueltaB);
 			cg.setProvNombre(votos.get(i).getProvincia().getNombre());
 			cg.setIdProvincia(votos.get(i).getProvincia().getId());
 			cg.setCantNombre(votos.get(i).getCanton().getNombre());
