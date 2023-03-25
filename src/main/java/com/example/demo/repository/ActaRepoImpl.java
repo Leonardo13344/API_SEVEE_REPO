@@ -1,6 +1,5 @@
 package com.example.demo.repository;
 
-import java.math.BigInteger;
 import java.util.List;
 
 import javax.persistence.EntityManager;
@@ -8,13 +7,15 @@ import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
 import javax.transaction.Transactional;
 
+import org.openjdk.jmh.annotations.Scope;
+import org.openjdk.jmh.annotations.State;
 import org.springframework.stereotype.Repository;
 
 import com.example.demo.sevee.repository.modelo.Acta;
-import com.example.demo.sevee.repository.modelo.Voto;
 
 @Repository
 @Transactional
+@State(Scope.Benchmark)
 public class ActaRepoImpl implements IActaRepo{
 	
 	@PersistenceContext

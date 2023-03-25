@@ -1,11 +1,13 @@
 package com.example.demo.repository;
 
-import java.math.BigInteger;
 import java.util.List;
 
-import com.example.demo.sevee.repository.modelo.Acta;
-import com.example.demo.sevee.repository.modelo.Voto;
+import org.openjdk.jmh.annotations.Scope;
+import org.openjdk.jmh.annotations.State;
 
+import com.example.demo.sevee.repository.modelo.Acta;
+
+@State(Scope.Benchmark)
 public interface IActaRepo {
 	
 	public List<Acta> votosBlancos(String actTipo);

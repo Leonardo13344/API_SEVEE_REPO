@@ -1,23 +1,31 @@
 package com.example.demo.service;
 
 import java.math.BigInteger;
-import java.util.Iterator;
 import java.util.List;
 
+import org.openjdk.jmh.annotations.Benchmark;
+import org.openjdk.jmh.annotations.BenchmarkMode;
+import org.openjdk.jmh.annotations.Fork;
+import org.openjdk.jmh.annotations.Mode;
+import org.openjdk.jmh.annotations.Scope;
+import org.openjdk.jmh.annotations.State;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.repository.IActaRepo;
 import com.example.demo.sevee.repository.modelo.Acta;
-import com.example.demo.sevee.repository.modelo.Voto;
 
 @Service
+// @State(Scope.Benchmark)
 public class ActaServiceImpl implements IActaService{
 	
 	@Autowired
 	private IActaRepo actaRepo;
 
 	@Override
+	// @Fork(value = 1, warmups = 1)
+    // @Benchmark
+    // @BenchmarkMode(Mode.Throughput)
 	public BigInteger sumaVotoBlanco(String act_tipo) {
 		// TODO Auto-generated method stub
 		List<Acta> lista = this.actaRepo.votosBlancos(act_tipo);
