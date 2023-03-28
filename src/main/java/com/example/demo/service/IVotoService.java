@@ -2,6 +2,8 @@ package com.example.demo.service;
 
 import java.math.BigInteger;
 import java.util.List;
+
+import com.example.demo.repository.DTO.ResultadosNacionales;
 import com.example.demo.sevee.repository.modelo.Voto;
 import com.example.demo.sevee.repository.modelo.to.CandidatoGenero;
 
@@ -19,6 +21,8 @@ public interface IVotoService {
 
 	// 12
 	BigInteger votoCandidatoGeneroGeneral(Integer codCandidato, String genero, Boolean vuelta);
+	//metodo tabla resultados generales
+    List<ResultadosNacionales> votoListaCandidatoGeneroGeneral( Boolean vuelta);
 	
 	public BigInteger votoValidoSum(Boolean vuleta);
 	

@@ -20,6 +20,7 @@ public interface IVotoRepo {
     //12
     List<CandidatoGenero> votoCandidatoGeneroGeneral(CandidatoGenero candidatoGen);
     
+    
     List<Voto> votosValidosSum(Boolean vuelta);
     
     List<Voto> inforVueltaProvCant(Boolean vuelta, String provincia, String canton);

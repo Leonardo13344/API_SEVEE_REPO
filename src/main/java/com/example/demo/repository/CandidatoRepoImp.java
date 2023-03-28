@@ -26,4 +26,10 @@ public class CandidatoRepoImp implements ICandidatoRepo {
 		return myQuery.getResultList();	
 	}
 
+	@Override
+	public List<Candidato> todosCandidatos() {
+		TypedQuery<Candidato> myQuery = this.entityManager.createQuery("SELECT c FROM Candidato c", Candidato.class);
+		return myQuery.getResultList();	
+	}
+
 }

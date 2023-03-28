@@ -18,7 +18,7 @@ public class CandidatoServiceImpl implements ICandidatoService {
 
 	@Autowired
 	private ICandidatoRepo candidatoRepo;
-	
+
 	@Autowired
 	private IVotoService votoService;
 
@@ -45,5 +45,10 @@ public class CandidatoServiceImpl implements ICandidatoService {
 			porcentajesPorProvincia.add(porcentajeDeLaProvincia);
 		}
 		return porcentajesPorProvincia;
+	}
+
+	@Override
+	public List<Candidato> todosCandidatos() {
+		return this.candidatoRepo.todosCandidatos();
 	}
 }
