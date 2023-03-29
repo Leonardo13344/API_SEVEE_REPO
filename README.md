@@ -1,0 +1,2 @@
+# ATENCION
+Esto es un test para juntar el frontend de Vue.js y el backend de java dentro de un aplicativo, por el momento no funciona. parece que faltan algunas dependecias en el pom para compilar correctamente, si se editar, agregar las dependecias que faltan en el pom.xml
