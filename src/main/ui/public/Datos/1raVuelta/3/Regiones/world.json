@@ -1,0 +1,554 @@
+[
+    {
+        "id": "11",
+        "candidato": "Yaku Perez",
+        "votos": 83,
+        "value": "(11.05%)",
+        "aux": "votos"
+    },
+    {
+        "id": "31",
+        "votos": 6,
+        "candidato": "Yaku Perez",
+        "value": "(5.26%)",
+        "aux": "votos"
+    },
+    {
+        "id": "41",
+        "votos": 18,
+        "candidato": "Yaku Perez",
+        "value": "(9.68%)",
+        "aux": "votos"
+    },
+    {
+        "id": "51",
+        "votos": 121,
+        "candidato": "Yaku Perez",
+        "value": "(10.13%)",
+        "aux": "votos"
+    },
+    {
+        "id": "101",
+        "votos": 0,
+        "candidato": "Yaku Perez",
+        "value": "(0.01%)",
+        "aux": "votos"
+    },
+    {
+        "id": "141",
+        "votos": 4,
+        "candidato": "Yaku Perez",
+        "value": "(5.06%)",
+        "aux": "votos"
+    },
+    {
+        "id": "171",
+        "votos": 10268,
+        "candidato": "Yaku Perez",
+        "value": "(20.09%)",
+        "aux": "votos"
+    },
+    {
+        "id": "191",
+        "votos": 137,
+        "candidato": "Yaku Perez",
+        "value": "(14.99%)",
+        "aux": "votos"
+    },
+    {
+        "id": "201",
+        "votos": 205,
+        "candidato": "Yaku Perez",
+        "value": "(9.13%)",
+        "aux": "votos"
+    },
+    {
+        "id": "231",
+        "votos": 1,
+        "candidato": "Yaku Perez",
+        "value": "(1.59%)",
+        "aux": "votos"
+    },
+    {
+        "id": "251",
+        "votos": 14,
+        "candidato": "Yaku Perez",
+        "value": "(17.50%)",
+        "aux": "votos"
+    },
+    {
+        "id": "261",
+        "votos": 2587,
+        "candidato": "Yaku Perez",
+        "value": "(16.19%)",
+        "aux": "votos"
+    },
+    {
+        "id": "271",
+        "votos": 3,
+        "candidato": "Yaku Perez",
+        "value": "(9.68%)",
+        "aux": "votos"
+    },
+    {
+        "id": "301",
+        "votos": 9,
+        "candidato": "Yaku Perez",
+        "value": "(7.26%)",
+        "aux": "votos"
+    },
+    {
+        "id": "361",
+        "votos": 22,
+        "candidato": "Yaku Perez",
+        "value": "(8.37%)",
+        "aux": "votos"
+    },
+    {
+        "id": "371",
+        "votos": 60,
+        "candidato": "Yaku Perez",
+        "value": "(8.82%)",
+        "aux": "votos"
+    },
+    {
+        "id": "381",
+        "votos": 10,
+        "candidato": "Yaku Perez",
+        "value": "(9.52%)",
+        "aux": "votos"
+    },
+    {
+        "id": "411",
+        "votos": 0,
+        "candidato": "Yaku Perez",
+        "value": "(0.01%)",
+        "aux": "votos"
+    },
+    {
+        "id": "451",
+        "votos": 0,
+        "candidato": "Yaku Perez",
+        "value": "(0.01%)",
+        "aux": "votos"
+    },
+    {
+        "id": "81",
+        "votos": 100,
+        "candidato": "Yaku Perez",
+        "value": "(6.38%)",
+        "aux": "votos"
+    },
+    {
+        "id": "181",
+        "votos": 5485,
+        "candidato": "Yaku Perez",
+        "value": "(25.33%)",
+        "aux": "votos"
+    },
+    {
+        "id": "21",
+        "votos": 44,
+        "candidato": "Yaku Perez",
+        "value": "(6.15%)",
+        "aux": "votos"
+    },
+    {
+        "id": "61",
+        "votos": 4,
+        "candidato": "Yaku Perez",
+        "value": "(10.81%)",
+        "aux": "votos"
+    },
+    {
+        "id": "71",
+        "votos": 29,
+        "candidato": "Yaku Perez",
+        "value": "(12.08%)",
+        "aux": "votos"
+    },
+    {
+        "id": "91",
+        "votos": 206,
+        "candidato": "Yaku Perez",
+        "value": "(14.21%)",
+        "aux": "votos"
+    },
+    {
+        "id": "111",
+        "votos": 13,
+        "candidato": "Yaku Perez",
+        "value": "(6.25%)",
+        "aux": "votos"
+    },
+    {
+        "id": "121",
+        "votos": 3,
+        "candidato": "Yaku Perez",
+        "value": "(3.90%)",
+        "aux": "votos"
+    },
+    {
+        "id": "131",
+        "votos": 164,
+        "candidato": "Yaku Perez",
+        "value": "(9.33%)",
+        "aux": "votos"
+    },
+    {
+        "id": "161",
+        "votos": 2,
+        "candidato": "Yaku Perez",
+        "value": "(6.67%)",
+        "aux": "votos"
+    },
+    {
+        "id": "211",
+        "votos": 3,
+        "candidato": "Yaku Perez",
+        "value": "(5.26%)",
+        "aux": "votos"
+    },
+    {
+        "id": "221",
+        "votos": 2,
+        "candidato": "Yaku Perez",
+        "value": "(3.45%)",
+        "aux": "votos"
+    },
+    {
+        "id": "281",
+        "votos": 22,
+        "candidato": "Yaku Perez",
+        "votos1": 1,
+        "value": "(5.70%)",
+        "aux": "votos"
+    },
+    {
+        "id": "312",
+        "votos": 6,
+        "candidato": "Yaku Perez",
+        "value": "(2.73%)",
+        "aux": "votos"
+    },
+    {
+        "id": "271",
+        "votos": 3,
+        "candidato": "Yaku Perez",
+        "value": "(9.68%)",
+        "aux": "votos"
+    },
+    {
+        "id": "321",
+        "votos": 1,
+        "candidato": "Yaku Perez",
+        "value": "(2.70%)",
+        "aux": "votos"
+    },
+    {
+        "id": "331",
+        "votos": 15,
+        "candidato": "Yaku Perez",
+        "value": "(5.91%)",
+        "aux": "votos"
+    },
+    {
+        "id": "341",
+        "votos": 0,
+        "candidato": "Yaku Perez",
+        "value": "(0.01%)",
+        "aux": "votos"
+    },
+    {
+        "id": "351",
+        "votos": 19,
+        "candidato": "Yaku Perez",
+        "value": "(10.56%)",
+        "aux": "votos"
+    },
+    {
+        "id": "391",
+        "votos": 9,
+        "candidato": "Yaku Perez",
+        "value": "(11.69%)",
+        "aux": "votos"
+    },
+    {
+        "id": "401",
+        "votos": 365,
+        "candidato": "Yaku Perez",
+        "value": "(11.24%)",
+        "aux": "votos"
+    },
+    {
+        "id": "441",
+        "votos": 0,
+        "candidato": "Yaku Perez",
+        "value": "(0.01%)",
+        "aux": "votos"
+    },
+    {
+        "id": "451",
+        "votos": 0,
+        "candidato": "Yaku Perez",
+        "value": "(0.01%)",
+        "aux": "votos"
+    },
+    {
+        "id": "EC",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "SR",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "PR",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "NI",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "JM",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "HT",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "GY",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "GF",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "BZ",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "YE",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "VN",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "UZ",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "UA",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "TM",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "TH",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "SY",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "SG",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "RS",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "RO",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "CZ",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "PT",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "PL",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "PS",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "PK",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "OM",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "NO",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "MM",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "ME",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "RO",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "MN",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "MY",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "MK",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "LU",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "LT",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "LB",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "LV",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "LA",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "KW",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "KG",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "KZ",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "JO",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "JE",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "IE",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "IR",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "IQ",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "FI",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "PH",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "EE",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "SI",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "SK",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "AE",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "DK",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "HR",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "KP",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "KH",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "BA",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "AZ",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "AM",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "SA",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "AL",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "AF",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "MD",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "GR",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "BY",
+        "fill": "#ced4da"
+    }
+
+]

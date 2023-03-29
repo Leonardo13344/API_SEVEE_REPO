@@ -1,0 +1,80 @@
+[
+    {
+        "id": 100,
+        "votos": 37,
+        "candidato": "Juan Velasco",
+        "value": 1.11
+    },
+    {
+        "id": 130,
+        "votos": 17,
+        "candidato": "Juan Velasco",
+        "value": 0.68
+    },
+    {
+        "id": 530,
+        "votos": 7,
+        "candidato": "Juan Velasco",
+        "value": 0.46
+    },
+    {
+        "id": 2020,
+        "votos": 41,
+        "candidato": "Juan Velasco",
+        "value": 0.80
+    },
+    {
+        "id": 2185,
+        "votos": 19,
+        "candidato": "Juan Velasco",
+        "value": 0.97
+    },
+    {
+        "id": 3290,
+        "votos": 13,
+        "candidato": "Juan Velasco",
+        "value": 1.12
+    },
+    {
+        "id": 3315,
+        "votos": 121,
+        "candidato": "Juan Velasco",
+        "value": 1.11
+    },
+    {
+        "id": 5165,
+        "votos": 124,
+        "candidato": "Juan Velasco",
+        "value": 1.25
+    },
+    {
+        "id": 5440,
+        "votos": 78,
+        "candidato": "Juan Velasco",
+        "value": 1.23
+    },
+    {
+        "id": 5915,
+        "votos": 396,
+        "candidato": "Juan Velasco",
+        "value": 1.04
+    },
+    {
+        "id": 5960,
+        "votos": 351,
+        "candidato": "Juan Velasco",
+        "value": 0.94
+    },
+    {
+        "id": 6780,
+        "votos": 27,
+        "candidato": "Juan Velasco",
+        "value": 1.28
+    },
+    {
+        "id": 100150,
+        "votos": 93872,
+        "candidato": "Juan Velasco",
+        "value": 1.04
+    }
+]

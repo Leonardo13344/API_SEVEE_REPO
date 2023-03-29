@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1040,
+        "votos": 14,
+        "candidato": "Guillermo Celi",
+        "value": 0.35
+    },
+    {
+        "id": 1215,
+        "votos": 16,
+        "candidato": "Guillermo Celi",
+        "value": 0.37
+    },
+    {
+        "id": 1360,
+        "votos": 13,
+        "candidato": "Guillermo Celi",
+        "value": 0.32
+    },
+    {
+        "id": 2785,
+        "votos": 2,
+        "candidato": "Guillermo Celi",
+        "value": 0.75
+    },
+    {
+        "id": 3490,
+        "votos": 20,
+        "candidato": "Guillermo Celi",
+        "value": 0.39
+    },
+    {
+        "id": 3525,
+        "votos": 21,
+        "candidato": "Guillermo Celi",
+        "value": 0.43
+    },
+    {
+        "id": 3590,
+        "votos": 22,
+        "candidato": "Guillermo Celi",
+        "value": 0.33
+    },
+    {
+        "id": 3630,
+        "votos": 16,
+        "candidato": "Guillermo Celi",
+        "value": 0.49
+    },
+    {
+        "id": 3810,
+        "votos": 2,
+        "candidato": "Guillermo Celi",
+        "value": 0.18
+    },
+    {
+        "id": 5490,
+        "votos": 85,
+        "candidato": "Guillermo Celi",
+        "value": 0.39
+    },
+    {
+        "id": 5980,
+        "votos": 68,
+        "candidato": "Guillermo Celi",
+        "value": 0.50
+    },
+    {
+        "id": 100450,
+        "votos": 155,
+        "candidato": "Guillermo Celi",
+        "value": 0.42
+    }
+]

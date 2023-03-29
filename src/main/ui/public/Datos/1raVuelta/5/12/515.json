@@ -1,0 +1,56 @@
+[
+    {
+        "id": 520,
+        "votos": 20,
+        "candidato": "Pedro Freile",
+        "value": 0.68
+    },
+    {
+        "id": 1265,
+        "votos": 55,
+        "candidato": "Pedro Freile",
+        "value": 0.57
+    },
+    {
+        "id": 1525,
+        "votos": 40,
+        "candidato": "Pedro Freile",
+        "value": 0.57
+    },
+    {
+        "id": 2875,
+        "votos": 34,
+        "candidato": "Pedro Freile",
+        "value": 0.40
+    },
+    {
+        "id": 5215,
+        "votos": 304,
+        "candidato": "Pedro Freile",
+        "value": 0.75
+    },
+    {
+        "id": 5285,
+        "votos": 154,
+        "candidato": "Pedro Freile",
+        "value": 0.85
+    },
+    {
+        "id": 6830,
+        "votos": 28,
+        "candidato": "Pedro Freile",
+        "value": 0.58
+    },
+    {
+        "id": 6835,
+        "votos": 8,
+        "candidato": "Pedro Freile",
+        "value": 0.37
+    },
+    {
+        "id": 120150,
+        "votos": 494,
+        "candidato": "Pedro Freile",
+        "value": 0.76
+    }
+]

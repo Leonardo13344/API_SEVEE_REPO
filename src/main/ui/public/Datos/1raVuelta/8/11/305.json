@@ -1,0 +1,68 @@
+[
+    {
+        "id": 310,
+        "votos": 5,
+        "candidato": "Gerson Almeida",
+        "value": 0.76
+    },
+    {
+        "id": 1165,
+        "votos": 9,
+        "candidato": "Gerson Almeida",
+        "value": 0.60
+    },
+    {
+        "id": 1190,
+        "votos": 1,
+        "candidato": "Gerson Almeida",
+        "value": 0.21
+    },
+    {
+        "id": 2280,
+        "votos": 4,
+        "candidato": "Gerson Almeida",
+        "value": 0.45
+    },
+    {
+        "id": 2360,
+        "votos": 17,
+        "candidato": "Gerson Almeida",
+        "value": 1.04
+    },
+    {
+        "id": 3340,
+        "votos": 1,
+        "candidato": "Gerson Almeida",
+        "value": 0.14
+    },
+    {
+        "id": 3600,
+        "votos": 0,
+        "candidato": "Gerson Almeida",
+        "value": 0.00
+    },
+    {
+        "id": 3665,
+        "votos": 6,
+        "candidato": "Gerson Almeida",
+        "value": 0.93
+    },
+    {
+        "id": 3815,
+        "votos": 6,
+        "candidato": "Gerson Almeida",
+        "value": 0.53
+    },
+    {
+        "id": 4145,
+        "votos": 8,
+        "candidato": "Gerson Almeida",
+        "value": 0.36
+    },
+    {
+        "id": 6075,
+        "votos": 32,
+        "candidato": "Gerson Almeida",
+        "value": 0.48
+    }
+]

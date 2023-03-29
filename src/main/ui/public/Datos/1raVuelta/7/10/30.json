@@ -1,0 +1,80 @@
+[
+    {
+        "id": 100,
+        "votos": 73,
+        "candidato": "Lucio Gutierrez",
+        "value": 2.20
+    },
+    {
+        "id": 130,
+        "votos": 40,
+        "candidato": "Lucio Gutierrez",
+        "value": 1.61
+    },
+    {
+        "id": 530,
+        "votos": 45,
+        "candidato": "Lucio Gutierrez",
+        "value": 2.93
+    },
+    {
+        "id": 2020,
+        "votos": 130,
+        "candidato": "Lucio Gutierrez",
+        "value": 2.54
+    },
+    {
+        "id": 2185,
+        "votos": 39,
+        "candidato": "Lucio Gutierrez",
+        "value": 1.99
+    },
+    {
+        "id": 3290,
+        "votos": 14,
+        "candidato": "Lucio Gutierrez",
+        "value": 1.21
+    },
+    {
+        "id": 3315,
+        "votos": 178,
+        "candidato": "Lucio Gutierrez",
+        "value": 1.63
+    },
+    {
+        "id": 5165,
+        "votos": 142,
+        "candidato": "Lucio Gutierrez",
+        "value": 1.43
+    },
+    {
+        "id": 5440,
+        "votos": 76,
+        "candidato": "Lucio Gutierrez",
+        "value": 1.20
+    },
+    {
+        "id": 5915,
+        "votos": 438,
+        "candidato": "Lucio Gutierrez",
+        "value": 1.15
+    },
+    {
+        "id": 5960,
+        "votos": 437,
+        "candidato": "Lucio Gutierrez",
+        "value": 1.17
+    },
+    {
+        "id": 6780,
+        "votos": 31,
+        "candidato": "Lucio Gutierrez",
+        "value": 1.47
+    },
+    {
+        "id": 100150,
+        "votos": 1124,
+        "candidato": "Lucio Gutierrez",
+        "value": 1.20
+    }
+]

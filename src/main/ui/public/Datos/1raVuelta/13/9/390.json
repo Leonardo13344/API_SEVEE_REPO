@@ -1,0 +1,32 @@
+[
+    {
+        "id": 2470,
+        "votos": 6,
+        "candidato": "Gustavo Larrea",
+        "value": 0.26
+    },
+    {
+        "id": 2940,
+        "votos": 40,
+        "candidato": "Gustavo Larrea",
+        "value": 0.29
+    },
+    {
+        "id": 3030,
+        "votos": 22,
+        "candidato": "Gustavo Larrea",
+        "value": 0.39
+    },
+    {
+        "id": 4120,
+        "votos": 19,
+        "candidato": "Gustavo Larrea",
+        "value": 0.29
+    },
+    {
+        "id": 90150,
+        "votos": 4604,
+        "candidato": "Gustavo Larrea",
+        "value": 0.31
+    }
+]

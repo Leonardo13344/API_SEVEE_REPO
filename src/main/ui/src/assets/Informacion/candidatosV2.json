@@ -1,0 +1,101 @@
+[
+    {
+        "partido": "",
+        "nombrePartido": "Resultados Generales",
+        "json": "1"
+    },{
+        "partido": 1,
+        "nombre": "GUILLERMO LASSO",
+        "nombrePartido": "Alianza Creo 21 Psc 6",
+        "json": "1"
+    },
+    {
+        "partido": 2,
+       "nombrePartido": "1-5 Unión Por La Esperanza",
+        "json": "2"
+    },
+    {
+        "partido": 3,
+        "nombre": "YAKU PEREZ",
+         "nombrePartido": "Movimiento De Unidad Plurinacional Pachakutik",
+        "json": "3"
+    },
+    {
+        "partido": 4,
+        "nombre": "XAVIER HERVAS",
+         "nombrePartido": "Partido Izquierda Democrática",
+        "json": "4"
+    },
+    {
+        "partido": 5,
+        "nombre": "PEDRO JOSE FREILE",
+        "nombrePartido": "Movimiento Amigo",
+        "json": "5"
+    },
+    {
+        "partido": 6,
+        "nombre": "ISIDRO ROMERO",
+        "nombrePartido": "Partido Político Avanza",
+        "json": "6"
+    },
+    {
+        "partido": 7,
+        "nombre": "LUCIO GUTIERREZ",
+        "nombrePartido": "Partido Sociedad Patriótica 21 De Enero",
+        "json": "7"
+    },
+    {
+        "partido": 8,
+        "nombre": "GERSON ALMEIDA",
+        "nombrePartido": "Movimiento Ecuatoriano Unido",
+        "json": "8"
+    },
+    {
+        "partido": 9,
+        "nombre": "XIMENA PEÑA",
+       "nombrePartido": "Movimiento Alianza País",
+        "json": "9"
+    },
+    {
+        "partido": 10,
+        "nombre": "GUILLERMO CELI",
+       "nombrePartido": "Partido Político Sociedad Unida Más Acción",
+        "json": "10"
+    },
+    {
+        "partido": 11,
+        "nombre": "JUAN FERNANDO VELASCO",
+        "nombrePartido": "Movimiento Construye",
+        "json": "11"
+    },
+    {
+        "partido": 12,
+        "nombre": "CESAR MONTUFAR",
+        "nombrePartido": "Alianza Honestidad",
+        "json": "12"
+    },
+    {
+        "partido": 13,
+        "nombre": "GUSTAVO LARREA",
+        "nombrePartido": "Movimiento Democracia Sí",
+        "json": "13"
+    },
+    {
+        "partido": 14,
+        "nombre": "CARLOS SAGNAY",
+        "nombrePartido": "Partido Fuerza Ec",
+        "json": "14"
+    },
+    {
+        "partido": 15,
+        "nombre": "GIOVANNY ANDRADE",
+         "nombrePartido": "Unión Ecuatoriana",
+        "json": "15"
+    },
+    {
+        "partido": 16,
+        "nombre": "PAUL CARRASCO",
+       "nombrePartido": "Movimiento Nacional Podemos",
+        "json": "16"
+    }
+]

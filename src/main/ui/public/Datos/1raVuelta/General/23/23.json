@@ -1,0 +1,24 @@
+[
+    {
+        "candidato2": "Marcelo Hervas",
+        "candidato1": "Andres Arauz",
+        "id": 85,
+        "votos": 239446,
+        "votos1": 83446,
+        "fill": "#EF8A62",
+        "votos2": 43502,
+        "porcentaje1": 34.85,
+        "porcentaje2": 18.17
+    },
+    {
+        "candidato2": "Guillermo Lasso",
+        "candidato1": "Andres Arauz",
+        "id": 982,
+        "votos": 31582,
+        "votos1": 13921,
+        "fill": "#EF8A62",
+        "votos2": 5648,
+        "porcentaje1": 44.08,
+        "porcentaje2": 17.88
+    }
+]

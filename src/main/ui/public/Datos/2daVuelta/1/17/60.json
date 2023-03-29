@@ -1,0 +1,398 @@
+[
+    {
+        "id": 30,
+        "votos": 7830,
+        "candidato": "Guillermo Lasso",
+        "value": 64.22
+    },
+    {
+        "id": 80,
+        "votos": 9268,
+        "candidato": "Guillermo Lasso",
+        "value": 55.46
+    },
+    {
+        "id": 195,
+        "votos": 685,
+        "candidato": "Guillermo Lasso",
+        "value": 64.38
+    },
+    {
+        "id": 430,
+        "votos": 1754,
+        "candidato": "Guillermo Lasso",
+        "value": 60.55
+    },
+    {
+        "id": 440,
+        "votos": 52996,
+        "candidato": "Guillermo Lasso",
+        "value": 59.85
+    },
+    {
+        "id": 625,
+        "votos": 38478,
+        "candidato": "Guillermo Lasso",
+        "value": 71.08
+    },
+    {
+        "id": 725,
+        "votos": 19483,
+        "candidato": "Guillermo Lasso",
+        "value": 80.00
+    },
+    {
+        "id": 855,
+        "votos": 271,
+        "candidato": "Guillermo Lasso",
+        "value": 64.07
+    },
+    {
+        "id": 865,
+        "votos": 2157,
+        "candidato": "Guillermo Lasso",
+        "value": 48.65
+    },
+    {
+        "id": 1400,
+        "votos": 538,
+        "candidato": "Guillermo Lasso",
+        "value": 51.34
+    },
+    {
+        "id": 1440,
+        "votos": 1150,
+        "candidato": "Guillermo Lasso",
+        "value": 55.91
+    },
+    {
+        "id": 1475,
+        "votos": 4664,
+        "candidato": "Guillermo Lasso",
+        "value": 50.32
+    },
+    {
+        "id": 2055,
+        "votos": 2136,
+        "candidato": "Guillermo Lasso",
+        "value": 50.81
+    },
+    {
+        "id": 2265,
+        "votos": 3455,
+        "candidato": "Guillermo Lasso",
+        "value": 60.12
+    },
+    {
+        "id": 2275,
+        "votos": 683,
+        "candidato": "Guillermo Lasso",
+        "value": 51.43
+    },
+    {
+        "id": 2525,
+        "votos": 852,
+        "candidato": "Guillermo Lasso",
+        "value": 56.65
+    },
+    {
+        "id": 2530,
+        "votos": 1125,
+        "candidato": "Guillermo Lasso",
+        "value": 61.54
+    },
+    {
+        "id": 2540,
+        "votos": 5328,
+        "candidato": "Guillermo Lasso",
+        "value": 75.21
+    },
+    {
+        "id": 2560,
+        "votos": 552,
+        "candidato": "Guillermo Lasso",
+        "value": 60.99
+    },
+    {
+        "id": 2690,
+        "votos": 1402,
+        "candidato": "Guillermo Lasso",
+        "value": 59.08
+    },
+    {
+        "id": 2825,
+        "votos": 346,
+        "candidato": "Guillermo Lasso",
+        "value": 67.84
+    },
+    {
+        "id": 2855,
+        "votos": 5595,
+        "candidato": "Guillermo Lasso",
+        "value": 55.92
+    },
+    {
+        "id": 2895,
+        "votos": 5510,
+        "candidato": "Guillermo Lasso",
+        "value": 50.51
+    },
+    {
+        "id": 2925,
+        "votos": 14605,
+        "candidato": "Guillermo Lasso",
+        "value": 69.08
+    },
+    {
+        "id": 2980,
+        "votos": 1863,
+        "candidato": "Guillermo Lasso",
+        "value": 53.80
+    },
+    {
+        "id": 2985,
+        "votos": 4913,
+        "candidato": "Guillermo Lasso",
+        "value": 57.33
+    },
+    {
+        "id": 3100,
+        "votos": 5106,
+        "candidato": "Guillermo Lasso",
+        "value": 49.91
+    },
+    {
+        "id": 3325,
+        "votos": 11843,
+        "candidato": "Guillermo Lasso",
+        "value": 60.15
+    },
+    {
+        "id": 3475,
+        "votos": 1898,
+        "candidato": "Guillermo Lasso",
+        "value": 54.65
+    },
+    {
+        "id": 3925,
+        "votos": 1017,
+        "candidato": "Guillermo Lasso",
+        "value": 62.82
+    },
+    {
+        "id": 4085,
+        "votos": 23166,
+        "candidato": "Guillermo Lasso",
+        "value": 66.40
+    },
+    {
+        "id": 4290,
+        "votos": 6219,
+        "candidato": "Guillermo Lasso",
+        "value": 53.79
+    },
+    {
+        "id": 4325,
+        "votos": 2050,
+        "candidato": "Guillermo Lasso",
+        "value": 63.86
+    },
+    {
+        "id": 5015,
+        "votos": 36036,
+        "candidato": "Guillermo Lasso",
+        "value": 65.26
+    },
+    {
+        "id": 5220,
+        "votos": 43487,
+        "candidato": "Guillermo Lasso",
+        "value": 70.64
+    },
+    {
+        "id": 5260,
+        "votos": 45934,
+        "candidato": "Guillermo Lasso",
+        "value": 62.84
+    },
+    {
+        "id": 5535,
+        "votos": 8143,
+        "candidato": "Guillermo Lasso",
+        "value": 61.77
+    },
+    {
+        "id": 5540,
+        "votos": 40605,
+        "candidato": "Guillermo Lasso",
+        "value": 67.58
+    },
+    {
+        "id": 7130,
+        "votos": 20518,
+        "candidato": "Guillermo Lasso",
+        "value": 73.29
+    },
+    {
+        "id": 7135,
+        "votos": 19695,
+        "candidato": "Guillermo Lasso",
+        "value": 70.30
+    },
+    {
+        "id": 7140,
+        "votos": 31046,
+        "candidato": "Guillermo Lasso",
+        "value": 62.48
+    },
+    {
+        "id": 7145,
+        "votos": 15288,
+        "candidato": "Guillermo Lasso",
+        "value": 66.90
+    },
+    {
+        "id": 7150,
+        "votos": 11526,
+        "candidato": "Guillermo Lasso",
+        "value": 57.41
+    },
+    {
+        "id": 7155,
+        "votos": 8869,
+        "candidato": "Guillermo Lasso",
+        "value": 63.55
+    },
+    {
+        "id": 7160,
+        "votos": 18994,
+        "candidato": "Guillermo Lasso",
+        "value": 58.87
+    },
+    {
+        "id": 7165,
+        "votos": 17198,
+        "candidato": "Guillermo Lasso",
+        "value": 55.41
+    },
+    {
+        "id": 7170,
+        "votos": 37502,
+        "candidato": "Guillermo Lasso",
+        "value": 79.75
+    },
+    {
+        "id": 7175,
+        "votos": 21363,
+        "candidato": "Guillermo Lasso",
+        "value": 70.42
+    },
+    {
+        "id": 7180,
+        "votos": 23299,
+        "candidato": "Guillermo Lasso",
+        "value": 76.49
+    },
+    {
+        "id": 7185,
+        "votos": 37295,
+        "candidato": "Guillermo Lasso",
+        "value": 76.93
+    },
+    {
+        "id": 7190,
+        "votos": 9748,
+        "candidato": "Guillermo Lasso",
+        "value": 53.55
+    },
+    {
+        "id": 7195,
+        "votos": 15640,
+        "candidato": "Guillermo Lasso",
+        "value": 78.66
+    },
+    {
+        "id": 7200,
+        "votos": 13159,
+        "candidato": "Guillermo Lasso",
+        "value": 56.05
+    },
+    {
+        "id": 7205,
+        "votos": 15228,
+        "candidato": "Guillermo Lasso",
+        "value": 59.47
+    },
+    {
+        "id": 7210,
+        "votos": 10911,
+        "candidato": "Guillermo Lasso",
+        "value": 61.63
+    },
+    {
+        "id": 7215,
+        "votos": 12793,
+        "candidato": "Guillermo Lasso",
+        "value": 72.47
+    },
+    {
+        "id": 7220,
+        "votos": 15500,
+        "candidato": "Guillermo Lasso",
+        "value": 72.21
+    },
+    {
+        "id": 7225,
+        "votos": 12047,
+        "candidato": "Guillermo Lasso",
+        "value": 65.31
+    },
+    {
+        "id": 7230,
+        "votos": 16353,
+        "candidato": "Guillermo Lasso",
+        "value": 59.24
+    },
+    {
+        "id": 7235,
+        "votos": 23083,
+        "candidato": "Guillermo Lasso",
+        "value": 81.80
+    },
+    {
+        "id": 7240,
+        "votos": 23919,
+        "candidato": "Guillermo Lasso",
+        "value": 63.50
+    },
+    {
+        "id": 7245,
+        "votos": 13604,
+        "candidato": "Guillermo Lasso",
+        "value": 70.74
+    },
+    {
+        "id": 7250,
+        "votos": 20920,
+        "candidato": "Guillermo Lasso",
+        "value": 66.92
+    },
+    {
+        "id": 7255,
+        "votos": 21235,
+        "candidato": "Guillermo Lasso",
+        "value": 64.01
+    },
+    {
+        "id": 7260,
+        "votos": 11163,
+        "candidato": "Guillermo Lasso",
+        "value": 54.73
+    },
+    {
+        "id": 170150,
+        "votos": 672101,
+        "candidato": "Guillermo Lasso",
+        "value": 66.85
+    }
+]

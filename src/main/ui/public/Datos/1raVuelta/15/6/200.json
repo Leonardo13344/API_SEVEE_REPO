@@ -1,0 +1,63 @@
+[
+    {
+        "id": 40,
+        "votos": 3,
+        "candidato": "Giovanny Andrade",
+        "value": 0.37
+    },
+    {
+        "id": 45,
+        "votos": 3,
+        "candidato": "Giovanny Andrade",
+        "value": 0.35
+    },
+    {
+        "id": 410,
+        "votos": 0,
+        "candidato": "Giovanny Andrade",
+        "value": 0.00
+    },
+    {
+        "id": 1415,
+        "votos": 2,
+        "candidato": "Giovanny Andrade",
+        "value": 0.53
+    },
+    {
+        "id": 1705,
+        "votos": 7,
+        "candidato": "Giovanny Andrade",
+        "value": 0.45
+    },
+    {
+        "id": 2080,
+        "votos": 0,
+        "candidato": "Giovanny Andrade",
+        "value": 0.00
+    },
+    {
+        "id": 3295,
+        "votos": 21,
+        "candidato": "Giovanny Andrade",
+        "value": 0.25
+    },
+    {
+        "id": 3425,
+        "votos": 6,
+        "candidato": "Giovanny Andrade",
+        "value": 0.48
+    },
+    {
+        "id": 3450,
+        "votos": 10,
+        "candidato": "Giovanny Andrade",
+        "value": 0.38
+    },
+    
+    {
+        "id": 60750,
+        "votos": 21,
+        "candidato": "Giovanny Andrade",
+        "value": 0.23
+    }
+]

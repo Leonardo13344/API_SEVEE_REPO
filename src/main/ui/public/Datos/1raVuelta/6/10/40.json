@@ -1,0 +1,68 @@
+[
+    {
+        "id": 145,
+        "votos": 9,
+        "candidato": "Isidro Romero",
+        "value": 0.75
+    },
+    {
+        "id": 1310,
+        "votos": 38,
+        "candidato": "Isidro Romero",
+        "value": 0.78
+    },
+    {
+        "id": 1710,
+        "votos": 28,
+        "candidato": "Isidro Romero",
+        "value": 0.86
+    },
+    {
+        "id": 2820,
+        "votos": 8,
+        "candidato": "Isidro Romero",
+        "value": 0.78
+    },
+    {
+        "id": 2915,
+        "votos": 3,
+        "candidato": "Isidro Romero",
+        "value": 0.78
+    },
+    {
+        "id": 3115,
+        "votos": 67,
+        "candidato": "Isidro Romero",
+        "value": 1.48
+    },
+    {
+        "id": 3800,
+        "votos": 5,
+        "candidato": "Isidro Romero",
+        "value": 0.40
+    },
+    {
+        "id": 4185,
+        "votos": 6,
+        "candidato": "Isidro Romero",
+        "value": 1.78
+    },
+    {
+        "id": 5910,
+        "votos": 95,
+        "candidato": "Isidro Romero",
+        "value": 1.28
+    },
+    {
+        "id": 5955,
+        "votos": 39,
+        "candidato": "Isidro Romero",
+        "value": 0.97
+    },
+    {
+        "id": 100350,
+        "votos": 134,
+        "candidato": "Isidro Romero",
+        "value": 1.17
+    }
+]

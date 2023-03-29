@@ -1,0 +1,80 @@
+[
+    {
+        "id": 100,
+        "votos": 1018,
+        "candidato": "Guillermo Lasso",
+        "value": 29.52
+    },
+    {
+        "id": 130,
+        "votos": 994,
+        "candidato": "Guillermo Lasso",
+        "value": 43.71
+    },
+    {
+        "id": 530,
+        "votos": 535,
+        "candidato": "Guillermo Lasso",
+        "value": 35.48
+    },
+    {
+        "id": 2020,
+        "votos": 1947,
+        "candidato": "Guillermo Lasso",
+        "value": 44.35
+    },
+    {
+        "id": 2185,
+        "votos": 929,
+        "candidato": "Guillermo Lasso",
+        "value": 44.22
+    },
+    {
+        "id": 3290,
+        "votos": 346,
+        "candidato": "Guillermo Lasso",
+        "value": 29.25
+    },
+    {
+        "id": 3315,
+        "votos": 6010,
+        "candidato": "Guillermo Lasso",
+        "value": 58.92
+    },
+    {
+        "id": 5165,
+        "votos": 6139,
+        "candidato": "Guillermo Lasso",
+        "value": 66.62
+    },
+    {
+        "id": 5440,
+        "votos": 3402,
+        "candidato": "Guillermo Lasso",
+        "value": 56.19
+    },
+    {
+        "id": 5915,
+        "votos": 23772,
+        "candidato": "Guillermo Lasso",
+        "value": 65.38
+    },
+    {
+        "id": 5960,
+        "votos": 24856,
+        "candidato": "Guillermo Lasso",
+        "value": 69.00
+    },
+    {
+        "id": 6780,
+        "votos": 1141,
+        "candidato": "Guillermo Lasso",
+        "value": 58.91
+    },
+    {
+        "id": 100150,
+        "votos": 59310,
+        "candidato": "Guillermo Lasso",
+        "value": 66.20
+    }
+]

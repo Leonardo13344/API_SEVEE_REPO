@@ -1,0 +1,32 @@
+[
+    {
+        "id": 4330,
+        "votos": 47,
+        "candidato": "Gerson Almeida",
+        "value": 1.04
+    },
+    {
+        "id": 4585,
+        "votos": 15,
+        "candidato": "Gerson Almeida",
+        "value": 1.69
+    },
+    {
+        "id": 4590,
+        "votos": 11,
+        "candidato": "Gerson Almeida",
+        "value": 1.26
+    },
+    {
+        "id": 6235,
+        "votos": 742,
+        "candidato": "Gerson Almeida",
+        "value": 2.26
+    },
+    {
+        "id": 7480,
+        "votos": 55,
+        "candidato": "Gerson Almeida",
+        "value": 4.22
+    }
+]

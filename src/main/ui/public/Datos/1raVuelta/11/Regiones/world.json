@@ -1,0 +1,540 @@
+[
+    {
+        "id": "11",
+        "candidato": "Juan Velasco",
+        "votos": 1,
+        "value": "(0.13%)",
+        "aux": "votos"
+    },
+    {
+        "id": "31",
+        "votos": 2,
+        "candidato": "Juan Velasco",
+        "value": "(1.75%)",
+        "aux": "votos"
+    },
+    {
+        "id": "41",
+        "votos": 2,
+        "candidato": "Juan Velasco",
+        "value": "(1.08%)",
+        "aux": "votos"
+    },
+    {
+        "id": "51",
+        "votos": 4,
+        "candidato": "Juan Velasco",
+        "value": "(0.34%)",
+        "aux": "votos"
+    },
+    {
+        "id": "101",
+        "votos": 0,
+        "candidato": "Juan Velasco",
+        "value": "(0.01%)",
+        "aux": "votos"
+    },
+    {
+        "id": "141",
+        "votos": 0,
+        "candidato": "Juan Velasco",
+        "value": "(0.01%)",
+        "aux": "votos"
+    },
+    {
+        "id": "171",
+        "votos": 257,
+        "candidato": "Juan Velasco",
+        "value": "(0.50%)",
+        "aux": "votos"
+    },
+    {
+        "id": "191",
+        "votos": 1,
+        "candidato": "Juan Velasco",
+        "value": "(0.11%)",
+        "aux": "votos"
+    },
+    {
+        "id": "201",
+        "votos": 14,
+        "candidato": "Juan Velasco",
+        "value": "(0.62%)",
+        "aux": "votos"
+    },
+    {
+        "id": "231",
+        "votos": 0,
+        "candidato": "Juan Velasco",
+        "value": "(0.01%)",
+        "aux": "votos"
+    },
+    {
+        "id": "251",
+        "votos": 1,
+        "candidato": "Juan Velasco",
+        "value": "(1.25%)",
+        "aux": "votos"
+    },
+    {
+        "id": "261",
+        "votos": 108,
+        "candidato": "Juan Velasco",
+        "value": "(10.68%)",
+        "aux": "votos"
+    },
+    {
+        "id": "271",
+        "votos": 0,
+        "candidato": "Juan Velasco",
+        "value": "(0.01%)",
+        "aux": "votos"
+    },
+    {
+        "id": "301",
+        "votos": 1,
+        "candidato": "Juan Velasco",
+        "value": "(0.81%)",
+        "aux": "votos"
+    },
+    {
+        "id": "361",
+        "votos": 3,
+        "candidato": "Juan Velasco",
+        "value": "(1.14%)",
+        "aux": "votos"
+    },
+    {
+        "id": "371",
+        "votos": 2,
+        "candidato": "Juan Velasco",
+        "value": "(0.29%)",
+        "aux": "votos"
+    },
+    {
+        "id": "381",
+        "votos": 0,
+        "candidato": "Juan Velasco",
+        "value": "(0.01%)",
+        "aux": "votos"
+    },
+    {
+        "id": "411",
+        "votos": 0,
+        "candidato": "Juan Velasco",
+        "value": "(0.01%)",
+        "aux": "votos"
+    },
+    {
+        "id": "451",
+        "votos": 0,
+        "candidato": "Juan Velasco",
+        "value": "(0.01%)",
+        "aux": "votos"
+    },
+    {
+        "id": "81",
+        "votos": 4,
+        "candidato": "Juan Velasco",
+        "value": "(0.26%)",
+        "aux": "votos"
+    },
+    {
+        "id": "181",
+        "votos": 69,
+        "candidato": "Juan Velasco",
+        "value": "(0.32%)",
+        "aux": "votos"
+    },
+    {
+        "id": "21",
+        "votos": 2,
+        "candidato": "Juan Velasco",
+        "value": "(0.28%)",
+        "aux": "votos"
+    },
+    {
+        "id": "61",
+        "votos": 0,
+        "candidato": "Juan Velasco",
+        "value": "(0.01%)",
+        "aux": "votos"
+    },
+    {
+        "id": "71",
+        "votos": 2,
+        "candidato": "Juan Velasco",
+        "value": "(0.83%)",
+        "aux": "votos"
+    },
+    {
+        "id": "91",
+        "votos": 13,
+        "candidato": "Juan Velasco",
+        "value": "(0.90%)",
+        "aux": "votos"
+    },
+    {
+        "id": "111",
+        "votos": 1,
+        "candidato": "Juan Velasco",
+        "value": "(0.48%)",
+        "aux": "votos"
+    },
+    {
+        "id": "121",
+        "votos": 1,
+        "candidato": "Juan Velasco",
+        "value": "(1.30%)",
+        "aux": "votos"
+    },
+    {
+        "id": "131",
+        "votos": 26,
+        "candidato": "Juan Velasco",
+        "value": "(1.48%)",
+        "aux": "votos"
+    },
+    {
+        "id": "161",
+        "votos": 0,
+        "candidato": "Juan Velasco",
+        "value": "(0.01%)",
+        "aux": "votos"
+    },
+    {
+        "id": "211",
+        "votos": 0,
+        "candidato": "Juan Velasco",
+        "value": "(0.01%)",
+        "aux": "votos"
+    },
+    {
+        "id": "221",
+        "votos": 2,
+        "candidato": "Juan Velasco",
+        "value": "(3.45%)",
+        "aux": "votos"
+    },
+    {
+        "id": "281",
+        "votos": 4,
+        "candidato": "",
+        "votos1": 1,
+        "value": "(1.4%)",
+        "aux": "votos"
+    },
+    {
+        "id": "312",
+        "votos": 3,
+        "candidato": "Juan Velasco",
+        "value": "(1.36%)",
+        "aux": "votos"
+    },
+    {
+        "id": "321",
+        "votos": 0,
+        "candidato": "Juan Velasco",
+        "value": "(0.01%)",
+        "aux": "votos"
+    },
+    {
+        "id": "331",
+        "votos": 1,
+        "candidato": "Juan Velasco",
+        "value": "(0.39%)",
+        "aux": "votos"
+    },
+    {
+        "id": "341",
+        "votos": 0,
+        "candidato": "Juan Velasco",
+        "value": "(0.01%)",
+        "aux": "votos"
+    },
+    {
+        "id": "351",
+        "votos": 0,
+        "candidato": "Juan Velasco",
+        "value": "(0.01%)",
+        "aux": "votos"
+    },
+    {
+        "id": "391",
+        "votos": 1,
+        "candidato": "Juan Velasco",
+        "value": "(1.30%)",
+        "aux": "votos"
+    },
+    {
+        "id": "401",
+        "votos": 16,
+        "candidato": "Juan Velasco",
+        "value": "(0.49%)",
+        "aux": "votos"
+    },
+    {
+        "id": "441",
+        "votos": 0,
+        "candidato": "Juan Velasco",
+        "value": "(0.01%)",
+        "aux": "votos"
+    },
+    {
+        "id": "EC",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "SR",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "PR",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "NI",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "JM",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "HT",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "GY",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "GF",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "BZ",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "YE",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "VN",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "UZ",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "UA",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "TM",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "TH",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "SY",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "SG",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "RS",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "RO",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "CZ",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "PT",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "PL",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "PS",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "PK",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "OM",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "NO",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "MM",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "ME",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "RO",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "MN",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "MY",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "MK",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "LU",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "LT",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "LB",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "LV",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "LA",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "KW",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "KG",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "KZ",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "JO",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "JE",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "IE",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "IR",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "IQ",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "FI",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "PH",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "EE",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "SI",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "SK",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "AE",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "DK",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "HR",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "KP",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "KH",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "BA",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "AZ",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "AM",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "SA",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "AL",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "AF",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "MD",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "GR",
+        "fill": "#ced4da"
+    },
+    {
+        "id": "BY",
+        "fill": "#ced4da"
+    }
+
+]

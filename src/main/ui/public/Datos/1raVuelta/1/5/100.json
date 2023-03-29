@@ -1,0 +1,69 @@
+[
+    {
+        "id": 35,
+        "votos": 416,
+        "candidato": "Guillermo Lasso",
+        "value": 9.27
+    },
+    {
+        "id": 315,
+        "votos": 359,
+        "candidato": "Guillermo Lasso",
+        "value": 10.19
+    },
+    {
+        "id": 1485,
+        "votos": 573,
+        "candidato": "Guillermo Lasso",
+        "value": 9.06
+    },
+    {
+        "id": 1905,
+        "votos": 173,
+        "candidato": "Guillermo Lasso",
+        "value": 13.52
+    },
+    {
+        "id": 2480,
+        "votos": 429,
+        "candidato": "Guillermo Lasso",
+        "value": 7.30
+    },
+    {
+        "id": 2620,
+        "votos": 175,
+        "candidato": "Guillermo Lasso",
+        "value": 12.04
+    },
+    {
+        "id": 2920,
+        "votos": 288,
+        "candidato": "Guillermo Lasso",
+        "value": 7.07
+    },
+    {
+        "id": 3530,
+        "votos": 356,
+        "candidato": "Guillermo Lasso",
+        "value": 5.03
+    },
+    {
+        "id": 3965,
+        "votos": 778,
+        "candidato": "Guillermo Lasso",
+        "value": 9.15
+    },
+    {
+        "id": 4035,
+        "votos": 539,
+        "candidato": "Guillermo Lasso",
+        "value": 7.42
+    },
+   
+    {
+        "id": 50150,
+        "votos": 13364,
+        "candidato": "Guillermo Lasso",
+        "value": 19.53
+    }
+]

@@ -1,0 +1,101 @@
+[
+    {
+        "candidato2": "Andres Arauz",
+        "candidato1": "Yaku Perez",
+        "id": 795,
+        "votos": 3819,
+        "votos1": 2039,
+        "fill": "#9B59B6",
+        "votos2": 741,
+        "porcentaje1": 53.39,
+        "porcentaje2": 19.40
+    },
+    {
+        "candidato2": "Andres Arauz",
+        "candidato1": "Yaku Perez",
+        "id": 1255,
+        "votos": 1407,
+        "votos1": 951,
+        "fill": "#9B59B6",
+        "votos2": 128,
+        "porcentaje1": 67.59,
+        "porcentaje2": 9.10
+    },
+    {
+        "candidato2": "Andres Arauz",
+        "candidato1": "Yaku Perez",
+        "id": 1890,
+        "votos": 1265,
+        "votos1": 919,
+        "fill": "#9B59B6",
+        "votos2": 100,
+        "porcentaje1": 72.65,
+        "porcentaje2": 7.91
+    },
+    {
+        "candidato2": "Andres Arauz",
+        "candidato1": "Yaku Perez",
+        "id": 3285,
+        "votos": 2826,
+        "votos1": 1810,
+        "fill": "#9B59B6",
+        "votos2": 412,
+        "porcentaje1": 64.05,
+        "porcentaje2": 14.58
+    },
+    {
+        "candidato2": "Guillermo Lasso",
+        "candidato1": "Yaku Perez",
+        "id": 3545,
+        "votos": 1179,
+        "votos1": 666,
+        "fill": "#9B59B6",
+        "votos2": 182,
+        "porcentaje1": 56.49,
+        "porcentaje2": 15.44
+    },
+    {
+        "candidato2": "Andres Arauz",
+        "candidato1": "Yaku Perez",
+        "id": 3670,
+        "votos": 2411,
+        "votos1": 1400,
+        "fill": "#9B59B6",
+        "votos2": 276,
+        "porcentaje1": 58.07,
+        "porcentaje2": 11.45
+    },
+    {
+        "candidato2": "Guillermo Lasso",
+        "candidato1": "Yaku Perez",
+        "id": 3710,
+        "votos": 1241,
+        "votos1": 586,
+        "fill": "#9B59B6",
+        "votos2": 193,
+        "porcentaje1": 47.22,
+        "porcentaje2": 15.55
+    },
+    {
+        "candidato2": "Andres Arauz",
+        "candidato1": "Yaku Perez",
+        "id": 3860,
+        "votos": 6066,
+        "votos1": 3813,
+        "fill": "#9B59B6",
+        "votos2": 1275,
+        "porcentaje1": 62.86,
+        "porcentaje2": 21.02
+    },
+    {
+        "candidato2": "Guillermo Lasso",
+        "candidato1": "Yaku Perez",
+        "id": 165,
+        "votos": 29437,
+        "votos1": 19084, 
+        "fill": "#9B59B6",
+        "votos2": 6095,
+        "porcentaje1": 68.82,
+        "porcentaje2": 20.70
+    }
+]

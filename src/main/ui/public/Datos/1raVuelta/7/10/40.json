@@ -1,0 +1,68 @@
+[
+    {
+        "id": 145,
+        "votos": 25,
+        "candidato": "Lucio Gutierrez",
+        "value": 2.09
+    },
+    {
+        "id": 1310,
+        "votos": 65,
+        "candidato": "Lucio Gutierrez",
+        "value": 1.34
+    },
+    {
+        "id": 1710,
+        "votos": 46,
+        "candidato": "Lucio Gutierrez",
+        "value": 1.41
+    },
+    {
+        "id": 2820,
+        "votos": 17,
+        "candidato": "Lucio Gutierrez",
+        "value": 1.66
+    },
+    {
+        "id": 2915,
+        "votos": 5,
+        "candidato": "Lucio Gutierrez",
+        "value": 1.31
+    },
+    {
+        "id": 3115,
+        "votos": 69,
+        "candidato": "Lucio Gutierrez",
+        "value": 1.52
+    },
+    {
+        "id": 3800,
+        "votos": 21,
+        "candidato": "Lucio Gutierrez",
+        "value": 1.69
+    },
+    {
+        "id": 4185,
+        "votos": 8,
+        "candidato": "Lucio Gutierrez",
+        "value": 2.37
+    },
+    {
+        "id": 5910,
+        "votos": 67,
+        "candidato": "Lucio Gutierrez",
+        "value": 0.91
+    },
+    {
+        "id": 5955,
+        "votos": 42,
+        "candidato": "Lucio Gutierrez",
+        "value": 1.04
+    },
+    {
+        "id": 100350,
+        "votos": 109,
+        "candidato": "Lucio Gutierrez",
+        "value": 0.10
+    }
+]

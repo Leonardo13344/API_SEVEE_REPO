@@ -1,0 +1,68 @@
+[
+    {
+        "candidato2": "Marcelo Hervas",
+        "candidato1": "Yaku Perez",
+        "id": 250,
+        "votos": 669,
+        "votos1": 282,
+        "fill": "#9B59B6",
+        "votos2": 137,
+        "porcentaje1": 42.15,
+        "porcentaje2": 20.48
+    },
+    {
+        "candidato2": "Marcelo Hervas",
+        "candidato1": "Yaku Perez",
+        "id": 690,
+        "votos": 1825,
+        "votos1": 640,
+        "fill": "#9B59B6",
+        "votos2": 451,
+        "porcentaje1": 35.07,
+        "porcentaje2": 24.71
+    },
+    {
+        "candidato2": "Andres Arauz",
+        "candidato1": "Yaku Perez",
+        "id": 910,
+        "votos": 439,
+        "votos1": 123,
+        "fill": "#9B59B6",
+        "votos2": 100,
+        "porcentaje1": 28.02,
+        "porcentaje2": 22.78
+    },
+    {
+        "candidato2": "Andres Arauz",
+        "candidato1": "Yaku Perez",
+        "id": 1270,
+        "votos": 662,
+        "votos1": 195,
+        "fill": "#9B59B6",
+        "votos2": 160,
+        "porcentaje1": 29.46,
+        "porcentaje2": 24.17
+    },
+    {
+        "candidato2": "Yaku Perez",
+        "candidato1": "Marcelo Hervas",
+        "id": 2065,
+        "votos": 1951,
+        "votos1": 537,
+        "fill": "#e2943a",
+        "votos2": 534,
+        "porcentaje1": 27.52,
+        "porcentaje2": 27.37
+    },
+    {
+        "candidato2": "Marcelo Hervas",
+        "candidato1": "Yaku Perez",
+        "id": 40550,
+        "votos": 13115,
+        "votos1": 3664,
+        "fill": "#9B59B6",
+        "votos2": 3485,
+        "porcentaje1": 27.93,
+        "porcentaje2": 26.57
+    }
+]

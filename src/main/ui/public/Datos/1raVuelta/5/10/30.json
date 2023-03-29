@@ -1,0 +1,80 @@
+[
+    {
+        "id": 100,
+        "votos": 54,
+        "candidato": "Pedro Freile",
+        "value": 1.63
+    },
+    {
+        "id": 130,
+        "votos": 77,
+        "candidato": "Pedro Freile",
+        "value": 3.10
+    },
+    {
+        "id": 530,
+        "votos": 21,
+        "candidato": "Pedro Freile",
+        "value": 1.37
+    },
+    {
+        "id": 2020,
+        "votos": 177,
+        "candidato": "Pedro Freile",
+        "value": 3.45
+    },
+    {
+        "id": 2185,
+        "votos": 30,
+        "candidato": "Pedro Freile",
+        "value": 1.53
+    },
+    {
+        "id": 3290,
+        "votos": 45,
+        "candidato": "Pedro Freile",
+        "value": 3.89
+    },
+    {
+        "id": 3315,
+        "votos": 658,
+        "candidato": "Pedro Freile",
+        "value": 6.03
+    },
+    {
+        "id": 5165,
+        "votos": 647,
+        "candidato": "Pedro Freile",
+        "value": 6.50
+    },
+    {
+        "id": 5440,
+        "votos": 347,
+        "candidato": "Pedro Freile",
+        "value": 5.46
+    },
+    {
+        "id": 5915,
+        "votos": 2324,
+        "candidato": "Pedro Freile",
+        "value": 6.09
+    },
+    {
+        "id": 5960,
+        "votos": 2323,
+        "candidato": "Pedro Freile",
+        "value": 6.23
+    },
+    {
+        "id": 6780,
+        "votos": 118,
+        "candidato": "Pedro Freile",
+        "value": 5.60
+    },
+    {
+        "id": 100152,
+        "votos": 5759,
+        "candidato": "Pedro Freile",
+        "value": 6.13
+    }
+]

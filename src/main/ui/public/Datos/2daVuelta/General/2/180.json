@@ -1,0 +1,24 @@
+[
+    {
+        "candidato2": "Andres Arauz",
+        "candidato1": "Guillermo Lasso",
+        "id": 5975,
+        "votos": 3469,
+        "votos1": 2214,
+        "fill": "#045A8D",
+        "votos2": 1255,
+        "porcentaje1": 63.82,
+        "porcentaje2": 36.18
+    },
+    {
+        "candidato2": "Andres Arauz",
+        "candidato1": "Guillermo Lasso",
+        "id": 5245,
+        "votos": 6306,
+        "votos1": 4248,
+        "fill": "#045A8D",
+        "votos2": 2058,
+        "porcentaje1": 67.36,
+        "porcentaje2": 32.64
+    }
+]

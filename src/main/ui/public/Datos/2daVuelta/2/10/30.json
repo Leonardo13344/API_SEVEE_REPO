@@ -1,0 +1,80 @@
+[
+    {
+        "id": 100,
+        "votos": 2431,
+        "candidato": "Andres Arauz",
+        "value": 70.48
+    },
+    {
+        "id": 130,
+        "votos": 1280,
+        "candidato": "Andres Arauz",
+        "value": 56.29
+    },
+    {
+        "id": 530,
+        "votos": 973,
+        "candidato": "Andres Arauz",
+        "value": 64.52
+    },
+    {
+        "id": 2020,
+        "votos": 2443,
+        "candidato": "Andres Arauz",
+        "value": 55.65
+    },
+    {
+        "id": 2185,
+        "votos": 1172,
+        "candidato": "Andres Arauz",
+        "value": 55.78
+    },
+    {
+        "id": 3290,
+        "votos": 837,
+        "candidato": "Andres Arauz",
+        "value": 70.75
+    },
+    {
+        "id": 3315,
+        "votos": 4190,
+        "candidato": "Andres Arauz",
+        "value": 41.08
+    },
+    {
+        "id": 5165,
+        "votos": 3076,
+        "candidato": "Andres Arauz",
+        "value": 33.38
+    },
+    {
+        "id": 5440,
+        "votos": 2652,
+        "candidato": "Andres Arauz",
+        "value": 43.81
+    },
+    {
+        "id": 5915,
+        "votos": 12587,
+        "candidato": "Andres Arauz",
+        "value": 34.62
+    },
+    {
+        "id": 5960,
+        "votos": 11168,
+        "candidato": "Andres Arauz",
+        "value": 31.00
+    },
+    {
+        "id": 6780,
+        "votos": 796,
+        "candidato": "Andres Arauz",
+        "value": 41.09
+    },
+    {
+        "id": 100150,
+        "votos": 30279,
+        "candidato": "Andres Arauz",
+        "value": 33.80
+    }
+]

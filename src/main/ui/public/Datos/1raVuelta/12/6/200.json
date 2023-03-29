@@ -1,0 +1,63 @@
+[
+    {
+        "id": 40,
+        "votos": 2,
+        "candidato": "Cesar Montufar",
+        "value": 0.25
+    },
+    {
+        "id": 45,
+        "votos": 6,
+        "candidato": "Cesar Montufar",
+        "value": 0.71
+    },
+    {
+        "id": 410,
+        "votos": 2,
+        "candidato": "Cesar Montufar",
+        "value": 0.52
+    },
+    {
+        "id": 1415,
+        "votos": 2,
+        "candidato": "Cesar Montufar",
+        "value": 0.53
+    },
+    {
+        "id": 1705,
+        "votos": 7,
+        "candidato": "Cesar Montufar",
+        "value": 0.45
+    },
+    {
+        "id": 2080,
+        "votos": 4,
+        "candidato": "Cesar Montufar",
+        "value": 0.88
+    },
+    {
+        "id": 3295,
+        "votos": 38,
+        "candidato": "Cesar Montufar",
+        "value": 0.46
+    },
+    {
+        "id": 3425,
+        "votos": 3,
+        "candidato": "Cesar Montufar",
+        "value": 0.24
+    },
+    {
+        "id": 3450,
+        "votos": 7,
+        "candidato": "Cesar Montufar",
+        "value": 0.27
+    },
+ 
+    {
+        "id": 60750,
+        "votos": 94,
+        "candidato": "Cesar Montufar",
+        "value": 0.91
+    }
+]

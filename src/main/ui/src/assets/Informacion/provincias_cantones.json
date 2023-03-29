@@ -1,0 +1,1301 @@
+[
+    {
+        "id": "1",
+        "provincia": "AZUAY",
+        "ncantones": [
+            "Cuenca",
+            "Gualaceo",
+            "GIRON",
+            "PAUTE",
+            "SIGSIG",
+            "SANTA ISABEL",
+            "PUCARA",
+            "CAMILO PONCE ENRIQUEZ",
+            "OÑA",
+            "SAN FERNANDO",
+            "NABON",
+            "CHORDELEG",
+            "SEVILLA DE ORO",
+            "EL PAN",
+            "GUACHAPALA"
+        ],
+        "cantones": [
+            {
+                "idcan": "260",
+                "nombre": "Cuenca"
+            },
+            {
+                "idcan": "265",
+                "nombre": "Gualaceo"
+            },
+            {
+                "idcan": "270",
+                "nombre": "GIRON"
+            },
+            {
+                "idcan": "275",
+                "nombre": "PAUTE"
+            },
+            {
+                "idcan": "280",
+                "nombre": "SIGSIG"
+            },
+            {
+                "idcan": "285",
+                "nombre": "SANTA ISABEL"
+            },
+            {
+                "idcan": "555",
+                "nombre": "PUCARA"
+            },
+            {
+                "idcan": "556",
+                "nombre": "CAMILO PONCE ENRIQUEZ"
+            },
+            {
+                "idcan": "780",
+                "nombre": "OÑA"
+            },
+            {
+                "idcan": "855",
+                "nombre": "SAN FERNANDO"
+            },
+            {
+                "idcan": "885",
+                "nombre": "NABON"
+            },
+            {
+                "idcan": "915",
+                "nombre": "CHORDELEG"
+            },
+            {
+                "idcan": "955",
+                "nombre": "SEVILLA DE ORO"
+            },
+            {
+                "idcan": "960",
+                "nombre": "EL PAN"
+            },
+            {
+                "idcan": "990",
+                "nombre": "GUACHAPALA"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "provincia": "BOLIVAR",
+        "ncantones": [
+            "GUARANDA",
+            "SAN CHIMBO",
+            "SAN MIGUEL",
+            "CHILLANES",
+            "ECHEANDIA",
+            "CALUMA",
+            "LAS NAVES"
+        ],
+        "cantones": [
+            {
+                "idcan": "165",
+                "nombre": "GUARANDA"
+            },
+            {
+                "idcan": "170",
+                "nombre": "SAN CHIMBO"
+            },
+            {
+                "idcan": "175",
+                "nombre": "SAN MIGUEL"
+            },
+            {
+                "idcan": "180",
+                "nombre": "CHILLANES"
+            },
+            {
+                "idcan": "185",
+                "nombre": "ECHEANDIA"
+            },
+            {
+                "idcan": "760",
+                "nombre": "CALUMA"
+            },
+            {
+                "idcan": "950",
+                "nombre": "LAS NAVES"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "provincia": "CAÑAR",
+        "ncantones": [
+            "AZOGUES",
+            "CAÑAR",
+            "SUSCAL",
+            "BIBLIAN",
+            "LA TRONCAL",
+            "EL TAMBO",
+            "DELEG"
+        ],
+        "cantones": [
+            {
+                "idcan": "235",
+                "nombre": "AZOGUES"
+            },
+            {
+                "idcan": "240",
+                "nombre": "CAÑAR"
+            },
+            {
+                "idcan": "241",
+                "nombre": "SUSCAL"
+            },
+            {
+                "idcan": "245",
+                "nombre": "BIBLIAN"
+            },
+            {
+                "idcan": "250",
+                "nombre": "LA TRONCAL"
+            },
+            {
+                "idcan": "765",
+                "nombre": "EL TAMBO"
+            },
+            {
+                "idcan": "905",
+                "nombre": "DELEG"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "provincia": "CARCHI",
+        "ncantones": [
+            "TULCAN",
+            "MONTUFAR",
+            "ESPEJO",
+            "MIRA",
+            "BOLIVAR",
+            "SAN PEDRO DE HUACA"
+        ],
+        "cantones": [
+            {
+                "idcan": "5",
+                "nombre": "TULCAN"
+            },
+            {
+                "idcan": "10",
+                "nombre": "MONTUFAR"
+            },
+            {
+                "idcan": "15",
+                "nombre": "ESPEJO"
+            },
+            {
+                "idcan": "20",
+                "nombre": "MIRA"
+            },
+            {
+                "idcan": "25",
+                "nombre": "BOLIVAR"
+            },
+            {
+                "idcan": "995",
+                "nombre": "SAN PEDRO DE HUACA"
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "provincia": "COTOPAXI",
+        "ncantones": [
+            "LATACUNGA",
+            "PUJILI",
+            "SALCEDO",
+            "SAQUISILI",
+            "PANGUA",
+            "LA MANA",
+            "SIGCHOS"
+        ],
+        "cantones": [
+            {
+                "idcan": "100",
+                "nombre": "LATACUNGA"
+            },
+            {
+                "idcan": "105",
+                "nombre": "PUJILI"
+            },
+            {
+                "idcan": "110",
+                "nombre": "SALCEDO"
+            },
+            {
+                "idcan": "115",
+                "nombre": "SAQUISILI"
+            },
+            {
+                "idcan": "120",
+                "nombre": "PANGUA"
+            },
+            {
+                "idcan": "825",
+                "nombre": "SANTA LA MANA"
+            },
+            {
+                "idcan": "930",
+                "nombre": "SIGCHOS"
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "provincia": "CHIMBORAZO",
+        "ncantones": [
+            "CHAMBO",
+            "RIOBAMBA",
+            "GUANO",
+            "COLTA",
+            "GUAMOTE",
+            "ALAUSI",
+            "CHUNCHI",
+            "PENIPE",
+            "PALLATANGA",
+            ""
+        ],
+        "cantones": [
+            {
+                "idcan": "190",
+                "nombre": "CHAMBO"
+            },
+            {
+                "idcan": "195",
+                "nombre": "RIOBAMBA"
+            },
+            {
+                "idcan": "200",
+                "nombre": "GUANO"
+            },
+            {
+                "idcan": "205",
+                "nombre": "COLTA"
+            },
+            {
+                "idcan": "210",
+                "nombre": "GUAMOTE"
+            },
+            {
+                "idcan": "215",
+                "nombre": "ALAUSI"
+            },
+            {
+                "idcan": "220",
+                "nombre": "CHUNCHI"
+            },
+            {
+                "idcan": "225",
+                "nombre": "PENIPE"
+            },
+            {
+                "idcan": "830",
+                "nombre": "PALLATANGA"
+            },
+            {
+                "idcan": "900",
+                "nombre": "CUMANDA"
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "provincia": "EL ORO",
+        "ncantones": [
+            "MACHALA",
+            "SANTA ROSA",
+            "ZARUMA",
+            "PASAJE",
+            "PIÑAS",
+            "ARENILLAS",
+            "EL GUABO",
+            "CHILLA",
+            "PORTOVELO",
+            "HUAQUILLAS",
+            "ATAHUALPA",
+            "LAS LAJAS",
+            "MARCABELI",
+            "BALSAS"
+        ],
+        "cantones": [
+            {
+                "idcan": "350",
+                "nombre": "MACHALA"
+            },
+            {
+                "idcan": "355",
+                "nombre": "SANTA ROSA"
+            },
+            {
+                "idcan": "360",
+                "nombre": "ZARUMA"
+            },
+            {
+                "idcan": "365",
+                "nombre": "PASAJE"
+            },
+            {
+                "idcan": "370",
+                "nombre": "PIÑAS"
+            },
+            {
+                "idcan": "375",
+                "nombre": "ARENILLAS"
+            },
+            {
+                "idcan": "380",
+                "nombre": "EL GUABO"
+            },
+            {
+                "idcan": "585",
+                "nombre": "CHILLA"
+            },
+            {
+                "idcan": "690",
+                "nombre": "PORTOVELO"
+            },
+            {
+                "idcan": "695",
+                "nombre": "HUAQUILLAS"
+            },
+            {
+                "idcan": "705",
+                "nombre": "ATAHUALPA"
+            },
+            {
+                "idcan": "755",
+                "nombre": "LAS LAJAS"
+            },
+            {
+                "idcan": "860",
+                "nombre": "MARCABELI"
+            },
+            {
+                "idcan": "875",
+                "nombre": "BALSAS"
+            }
+        ]
+    },
+    {
+        "id": "8",
+        "provincia": "ESMERALDAS",
+        "ncantones": [
+            "ESMERALDAS",
+            "RIO VERDE",
+            "ELOY ALFARO",
+            "MUISNE",
+            "QUININDE",
+            "SAN LORENZO",
+            "ATACAMES"
+        ],
+        "cantones": [
+            {
+                "idcan": "560",
+                "nombre": "ESMERALDAS"
+            },
+            {
+                "idcan": "561",
+                "nombre": "RIO VERDE"
+            },
+            {
+                "idcan": "565",
+                "nombre": "ELOY ALFARO"
+            },
+            {
+                "idcan": "570",
+                "nombre": "MUISNE"
+            },
+            {
+                "idcan": "575",
+                "nombre": "QUININDE"
+            },
+            {
+                "idcan": "580",
+                "nombre": "SAN LORENZO"
+            },
+            {
+                "idcan": "785",
+                "nombre": "ATACAMES"
+            }
+        ]
+    },
+    {
+        "id": "9",
+        "provincia": "GUAYAS",
+        "ncantones": [
+            "BALAO",
+            "COLIMES",
+            "EL EMPALME",
+            "GUAYAQUIL",
+            "YAGUACHI",
+            "DAULE",
+            "BALZAR",
+            "MILAGRO",
+            "SAMBORONDON",
+            "SALITRE",
+            "NARANJAL",
+            "EL TRIUNFO",
+            "NARANJITO",
+            "PALESTINA",
+            "PEDRO CARBO",
+            "PLAYAS",
+            "SIMON BOLIVAR",
+            "DURAN",
+            "A.BAQUERIZO MORENO",
+            "SANTA LUCIA",
+            "CRNL MARCELINO MARIDUENAS",
+            "LOMAS DE SARGENTILLO",
+            "NOBOL / PIEDRAHITA",
+            "GRAL. A. ELIZALDE",
+            "ISIDRO AYORA"
+        ],
+        "cantones": [
+            {
+                "idcan": "95",
+                "nombre": "BALAO"
+            },
+            {
+                "idcan": "125",
+                "nombre": "COLIMES"
+            },
+            {
+                "idcan": "385",
+                "nombre": "EL EMPALME"
+            },
+            {
+                "idcan": "390",
+                "nombre": "GUAYAQUIL"
+            },
+            {
+                "idcan": "395",
+                "nombre": "YAGUACHI"
+            },
+            {
+                "idcan": "400",
+                "nombre": "DAULE"
+            },
+            {
+                "idcan": "415",
+                "nombre": "BALZAR"
+            },
+            {
+                "idcan": "420",
+                "nombre": "MILAGRO"
+            },
+            {
+                "idcan": "425",
+                "nombre": "SAMBORONDON"
+            },
+            {
+                "idcan": "430",
+                "nombre": "SALITRE"
+            },
+            {
+                "idcan": "435",
+                "nombre": "NARANJAL"
+            },
+            {
+                "idcan": "505",
+                "nombre": "EL TRIUNFO"
+            },
+            {
+                "idcan": "510",
+                "nombre": "NARANJITO"
+            },
+            {
+                "idcan": "675",
+                "nombre": "PALESTINA"
+            },
+            {
+                "idcan": "715",
+                "nombre": "PEDRO CARBO"
+            },
+            {
+                "idcan": "735",
+                "nombre": "PLAYAS"
+            },
+            {
+                "idcan": "790",
+                "nombre": "SIMON BOLIVAR"
+            },
+            {
+                "idcan": "820",
+                "nombre": "DURAN"
+            },
+            {
+                "idcan": "835",
+                "nombre": "A.BAQUERIZO MORENO"
+            },
+            {
+                "idcan": "870",
+                "nombre": "SANTA LUCIA"
+            },
+            {
+                "idcan": "890",
+                "nombre": "CRNL MARCELINO MARIDUENAS"
+            },
+            {
+                "idcan": "920",
+                "nombre": "LOMAS DE SARGENTILLO"
+            },
+            {
+                "idcan": "940",
+                "nombre": "NOBOL / PIEDRAHITA"
+            },
+            {
+                "idcan": "985",
+                "nombre": "GRAL. A. ELIZALDE"
+            },
+            {
+                "idcan": "986",
+                "nombre": "ISIDRO AYORA"
+            }
+        ]
+    },
+    {
+        "id": "10",
+        "provincia": "IMBABURA",
+        "ncantones": [
+            "Cuenca",
+            "IBARRA",
+            "OTAVALO",
+            "COTACACHI",
+            "ANTONIO ANTE",
+            "PIMAMPIRO",
+            "URCUQUI"
+        ],
+        "cantones": [
+            {
+                "idcan": "30",
+                "nombre": "IBARRA"
+            },
+            {
+                "idcan": "35",
+                "nombre": "OTAVALO"
+            },
+            {
+                "idcan": "40",
+                "nombre": "COTACACHI"
+            },
+            {
+                "idcan": "45",
+                "nombre": "ANTONIO ANTE"
+            },
+            {
+                "idcan": "50",
+                "nombre": "PIMAMPIRO"
+            },
+            {
+                "idcan": "55",
+                "nombre": "URCUQUI"
+            }
+        ]
+    },
+    {
+        "id": "11",
+        "provincia": "LOJA",
+        "ncantones": [
+            "CATAMAYO",
+            "ZAPOTILLO",
+            "LOJA",
+            "SARAGURO",
+            "PALTAS",
+            "OLMEDO",
+            "CELICA",
+            "CALVAS",
+            "MACARA",
+            "PUYANGO",
+            "GONZANAMA",
+            "ESPINDOLA",
+            "SOZORANGA",
+            "PINDAL",
+            "QUILANGA",
+            "CHAGUARPAMBA"
+        ],
+        "cantones": [
+            {
+                "idcan": "290",
+                "nombre": "CATAMAYO"
+            },
+            {
+                "idcan": "295",
+                "nombre": "ZAPOTILLO"
+            },
+            {
+                "idcan": "300",
+                "nombre": "LOJA"
+            },
+            {
+                "idcan": "305",
+                "nombre": "SARAGURO"
+            },
+            {
+                "idcan": "310",
+                "nombre": "PALTAS"
+            },
+            {
+                "idcan": "311",
+                "nombre": "OLMEDO"
+            },
+            {
+                "idcan": "315",
+                "nombre": "CELICA"
+            },
+            {
+                "idcan": "320",
+                "nombre": "CALVAS"
+            },
+            {
+                "idcan": "325",
+                "nombre": "MACARA"
+            },
+            {
+                "idcan": "330",
+                "nombre": "PUYANGO"
+            },
+            {
+                "idcan": "335",
+                "nombre": "GONZANAMA"
+            },
+            {
+                "idcan": "340",
+                "nombre": "ESPINDOLA"
+            },
+            {
+                "idcan": "345",
+                "nombre": "SOZORANGA"
+            },
+            {
+                "idcan": "730",
+                "nombre": "PINDAL"
+            },
+            {
+                "idcan": "740",
+                "nombre": "QUILANGA"
+            },
+            {
+                "idcan": "815",
+                "nombre": "CHAGUARPAMBA"
+            }
+        ]
+    },
+    {
+        "id": "12",
+        "provincia": "LOS RIOS",
+        "ncantones": [
+            "BABAHOYO",
+            "VALENCIA",
+            "BABA",
+            "VINCES",
+            "PUEBLO VIEJO",
+            "URDANETA",
+            "QUEVEDO",
+            "VENTANAS",
+            "QUINSALOMA",
+            "MONTALVO",
+            "PALENQUE",
+            "BUENA FE",
+            "MOCACHE"
+        ],
+        "cantones": [
+            {
+                "idcan": "515",
+                "nombre": "BABAHOYO"
+            },
+            {
+                "idcan": "516",
+                "nombre": "VALENCIA"
+            },
+            {
+                "idcan": "520",
+                "nombre": "BABA"
+            },
+            {
+                "idcan": "525",
+                "nombre": "VINCES"
+            },
+            {
+                "idcan": "530",
+                "nombre": "PUEBLO VIEJO"
+            },
+            {
+                "idcan": "535",
+                "nombre": "URDANETA"
+            },
+            {
+                "idcan": "540",
+                "nombre": "QUEVEDO"
+            },
+            {
+                "idcan": "545",
+                "nombre": "VENTANAS"
+            },
+            {
+                "idcan": "546",
+                "nombre": "QUINSALOMA"
+            },
+            {
+                "idcan": "710",
+                "nombre": "MONTALVO"
+            },
+            {
+                "idcan": "750",
+                "nombre": "PALENQUE"
+            },
+            {
+                "idcan": "945",
+                "nombre": "BUENA FE"
+            },
+            {
+                "idcan": "946",
+                "nombre": "MOCACHE"
+            }
+        ]
+    },
+    {
+        "id": "13",
+        "provincia": "MANABI",
+        "ncantones": [
+            "FLAVIO ALFARO",
+            "PORTOVIEJO",
+            "MONTECRISTI",
+            "JARAMIJO",
+            "MANTA",
+            "JIPIJAPA",
+            "24 DE MAYO",
+            "ROCAFUERTE",
+            "SANTA ANA",
+            "SUCRE",
+            "JAMA",
+            "SAN VICENTE",
+            "CHONE",
+            "BOLIVAR",
+            "JUNIN",
+            "PAJAN",
+            "EL CARMEN",
+            "TOSAGUA",
+            "PICHINCHA",
+            "PEDERNALES",
+            "OLMEDO",
+            "PUERTO LOPEZ"
+        ],
+        "cantones": [
+            {
+                "idcan": "230",
+                "nombre": "FLAVIO ALFARO"
+            },
+            {
+                "idcan": "440",
+                "nombre": "PORTOVIEJO"
+            },
+            {
+                "idcan": "445",
+                "nombre": "MONTECRISTI"
+            },
+            {
+                "idcan": "446",
+                "nombre": "JARAMIJO"
+            },
+            {
+                "idcan": "450",
+                "nombre": "MANTA"
+            },
+            {
+                "idcan": "455",
+                "nombre": "JIPIJAPA"
+            },
+            {
+                "idcan": "460",
+                "nombre": "24 DE MAYO"
+            },
+            {
+                "idcan": "465",
+                "nombre": "ROCAFUERTE"
+            },
+            {
+                "idcan": "470",
+                "nombre": "SANTA ANA"
+            },
+            {
+                "idcan": "475",
+                "nombre": "SUCRE"
+            },
+            {
+                "idcan": "476",
+                "nombre": "JAMA"
+            },
+            {
+                "idcan": "477",
+                "nombre": "SAN VICENTE"
+            },
+            {
+                "idcan": "480",
+                "nombre": "CHONE"
+            },
+            {
+                "idcan": "485",
+                "nombre": "BOLIVAR"
+            },
+            {
+                "idcan": "490",
+                "nombre": "JUNIN"
+            },
+            {
+                "idcan": "495",
+                "nombre": "PAJAN"
+            },
+            {
+                "idcan": "500",
+                "nombre": "EL CARMEN"
+            },
+            {
+                "idcan": "550",
+                "nombre": "TOSAGUA"
+            },
+            {
+                "idcan": "840",
+                "nombre": "PICHINCHA"
+            },
+            {
+                "idcan": "910",
+                "nombre": "PEDERNALES"
+            },
+            {
+                "idcan": "970",
+                "nombre": "OLMEDO"
+            },
+            {
+                "idcan": "975",
+                "nombre": "PUERTO LOPEZ"
+            }
+        ]
+    },
+    {
+        "id": "14",
+        "provincia": "MORONA SANTIAGO",
+        "ncantones": [
+            "MORONA",
+            "GUALAQUIZA",
+            "LIMON INDANZA",
+            "SANTIAGO",
+            "SUCUA",
+            "LOGROÑO",
+            "PALORA",
+            "HUAMBOYA",
+            "PABLO SEXTO",
+            "TIWINTZA",
+            "SAN JUAN BOSCO",
+            "TAISHA"
+        ],
+        "cantones": [
+            {
+                "idcan": "590",
+                "nombre": "MORONA"
+            },
+            {
+                "idcan": "595",
+                "nombre": "GUALAQUIZA"
+            },
+            {
+                "idcan": "600",
+                "nombre": "LIMON INDANZA"
+            },
+            {
+                "idcan": "605",
+                "nombre": "SANTIAGO"
+            },
+            {
+                "idcan": "610",
+                "nombre": "SUCUA"
+            },
+            {
+                "idcan": "611",
+                "nombre": "LOGROÑO"
+            },
+            {
+                "idcan": "615",
+                "nombre": "PALORA"
+            },
+            {
+                "idcan": "795",
+                "nombre": "HUAMBOYA"
+            },
+            {
+                "idcan": "796",
+                "nombre": "PABLO SEXTO"
+            },
+            {
+                "idcan": "797",
+                "nombre": "TIWINTZA"
+            },
+            {
+                "idcan": "925",
+                "nombre": "SAN JUAN BOSCO"
+            },
+            {
+                "idcan": "926",
+                "nombre": "TAISHA"
+            }
+        ]
+    },
+    {
+        "id": "15",
+        "provincia": "NAPO",
+        "ncantones": [
+            "EL CHACO",
+            "TENA",
+            "C. J. AROSEMENA TOLA",
+            "QUIJOS",
+            "ARCHIDONA"
+        ],
+        "cantones": [
+            {
+                "idcan": "255",
+                "nombre": "EL CHACO"
+            },
+            {
+                "idcan": "620",
+                "nombre": "TENA"
+            },
+            {
+                "idcan": "621",
+                "nombre": "C. J. AROSEMENA TOLA"
+            },
+            {
+                "idcan": "635",
+                "nombre": "QUIJOS"
+            },
+            {
+                "idcan": "700",
+                "nombre": "ARCHIDONA"
+            }
+        ]
+    },
+    {
+        "id": "16",
+        "provincia": "PASTAZA",
+        "ncantones": [
+            "PASTAZA",
+            "SANTA CLARA",
+            "ARAJUNO",
+            "GONZALO PIZARRO"
+        ],
+        "cantones": [
+            {
+                "idcan": "680",
+                "nombre": "PASTAZA"
+            },
+            {
+                "idcan": "685",
+                "nombre": "SANTA CLARA"
+            },
+            {
+                "idcan": "880",
+                "nombre": "ARAJUNO"
+            },
+            {
+                "idcan": "881",
+                "nombre": "GONZALO PIZARRO"
+            }
+        ]
+    },
+    {
+        "id": "17",
+        "provincia": "PICHINCHA",
+        "ncantones": [
+            "QUITO",
+            "CAYAMBE",
+            "MEJIA",
+            "PEDRO MONCAYO",
+            "RUMIÑAHUI",
+            "SAN MIGUEL DE LOS BANCOS",
+            "PEDRO VICENTE MALDONADO",
+            "PUERTO QUITO"
+        ],
+        "cantones": [
+            {
+                "idcan": "60",
+                "nombre": "QUITO"
+            },
+            {
+                "idcan": "65",
+                "nombre": "CAYAMBE"
+            },
+            {
+                "idcan": "70",
+                "nombre": "MEJIA"
+            },
+            {
+                "idcan": "75",
+                "nombre": "PEDRO MONCAYO"
+            },
+            {
+                "idcan": "80",
+                "nombre": "RUMIÑAHUI"
+            },
+            {
+                "idcan": "770",
+                "nombre": "SAN MIGUEL DE LOS BANCOS"
+            },
+            {
+                "idcan": "895",
+                "nombre": "PEDRO VICENTE MALDONADO"
+            },
+            {
+                "idcan": "896",
+                "nombre": "PUERTO QUITO"
+            }
+        ]
+    },
+    {
+        "id": "18",
+        "provincia": "TUNGURAHUA",
+        "ncantones": [
+            "TISALEO",
+            "AMBATO",
+            "PELILEO",
+            "PILLARO",
+            "BAÑOS",
+            "PATATE",
+            "PATATE",
+            "QUERO",
+            "CEVALLOS",
+            "MOCHA"
+        ],
+        "cantones": [
+            {
+                "idcan": "90",
+                "nombre": "TISALEO"
+            },
+            {
+                "idcan": "135",
+                "nombre": "AMBATO"
+            },
+            {
+                "idcan": "140",
+                "nombre": "PELILEO"
+            },
+            {
+                "idcan": "145",
+                "nombre": "PILLARO"
+            },
+            {
+                "idcan": "150",
+                "nombre": "BAÑOS"
+            },
+            {
+                "idcan": "155",
+                "nombre": "PATATE"
+            },
+            {
+                "idcan": "160",
+                "nombre": "QUERO"
+            },
+            {
+                "idcan": "845",
+                "nombre": "CEVALLOS"
+            },
+            {
+                "idcan": "850",
+                "nombre": "MOCHA"
+            }
+        ]
+    },
+    {
+        "id": "19",
+        "provincia": "ZAMORA CHINCHIPE",
+        "ncantones": [
+            "NANGARITZA",
+            "ZAMORA",
+            "CHINCHIPE",
+            "PALANDA",
+            "YACUAMBI",
+            "YANZATZA",
+            "EL PANGUI",
+            "CENTINELA DEL CONDOR",
+            "PAQUISHA"
+        ],
+        "cantones": [
+            {
+                "idcan": "130",
+                "nombre": "NANGARITZA"
+            },
+            {
+                "idcan": "655",
+                "nombre": "ZAMORA"
+            },
+            {
+                "idcan": "660",
+                "nombre": "CHINCHIPE"
+            },
+            {
+                "idcan": "661",
+                "nombre": "PALANDA"
+            },
+            {
+                "idcan": "665",
+                "nombre": "YACUAMBI"
+            },
+            {
+                "idcan": "670",
+                "nombre": "YANZATZA"
+            },
+            {
+                "idcan": "775",
+                "nombre": "EL PANGUI"
+            },
+            {
+                "idcan": "980",
+                "nombre": "CENTINELA DEL CONDOR"
+            },
+            {
+                "idcan": "981",
+                "nombre": "PAQUISHA"
+            }
+        ]
+    },
+    {
+        "id": "20",
+        "provincia": "GALAPAGOS",
+        "ncantones": [
+            "SAN CRISTOBAL",
+            "SANTA CRUZ",
+            "ISABELA"
+        ],
+        "cantones": [
+            {
+                "idcan": "800",
+                "nombre": "SAN CRISTOBAL"
+            },
+            {
+                "idcan": "805",
+                "nombre": "SANTA CRUZ"
+            },
+            {
+                "idcan": "810",
+                "nombre": "ISABELA"
+            }
+        ]
+    },
+    {
+        "id": "21",
+        "provincia": "SUCUMBIOS",
+        "ncantones": [
+            "LAGO AGRIO",
+            "CUYABENO",
+            "SUCUMBIOS",
+            "PUTUMAYO",
+            "SHUSHUFINDI",
+            "CASCALES",
+            "GONZALO PIZARRO"
+        ],
+        "cantones": [
+            {
+                "idcan": "625",
+                "nombre": "LAGO AGRIO"
+            },
+            {
+                "idcan": "626",
+                "nombre": "CUYABENO"
+            },
+            {
+                "idcan": "640",
+                "nombre": "SUCUMBIOS"
+            },
+            {
+                "idcan": "650",
+                "nombre": "PUTUMAYO"
+            },
+            {
+                "idcan": "720",
+                "nombre": "SHUSHUFINDI"
+            },
+            {
+                "idcan": "745",
+                "nombre": "CASCALES"
+            },
+            {
+                "idcan": "865",
+                "nombre": "GONZALO PIZARRO"
+            }
+        ]
+    },
+    {
+        "id": "22",
+        "provincia": "ORELLANA",
+        "ncantones": [
+            "AGUARICO",
+            "FCO.DE ORELLANA",
+            "JOYA DE LOS SACHAS",
+            "LORETO"
+        ],
+        "cantones": [
+            {
+                "idcan": "630",
+                "nombre": "AGUARICO"
+            },
+            {
+                "idcan": "645",
+                "nombre": "FCO.DE ORELLANA"
+            },
+            {
+                "idcan": "725",
+                "nombre": "JOYA DE LOS SACHAS"
+            },
+            {
+                "idcan": "935",
+                "nombre": "LORETO"
+            }
+        ]
+    },
+    {
+        "id": "23",
+        "provincia": "STO DGO TSACHILAS",
+        "ncantones": [
+            "SANTO DOMINGO",
+            "LA CONCORDIA"
+        ],
+        "cantones": [
+            {
+                "idcan": "85",
+                "nombre": "SANTO DOMINGO"
+            },
+            {
+                "idcan": "982",
+                "nombre": "LA CONCORDIA"
+            }
+        ]
+    },
+    {
+        "id": "24",
+        "provincia": "SANTA ELENA",
+        "ncantones": [
+            "SALINAS",
+            "SANTA ELENA",
+            "LA LIBERTAD"
+        ],
+        "cantones": [
+            {
+                "idcan": "405",
+                "nombre": "SALINAS"
+            },
+            {
+                "idcan": "410",
+                "nombre": "SANTA ELENA"
+            },
+            {
+                "idcan": "965",
+                "nombre": "LA LIBERTAD"
+            }
+        ]
+    }
+]

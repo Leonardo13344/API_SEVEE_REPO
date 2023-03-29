@@ -1,0 +1,50 @@
+[
+    {
+        "parroquia":"MONTERREY",
+        "candidato2": "Guillermo Lasso",
+        "candidato1": "Andres Arauz",
+        "id": 4635,
+        "votos": 3140,
+        "votos1": 1371,
+        "fill": "#EF8A62",
+        "votos2": 569,
+        "porcentaje1": 43.66,
+        "porcentaje2": 18.12
+    },
+    {
+        "parroquia":"LA VILLEGAS",
+        "candidato2": "Guillermo Lasso",
+        "candidato1": "Andres Arauz",
+        "id": 4640,
+        "votos": 1889,
+        "votos1": 845,
+        "fill": "#EF8A62",
+        "votos2": 383,
+        "porcentaje1": 44.73,
+        "porcentaje2": 20.28
+    },
+    {
+        "candidato2": "Marcelo Hervas",
+        "candidato1": "Andres Arauz",
+        "id": 4645,
+        "parroquia":"PLAN PILOTO",
+        "votos": 941,
+        "votos1": 525,
+        "fill": "#EF8A62",
+        "votos2": 113,
+        "porcentaje1": 55.79,
+        "porcentaje2": 12.01
+    },
+    {
+        "candidato2": "Guillermo Lasso",
+        "candidato1": "Andres Arauz",
+        "id": 7520,
+        "parroquia":"LA CONCORDIA",
+        "votos": 25612,
+        "votos1": 11180,
+        "fill": "#EF8A62",
+        "votos2": 4589,
+        "porcentaje1": 43.65,
+        "porcentaje2": 17.92
+    }
+]

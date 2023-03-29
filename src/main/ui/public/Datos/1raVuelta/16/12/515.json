@@ -1,0 +1,56 @@
+[
+    {
+        "id": 520,
+        "votos": 7,
+        "candidato": "Paul Carrasco",
+        "value": 0.24
+    },
+    {
+        "id": 1265,
+        "votos": 17,
+        "candidato": "Paul Carrasco",
+        "value": 0.18
+    },
+    {
+        "id": 1525,
+        "votos": 14,
+        "candidato": "Paul Carrasco",
+        "value": 0.20
+    },
+    {
+        "id": 2875,
+        "votos": 28,
+        "candidato": "Paul Carrasco",
+        "value": 0.33
+    },
+    {
+        "id": 5215,
+        "votos": 61,
+        "candidato": "Paul Carrasco",
+        "value": 0.15
+    },
+    {
+        "id": 5285,
+        "votos": 29,
+        "candidato": "Paul Carrasco",
+        "value": 0.16
+    },
+    {
+        "id": 6830,
+        "votos": 13,
+        "candidato": "Paul Carrasco",
+        "value": 0.27
+    },
+    {
+        "id": 6835,
+        "votos": 4,
+        "candidato": "Paul Carrasco",
+        "value": 0.19
+    },
+    {
+        "id": 120150,
+        "votos": 107,
+        "candidato": "Paul Carrasco",
+        "value": 0.16
+    }
+]

@@ -1,0 +1,63 @@
+[
+    {
+        "id": 40,
+        "votos": 97,
+        "candidato": "Andres Arauz",
+        "value": 18.03
+    },
+    {
+        "id": 45,
+        "votos": 158,
+        "candidato": "Andres Arauz",
+        "value": 23.58
+    },
+    {
+        "id": 410,
+        "votos": 130,
+        "candidato": "Andres Arauz",
+        "value": 44.83
+    },
+    {
+        "id": 1415,
+        "votos": 93,
+        "candidato": "Andres Arauz",
+        "value": 28.88
+    },
+    {
+        "id": 1705,
+        "votos": 273,
+        "candidato": "Andres Arauz",
+        "value": 22.05
+    },
+    {
+        "id": 2080,
+        "votos": 90,
+        "candidato": "Andres Arauz",
+        "value": 23.08
+    },
+    {
+        "id": 3295,
+        "votos": 1408,
+        "candidato": "Andres Arauz",
+        "value": 23.82
+    },
+    {
+        "id": 3425,
+        "votos": 315,
+        "candidato": "Andres Arauz",
+        "value": 31.34
+    },
+    {
+        "id": 3450,
+        "votos": 463,
+        "candidato": "Andres Arauz",
+        "value": 20.78
+    },
+
+    {
+        "id": 60750,
+        "votos": 2527,
+        "candidato": "Andres Arauz",
+        "value": 21.66
+    }
+]

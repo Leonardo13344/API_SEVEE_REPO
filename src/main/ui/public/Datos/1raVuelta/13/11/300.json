@@ -1,0 +1,122 @@
+[
+    {
+        "id": 975,
+        "votos": 9,
+        "candidato": "Gustavo Larrea",
+        "value": 0.60
+    },
+    {
+        "id": 1135,
+        "votos": 4,
+        "candidato": "Gustavo Larrea",
+        "value": 0.45
+    },
+    {
+        "id": 1405,
+        "votos": 8,
+        "candidato": "Gustavo Larrea",
+        "value": 0.71
+    },
+    {
+        "id": 1780,
+        "votos": 2,
+        "candidato": "Gustavo Larrea",
+        "value": 0.23
+    },
+    {
+        "id": 1840,
+        "votos": 3,
+        "candidato": "Gustavo Larrea",
+        "value": 0.36
+    },
+    {
+        "id": 2325,
+        "votos": 40,
+        "candidato": "Gustavo Larrea",
+        "value": 0.90
+    },
+    {
+        "id": 3555,
+        "votos": 6,
+        "candidato": "Gustavo Larrea",
+        "value": 0.20
+    },
+    {
+        "id": 3770,
+        "votos": 4,
+        "candidato": "Gustavo Larrea",
+        "value": 0.44
+    },
+    {
+        "id": 3970,
+        "votos": 6,
+        "candidato": "Gustavo Larrea",
+        "value": 0.33
+    },
+    {
+        "id": 4235,
+        "votos": 11,
+        "candidato": "Gustavo Larrea",
+        "value": 0.36
+    },
+    {
+        "id": 4280,
+        "votos": 4,
+        "candidato": "Gustavo Larrea",
+        "value": 0.45
+    },
+    {
+        "id": 4475,
+        "votos": 3,
+        "candidato": "Gustavo Larrea",
+        "value": 0.35
+    },
+    {
+        "id": 4540,
+        "votos": 5,
+        "candidato": "Gustavo Larrea",
+        "value": 0.69
+    },
+    {
+        "id": 5320,
+        "votos": 24,
+        "candidato": "Gustavo Larrea",
+        "value": 0.17
+    },
+    {
+        "id": 6015,
+        "votos": 34,
+        "candidato": "Gustavo Larrea",
+        "value": 0.16
+    },
+    {
+        "id": 6100,
+        "votos": 84,
+        "candidato": "Gustavo Larrea",
+        "value": 0.18
+    },
+    {
+        "id": 6210,
+        "votos": 69,
+        "candidato": "Gustavo Larrea",
+        "value": 0.25
+    },
+    {
+        "id": 7525,
+        "votos": 14,
+        "candidato": "Gustavo Larrea",
+        "value": 0.33
+    },
+    {
+        "id": 7530,
+        "votos": 12,
+        "candidato": "Gustavo Larrea",
+        "value": 0.18
+    },
+    {
+        "id": 110150,
+        "votos": 242,
+        "candidato": "Gustavo Larrea",
+        "value": 0.20
+    }
+]

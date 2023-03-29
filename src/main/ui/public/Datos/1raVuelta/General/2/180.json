@@ -1,0 +1,24 @@
+[
+    {
+        "candidato2": "Andres Arauz",
+        "candidato1": "Yaku Perez",
+        "id": 5975,
+        "votos": 3681,
+        "votos1": 1187,
+        "fill": "#9B59B6",
+        "votos2": 766,
+        "porcentaje1": 32.25,
+        "porcentaje2": 20.81
+    },
+    {
+        "candidato2": "Andres Arauz",
+        "candidato1": "Yaku Perez",
+        "id": 5245,
+        "votos": 7684,
+        "votos1": 3542,
+        "fill": "#9B59B6",
+        "votos2": 1147,
+        "porcentaje1": 46.10,
+        "porcentaje2": 14.93
+    }
+]

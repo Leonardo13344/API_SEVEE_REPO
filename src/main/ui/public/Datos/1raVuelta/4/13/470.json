@@ -1,0 +1,44 @@
+[
+    {
+        "id": 220,
+        "votos": 414,
+        "candidato": "Xavier Hervas",
+        "value": 9.54
+    },
+    {
+        "id": 1105,
+        "votos": 99,
+        "candidato": "Xavier Hervas",
+        "value": 4.49
+    },
+    {
+        "id": 1610,
+        "votos": 209,
+        "candidato": "Xavier Hervas",
+        "value": 6.51
+    },
+    {
+        "id": 2135,
+        "votos": 156,
+        "candidato": "Xavier Hervas",
+        "value": 4.88
+    },
+    {
+        "id": 6030,
+        "votos": 2004,
+        "candidato": "Xavier Hervas",
+        "value": 13.60
+    },
+    {
+        "id": 6725,
+        "votos": 152,
+        "candidato": "Xavier Hervas",
+        "value": 14.62
+    },
+    {
+        "id": 131350,
+        "votos": 2156,
+        "candidato": "Xavier Hervas",
+        "value": 13.67
+    }
+]

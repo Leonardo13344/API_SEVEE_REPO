@@ -1,0 +1,56 @@
+[
+    {
+        "id": 520,
+        "votos": 164,
+        "candidato": "Ximena Peña",
+        "value": 5.55
+    },
+    {
+        "id": 1265,
+        "votos": 337,
+        "candidato": "Ximena Peña",
+        "value": 3.49
+    },
+    {
+        "id": 1525,
+        "votos": 365,
+        "candidato": "Ximena Peña",
+        "value": 5.21
+    },
+    {
+        "id": 2875,
+        "votos": 290,
+        "candidato": "Ximena Peña",
+        "value": 3.45
+    },
+    {
+        "id": 5215,
+        "votos": 849,
+        "candidato": "Ximena Peña",
+        "value": 2.11
+    },
+    {
+        "id": 5285,
+        "votos": 307,
+        "candidato": "Ximena Peña",
+        "value": 1.69
+    },
+    {
+        "id": 6830,
+        "votos": 147,
+        "candidato": "Ximena Peña",
+        "value": 3.05
+    },
+    {
+        "id": 6835,
+        "votos": 70,
+        "candidato": "Ximena Peña",
+        "value": 3.27
+    },
+    {
+        "id": 120150,
+        "votos": 1373,
+        "candidato": "Ximena Peña",
+        "value": 2.09
+    }
+]

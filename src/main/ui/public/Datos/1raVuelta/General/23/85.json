@@ -1,0 +1,156 @@
+[
+    {
+        "candidato2": "Andres Arauz",
+        "candidato1": "Yaku Perez",
+        "id": 75,
+        "votos": 5549,
+        "votos1": 1806,
+        "fill": "#9B59B6",
+        "votos2": 1417,
+        "porcentaje1": 32.55,
+        "porcentaje2": 25.54
+    },
+    {
+        "candidato2": "Yaku Perez",
+        "candidato1": "Andres Arauz",
+        "id": 305,
+        "votos": 4682,
+        "votos1": 1630,
+        "fill": "#EF8A62",
+        "votos2": 964,
+        "porcentaje1": 34.81,
+        "porcentaje2": 20.59
+    },
+    {
+        "candidato2": "Yaku Perez",
+        "candidato1": "Andres Arauz",
+        "id": 1755,
+        "votos": 4415,
+        "votos1": 1806,
+        "fill": "#EF8A62",
+        "votos2": 695,
+        "porcentaje1": 40.91,
+        "porcentaje2": 15.74
+    },
+    {
+        "candidato2": "Yaku Perez",
+        "candidato1": "Andres Arauz",
+        "id": 1970,
+        "votos": 6581,
+        "votos1": 2773,
+        "fill": "#EF8A62",
+        "votos2": 1038,
+        "porcentaje1": 42.14,
+        "porcentaje2": 15.77
+    },
+    {
+        "candidato2": "Yaku Perez",
+        "candidato1": "Andres Arauz",
+        "id": 1990,
+        "votos": 3152,
+        "votos1": 925,
+        "fill": "#EF8A62",
+        "votos2": 715,
+        "porcentaje1": 29.35,
+        "porcentaje2": 22.68
+    },
+    {
+        "candidato2": "Yaku Perez",
+        "candidato1": "Andres Arauz",
+        "id": 2045,
+        "votos": 2594,
+        "votos1": 1132,
+        "fill": "#EF8A62",
+        "votos2": 634,
+        "porcentaje1": 43.64,
+        "porcentaje2": 24.44
+    },
+    {
+        "candidato2": "Guillermo Lasso",
+        "candidato1": "Andres Arauz",
+        "id": 4440,
+        "votos": 5996,
+        "votos1": 2197,
+        "fill": "#EF8A62",
+        "votos2": 1121,
+        "porcentaje1": 36.64,
+        "porcentaje2": 18.70
+    },
+    {
+        "candidato2": "Marcelo Hervas",
+        "candidato1": "Andres Arauz",
+        "id": 5730,
+        "votos": 27637,
+        "votos1": 10524,
+        "fill": "#EF8A62",
+        "votos2": 4809,
+        "porcentaje1": 38.08,
+        "porcentaje2": 17.40
+    },
+    {
+        "candidato2": "Marcelo Hervas",
+        "candidato1": "Andres Arauz",
+        "id": 5860,
+        "votos": 40272,
+        "votos1": 14315,
+        "fill": "#EF8A62",
+        "votos2": 7791,
+        "porcentaje1": 35.55,
+        "porcentaje2": 19.35
+    },
+    {
+        "candidato2": "Marcelo Hervas",
+        "candidato1": "Andres Arauz",
+        "id": 5865,
+        "votos": 46970,
+        "votos1": 17326,
+        "fill": "#EF8A62",
+        "votos2": 8746,
+        "porcentaje1": 36.89,
+        "porcentaje2": 18.62
+    },
+    {
+        "candidato2": "Yaku Perez",
+        "candidato1": "Andres Arauz",
+        "id": 5870,
+        "votos": 6794,
+        "votos1": 2294,
+        "fill": "#EF8A62",
+        "votos2": 1520,
+        "porcentaje1": 33.77,
+        "porcentaje2": 22.37
+    },
+    {
+        "candidato2": "Marcelo Hervas",
+        "candidato1": "Andres Arauz",
+        "id": 6065,
+        "votos": 47280,
+        "votos1": 15913,
+        "fill": "#EF8A62",
+        "votos2": 9193,
+        "porcentaje1": 33.66,
+        "porcentaje2": 19.44
+    },
+    {
+        "candidato2": "Guillermo Lasso",
+        "candidato1": "Andres Arauz",
+        "id": 6175,
+        "votos": 31344,
+        "votos1": 9560,
+        "fill": "#EF8A62",
+        "votos2": 6789,
+        "porcentaje1": 30.50,
+        "porcentaje2": 21.66
+    },
+    {
+        "candidato2": "Guillermo Lasso",
+        "candidato1": "Andres Arauz",
+        "id": 6180,
+        "votos": 6180,
+        "votos1": 1634,
+        "fill": "#EF8A62",
+        "votos2": 1564,
+        "porcentaje1": 26.44,
+        "porcentaje2": 25.31
+    }
+]

@@ -1,0 +1,79 @@
+[
+    {
+        "candidato2": "Yaku Perez",
+        "candidato1": "Andres Arauz",
+        "id": 625,
+        "votos": 56490,
+        "votos1": 20211,
+        "fill": "#EF8A62",
+        "votos2": 19036,
+        "porcentaje1": 35.78,
+        "porcentaje2": 33.70
+    },
+    {
+        "candidato2": "Yaku Perez",
+        "candidato1": "Andres Arauz",
+        "id": 626,
+        "votos": 4905,
+        "votos1": 2179,
+        "fill": "#EF8A62",
+        "votos2": 1789,
+        "porcentaje1": 44.42,
+        "porcentaje2": 36.47
+    },
+    {
+        "candidato2": "Yaku Perez",
+        "candidato1": "Andres Arauz",
+        "id": 640,
+        "votos": 2657,
+        "votos1": 948,
+        "fill": "#EF8A62",
+        "votos2": 878,
+        "porcentaje1": 35.68,
+        "porcentaje2": 33.04
+    },
+    {
+        "candidato2": "Yaku Perez",
+        "candidato1": "Andres Arauz",
+        "id": 650,
+        "votos": 4869,
+        "votos1": 2091,
+        "fill": "#EF8A62",
+        "votos2": 1831,
+        "porcentaje1": 42.95,
+        "porcentaje2": 37.61
+    },
+    {
+        "candidato2": "Andres Arauz",
+        "candidato1": "Yaku Perez",
+        "id": 720,
+        "votos": 27874,
+        "votos1": 11290,
+        "fill": "#9B59B6",
+        "votos2": 8992,
+        "porcentaje1": 40.50,
+        "porcentaje2": 32.26
+    },
+    {
+        "candidato2": "Andres Arauz",
+        "candidato1": "Yaku Perez",
+        "id": 745,
+        "votos": 6793,
+        "votos1": 3407,
+        "fill": "#9B59B6",
+        "votos2": 1639,
+        "porcentaje1": 50.15,
+        "porcentaje2": 24.13
+    },
+    {
+        "candidato2": "Andres Arauz",
+        "candidato1": "Yaku Perez",
+        "id": 865,
+        "votos": 6084,
+        "votos1": 2357,
+        "fill": "#9B59B6",
+        "votos2": 2235,
+        "porcentaje1": 38.74,
+        "porcentaje2": 36.74
+    }
+]

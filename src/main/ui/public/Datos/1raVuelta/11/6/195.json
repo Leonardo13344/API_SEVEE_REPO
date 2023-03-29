@@ -1,0 +1,81 @@
+[
+    {
+        "id": 420,
+        "votos": 18,
+        "candidato": "Juan Velasco",
+        "value": 0.79
+    },
+    {
+        "id": 445,
+        "votos": 14,
+        "candidato": "Juan Velasco",
+        "value": 0.32
+    },
+    {
+        "id": 705,
+        "votos": 9,
+        "candidato": "Juan Velasco",
+        "value": 0.64
+    },
+    {
+        "id": 1280,
+        "votos": 11,
+        "candidato": "Juan Velasco",
+        "value": 0.36
+    },
+    {
+        "id": 2160,
+        "votos": 21,
+        "candidato": "Juan Velasco",
+        "value": 0.51
+    },
+    {
+        "id": 2165,
+        "votos": 38,
+        "candidato": "Juan Velasco",
+        "value": 0.69
+    },
+    {
+        "id": 3035,
+        "votos": 14,
+        "candidato": "Juan Velasco",
+        "value": 0.38
+    },
+    {
+        "id": 3040,
+        "votos": 17,
+        "candidato": "Juan Velasco",
+        "value": 0.40
+    },
+    {
+        "id": 3095,
+        "votos": 13,
+        "candidato": "Juan Velasco",
+        "value": 0.37
+    },
+    {
+        "id": 3515,
+        "votos": 24,
+        "candidato": "Juan Velasco",
+        "value": 0.45
+    },
+    {
+        "id": 3560,
+        "votos": 35,
+        "candidato": "Juan Velasco",
+        "value": 0.81
+    },
+    {
+        "id": 5590,
+        "votos": 259,
+        "candidato": "Juan Velasco",
+        "value": 0.72
+    },
+ 
+    {
+        "id": 60150,
+        "votos": 453,
+        "candidato": "Juan Velasco",
+        "value": 0.68
+    }
+]

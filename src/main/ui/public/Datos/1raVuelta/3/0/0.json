@@ -1,0 +1,167 @@
+[
+    {
+        "id": 1,
+        "votos": 185025,
+        "candidato": "Yaku Perez",
+        "value": 42.17
+    },
+    {
+        "id": 2,
+        "votos": 59320,
+        "candidato": "Yaku Perez",
+        "value": 47.92
+    },
+    {
+        "id": 3,
+        "votos": 58834,
+        "candidato": "Yaku Perez",
+        "value": 44.23
+    },
+    {
+        "id": 4,
+        "votos": 21601,
+        "candidato": "Yaku Perez",
+        "value": 20.67
+    },
+    {
+        "id": 5,
+        "votos": 122461,
+        "candidato": "Yaku Perez",
+        "value": 43.80
+    },
+    {
+        "id": 6,
+        "votos": 121959,
+        "candidato": "Yaku Perez",
+        "value": 41.55
+    },
+    {
+        "id": 7,
+        "votos": 55913,
+        "candidato": "Yaku Perez",
+        "value": 14.42
+    },
+    {
+        "id": 8,
+        "votos": 33382,
+        "candidato": "Yaku Perez",
+        "value": 12.34
+    },
+    {
+        "id": 9,
+        "votos": 195215,
+        "candidato": "Yaku Perez",
+        "value": 8.74
+    },
+    {
+        "id": 10,
+        "votos": 59831,
+        "candidato": "Yaku Perez",
+        "value": 22.39
+    },
+    {
+        "id": 11,
+        "votos": 86021,
+        "candidato": "Yaku Perez",
+        "value": 30.47
+    },
+    {
+        "id": 12,
+        "votos": 57393,
+        "candidato": "Yaku Perez",
+        "value": 12.09
+    },
+    {
+        "id": 13,
+        "votos": 52954,
+        "candidato": "Yaku Perez",
+        "value": 6.05
+    },
+    {
+        "id": 14,
+        "votos": 48423,
+        "candidato": "Yaku Perez",
+        "value": 52.08
+    },
+    {
+        "id": 15,
+        "votos": 31929,
+        "candidato": "Yaku Perez",
+        "value": 43.90
+    },
+    {
+        "id": 16,
+        "votos": 22620,
+        "candidato": "Yaku Perez",
+        "value": 40.68
+    },
+    {
+        "id": 17,
+        "votos": 282206,
+        "candidato": "Yaku Perez",
+        "value": 16.71
+    },
+    {
+        "id": 18,
+        "votos": 109140,
+        "candidato": "Yaku Perez",
+        "value": 32.28
+    },
+    {
+        "id": 19,
+        "votos": 25249,
+        "candidato": "Yaku Perez",
+        "value": 40.03
+    },
+    {
+        "id": 20,
+        "votos": 2326,
+        "candidato": "Yaku Perez",
+        "value": 16.27
+    },
+    {
+        "id": 21,
+        "votos": 40588,
+        "candidato": "Yaku Perez",
+        "value": 37.01
+    },
+    {
+        "id": 22,
+        "votos": 31858,
+        "candidato": "Yaku Perez",
+        "value": 34.02
+    },
+    {
+        "id": 23,
+        "votos": 43972,
+        "candidato": "Yaku Perez",
+        "value": 16.22
+    },
+    {
+        "id": 24,
+        "votos": 29797,
+        "candidato": "Yaku Perez",
+        "value": 14.86
+    },
+    {
+        "id": 26,
+        "PROVINCIA":"EUROPA ASIA Y OCEANIA",
+        "votos": 13548,
+        "candidato": "Yaku Perez",
+        "value": 18.32
+    },
+    {
+        "id": 27,
+        "PROVINCIA":"EE.UU Y CANADA",
+        "votos": 5585,
+        "candidato": "Yaku Perez",
+        "value": 24.05
+    },
+    {
+        "id": 28,
+        "PROVINCIA":"AMERICA LATINA Y EL CARIBE",
+        "votos": 907,
+        "candidato": "Yaku Perez",
+        "value": 10.03
+    }
+]

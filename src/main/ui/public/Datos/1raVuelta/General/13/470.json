@@ -1,0 +1,82 @@
+[
+    {
+        "candidato2": "Guillermo Lasso",
+        "candidato1": "Andres Arauz",
+        "id": 220,
+        "votos": 4339,
+        "votos1": 2309,
+        "fill": "#EF8A62",
+        "votos2": 638,
+        "porcentaje1": 53.22,
+        "porcentaje2": 14.70
+    },
+    {
+        "candidato2": "Guillermo Lasso",
+        "candidato1": "Andres Arauz",
+        "id": 1105,
+        "votos": 2205,
+        "votos1": 1457,
+        "fill": "#EF8A62",
+        "votos2": 229,
+        "porcentaje1": 66.08,
+        "porcentaje2": 10.39
+    },
+    {
+        "candidato2": "Guillermo Lasso",
+        "candidato1": "Andres Arauz",
+        "id": 1610,
+        "votos": 3209,
+        "votos1": 1980,
+        "fill": "#EF8A62",
+        "votos2": 363,
+        "porcentaje1": 61.70,
+        "porcentaje2": 11.31
+    },
+    {
+        "candidato2": "Guillermo Lasso",
+        "candidato1": "Andres Arauz",
+        "id": 2135,
+        "votos": 3196,
+        "votos1": 2053,
+        "fill": "#EF8A62",
+        "votos2": 320,
+        "porcentaje1": 64.24,
+        "porcentaje2": 10.01
+    },
+    {
+        "candidato2": "Guillermo Lasso",
+        "candidato1": "Andres Arauz",
+        "id": 6030,
+        "votos": 14737,
+        "votos1": 7475,
+        "fill": "#EF8A62",
+        "votos2": 2105,
+        "porcentaje1": 50.72,
+        "porcentaje2": 14.28
+    },
+    {
+        "candidato2": "Marcelo Hervas",
+        "candidato1": "Andres Arauz",
+        "id": 6725,
+        "votos": 1040,
+        "votos1": 469,
+        "fill": "#EF8A62",
+        "votos2": 152,
+        "porcentaje1": 45.10,
+        "porcentaje2": 14.62
+    },
+    {
+        "candidato3": "Marcelo Hervas",
+        "candidato2": "Andres Arauz",
+        "candidato1": "Guillermo Lasso",
+        "id": 131350,
+        "votos": 11170,
+        "votos1": 2211,
+        "votos2": 7944,
+        "votos3": 1015,
+        "porcentaje1": 19.79,
+        "porcentaje2": 71.11,
+        "porcentaje3": 9.08,
+        "fill": "#EF8A62"
+    }
+]

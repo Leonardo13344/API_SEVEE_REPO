@@ -1,0 +1,80 @@
+[
+    {
+        "candidato2": "Marcelo Hervas",
+        "candidato1": "Andres Arauz",
+        "id": 390,
+        "votos": 3871,
+        "votos1": 2125,
+        "fill": "#EF8A62",
+        "votos2": 563,
+        "porcentaje1": 54.90,
+        "porcentaje2": 14.54
+    },
+    {
+        "candidato2": "Yaku Perez",
+        "candidato1": "Andres Arauz",
+        "id": 775,
+        "votos": 713,
+        "votos1": 458,
+        "fill": "#EF8A62",
+        "votos2": 105,
+        "porcentaje1": 64.24,
+        "porcentaje2": 14.73
+    },
+    {
+        "candidato2": "Yaku Perez",
+        "candidato1": "Andres Arauz",
+        "id": 1225,
+        "votos": 2011,
+        "votos1": 882,
+        "fill": "#EF8A62",
+        "votos2": 525,
+        "porcentaje1": 43.86,
+        "porcentaje2": 26.11
+    },
+    {
+        "candidato2": "Marcelo Hervas",
+        "candidato1": "Andres Arauz",
+        "id": 2075,
+        "votos": 2206,
+        "votos1": 1228,
+        "fill": "#EF8A62",
+        "votos2": 306,
+        "porcentaje1": 55.67,
+        "porcentaje2": 13.87
+    },
+    {
+        "candidato2": "Yaku Perez",
+        "candidato1": "Andres Arauz",
+        "id": 4160,
+        "votos": 776,
+        "votos1": 354,
+        "fill": "#EF8A62",
+        "votos2": 248,
+        "porcentaje1": 45.62,
+        "porcentaje2": 31.96
+    },
+    {
+        "candidato2": "Yaku Perez",
+        "candidato1": "Andres Arauz",
+        "id": 4495,
+        "votos": 1263,
+        "votos1": 648,
+        "fill": "#EF8A62",
+        "votos2": 268,
+        "porcentaje1": 51.31,
+        "porcentaje2": 21.22
+    },
+    {
+        "candidato2": "",
+        "candidato1": "Andres Arauz",
+        "parroquia": "PASAJE",
+        "id": 70950,
+        "votos": 37593,
+        "votos1": 15315,
+        "fill": "#EF8A62",
+        "votos2": 6565,
+        "porcentaje1": 55.33,
+        "porcentaje2": 20.94
+    }
+]
