@@ -23,14 +23,16 @@ export const options = {
 };
 
 
+
 const API_BASE_URL = 'http://localhost:8080/API/Sevee/V1/votos'
 export default () => {
     http.batch([
-        // ['GET', `${API_BASE_URL}/votosListaCandidatoGeneroGeneral/false`],
-        // ['GET', `${API_BASE_URL}/votosGenero/false/F`],
+        ['GET', `${API_BASE_URL}/votosListaCandidatoGeneroGeneral/false`],
+        ['GET', `${API_BASE_URL}/votosGenero/false/F`],
         ['GET', `${API_BASE_URL}/votosValidos/false`]
     ]);
 
-    sleep(1);
+    
 
 };
+

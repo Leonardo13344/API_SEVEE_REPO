@@ -9,9 +9,15 @@ export const options = {
   ],
 };
 
-const API_BASE_URL = 'https://test-api.k6.io';
 
+const API_BASE_URL = 'http://localhost:8080/API/Sevee/V1/votos'
 export default () => {
-    http.get('http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false')
-    
+    http.batch([
+        ['GET', `${API_BASE_URL}/votosListaCandidatoGeneroGeneral/false`],
+        ['GET', `${API_BASE_URL}/votosGenero/false/F`],
+        ['GET', `${API_BASE_URL}/votosValidos/false`]
+    ]);
+
+    sleep(1);
+
 };

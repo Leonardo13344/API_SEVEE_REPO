@@ -18,5 +18,5 @@ export default () => {
     ]);
 
     sleep(1);
-    context.setDefaultTimeout(1000);
+    
 };
