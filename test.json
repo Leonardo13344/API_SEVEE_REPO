@@ -1,0 +1,1631 @@
+{
+    "type": "Metric",
+    "data": {
+        "name": "vus",
+        "type": "gauge",
+        "contains": "default",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "vus"
+}
+{
+    "metric": "vus",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:00.772697559-05:00",
+        "value": 1,
+        "tags": {}
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "vus_max",
+        "type": "gauge",
+        "contains": "default",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "vus_max"
+}
+{
+    "metric": "vus_max",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:00.772697559-05:00",
+        "value": 1,
+        "tags": {}
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "http_reqs",
+        "type": "counter",
+        "contains": "default",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "http_reqs"
+}
+{
+    "metric": "http_reqs",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:01.635818939-05:00",
+        "value": 1,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "http_req_duration",
+        "type": "trend",
+        "contains": "time",
+        "thresholds": [],
+        "submetrics": [
+            {
+                "name": "http_req_duration{expected_response:true}",
+                "suffix": "expected_response:true",
+                "tags": {
+                    "expected_response": "true"
+                }
+            }
+        ]
+    },
+    "metric": "http_req_duration"
+}
+{
+    "metric": "http_req_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:01.635818939-05:00",
+        "value": 1861.637238,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "http_req_blocked",
+        "type": "trend",
+        "contains": "time",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "http_req_blocked"
+}
+{
+    "metric": "http_req_blocked",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:01.635818939-05:00",
+        "value": 0.351924,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "http_req_connecting",
+        "type": "trend",
+        "contains": "time",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "http_req_connecting"
+}
+{
+    "metric": "http_req_connecting",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:01.635818939-05:00",
+        "value": 0.190389,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "http_req_tls_handshaking",
+        "type": "trend",
+        "contains": "time",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "http_req_tls_handshaking"
+}
+{
+    "metric": "http_req_tls_handshaking",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:01.635818939-05:00",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "http_req_sending",
+        "type": "trend",
+        "contains": "time",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "http_req_sending"
+}
+{
+    "metric": "http_req_sending",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:01.635818939-05:00",
+        "value": 0.106872,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "http_req_waiting",
+        "type": "trend",
+        "contains": "time",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "http_req_waiting"
+}
+{
+    "metric": "http_req_waiting",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:01.635818939-05:00",
+        "value": 1861.047464,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "http_req_receiving",
+        "type": "trend",
+        "contains": "time",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "http_req_receiving"
+}
+{
+    "metric": "http_req_receiving",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:01.635818939-05:00",
+        "value": 0.482902,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "http_req_failed",
+        "type": "rate",
+        "contains": "default",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "http_req_failed"
+}
+{
+    "metric": "http_req_failed",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:01.635818939-05:00",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "data_sent",
+        "type": "counter",
+        "contains": "data",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "data_sent"
+}
+{
+    "metric": "data_sent",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:01.636040737-05:00",
+        "value": 137,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "data_received",
+        "type": "counter",
+        "contains": "data",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "data_received"
+}
+{
+    "metric": "data_received",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:01.636040737-05:00",
+        "value": 2628,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "iteration_duration",
+        "type": "trend",
+        "contains": "time",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "iteration_duration"
+}
+{
+    "metric": "iteration_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:01.636040737-05:00",
+        "value": 1862.32248,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "type": "Metric",
+    "data": {
+        "name": "iterations",
+        "type": "counter",
+        "contains": "default",
+        "thresholds": [],
+        "submetrics": null
+    },
+    "metric": "iterations"
+}
+{
+    "metric": "iterations",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:01.636040737-05:00",
+        "value": 1,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "vus",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:01.772233983-05:00",
+        "value": 1,
+        "tags": {}
+    }
+}
+{
+    "metric": "vus_max",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:01.772233983-05:00",
+        "value": 1,
+        "tags": {}
+    }
+}
+{
+    "metric": "vus",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:02.772656119-05:00",
+        "value": 1,
+        "tags": {}
+    }
+}
+{
+    "metric": "vus_max",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:02.772656119-05:00",
+        "value": 1,
+        "tags": {}
+    }
+}
+{
+    "metric": "http_reqs",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:03.455945472-05:00",
+        "value": 1,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:03.455945472-05:00",
+        "value": 1819.816177,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_blocked",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:03.455945472-05:00",
+        "value": 0.00486,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_connecting",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:03.455945472-05:00",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_tls_handshaking",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:03.455945472-05:00",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_sending",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:03.455945472-05:00",
+        "value": 0.025037,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_waiting",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:03.455945472-05:00",
+        "value": 1819.380996,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_receiving",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:03.455945472-05:00",
+        "value": 0.410144,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_failed",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:03.455945472-05:00",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "data_sent",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:03.456014632-05:00",
+        "value": 137,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "data_received",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:03.456014632-05:00",
+        "value": 2628,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iteration_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:03.456014632-05:00",
+        "value": 1819.954799,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iterations",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:03.456014632-05:00",
+        "value": 1,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "vus",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:03.772237248-05:00",
+        "value": 1,
+        "tags": {}
+    }
+}
+{
+    "metric": "vus_max",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:03.772237248-05:00",
+        "value": 1,
+        "tags": {}
+    }
+}
+{
+    "metric": "vus",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:04.772982784-05:00",
+        "value": 1,
+        "tags": {}
+    }
+}
+{
+    "metric": "vus_max",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:04.772982784-05:00",
+        "value": 1,
+        "tags": {}
+    }
+}
+{
+    "metric": "http_reqs",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:05.319894203-05:00",
+        "value": 1,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:05.319894203-05:00",
+        "value": 1863.769613,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_blocked",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:05.319894203-05:00",
+        "value": 0.005771,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_connecting",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:05.319894203-05:00",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_tls_handshaking",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:05.319894203-05:00",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_sending",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:05.319894203-05:00",
+        "value": 0.026349,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_waiting",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:05.319894203-05:00",
+        "value": 1863.229374,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_receiving",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:05.319894203-05:00",
+        "value": 0.51389,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_failed",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:05.319894203-05:00",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "data_sent",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:05.31996142-05:00",
+        "value": 137,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "data_received",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:05.31996142-05:00",
+        "value": 2628,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iteration_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:05.31996142-05:00",
+        "value": 1863.91104,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iterations",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:05.31996142-05:00",
+        "value": 1,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "vus",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:05.772554326-05:00",
+        "value": 1,
+        "tags": {}
+    }
+}
+{
+    "metric": "vus_max",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:05.772554326-05:00",
+        "value": 1,
+        "tags": {}
+    }
+}
+{
+    "metric": "vus",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:06.772937158-05:00",
+        "value": 1,
+        "tags": {}
+    }
+}
+{
+    "metric": "vus_max",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:06.772937158-05:00",
+        "value": 1,
+        "tags": {}
+    }
+}
+{
+    "metric": "http_reqs",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:07.225320318-05:00",
+        "value": 1,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:07.225320318-05:00",
+        "value": 1905.258448,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_blocked",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:07.225320318-05:00",
+        "value": 0.007545,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_connecting",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:07.225320318-05:00",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_tls_handshaking",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:07.225320318-05:00",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_sending",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:07.225320318-05:00",
+        "value": 0.027031,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_waiting",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:07.225320318-05:00",
+        "value": 1904.672392,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_receiving",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:07.225320318-05:00",
+        "value": 0.559025,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_failed",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:07.225320318-05:00",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "data_sent",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:07.225391603-05:00",
+        "value": 137,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "data_received",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:07.225391603-05:00",
+        "value": 2628,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iteration_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:07.225391603-05:00",
+        "value": 1905.409594,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iterations",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:07.225391603-05:00",
+        "value": 1,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "vus",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:07.773152695-05:00",
+        "value": 1,
+        "tags": {}
+    }
+}
+{
+    "metric": "vus_max",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:07.773152695-05:00",
+        "value": 1,
+        "tags": {}
+    }
+}
+{
+    "metric": "vus",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:08.772583772-05:00",
+        "value": 1,
+        "tags": {}
+    }
+}
+{
+    "metric": "vus_max",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:08.772583772-05:00",
+        "value": 1,
+        "tags": {}
+    }
+}
+{
+    "metric": "http_reqs",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:09.039379151-05:00",
+        "value": 1,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:09.039379151-05:00",
+        "value": 1813.877721,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_blocked",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:09.039379151-05:00",
+        "value": 0.00547,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_connecting",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:09.039379151-05:00",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_tls_handshaking",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:09.039379151-05:00",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_sending",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:09.039379151-05:00",
+        "value": 0.034625,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_waiting",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:09.039379151-05:00",
+        "value": 1812.984746,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_receiving",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:09.039379151-05:00",
+        "value": 0.85835,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_failed",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:09.039379151-05:00",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "data_sent",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:09.039445686-05:00",
+        "value": 137,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "data_received",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:09.039445686-05:00",
+        "value": 2628,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iteration_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:09.039445686-05:00",
+        "value": 1814.032573,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iterations",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:09.039445686-05:00",
+        "value": 1,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "vus",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:09.772914997-05:00",
+        "value": 1,
+        "tags": {}
+    }
+}
+{
+    "metric": "vus_max",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:09.772914997-05:00",
+        "value": 1,
+        "tags": {}
+    }
+}
+{
+    "metric": "vus",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:10.772384517-05:00",
+        "value": 1,
+        "tags": {}
+    }
+}
+{
+    "metric": "vus_max",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:10.772384517-05:00",
+        "value": 1,
+        "tags": {}
+    }
+}
+{
+    "metric": "http_reqs",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:10.899789145-05:00",
+        "value": 1,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:10.899789145-05:00",
+        "value": 1860.241566,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_blocked",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:10.899789145-05:00",
+        "value": 0.006152,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_connecting",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:10.899789145-05:00",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_tls_handshaking",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:10.899789145-05:00",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_sending",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:10.899789145-05:00",
+        "value": 0.028964,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_waiting",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:10.899789145-05:00",
+        "value": 1859.824209,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_receiving",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:10.899789145-05:00",
+        "value": 0.388393,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "http_req_failed",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:10.899789145-05:00",
+        "value": 0,
+        "tags": {
+            "expected_response": "true",
+            "group": "",
+            "method": "GET",
+            "name": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false",
+            "proto": "HTTP/1.1",
+            "scenario": "default",
+            "status": "200",
+            "url": "http://localhost:8080/API/Sevee/V1/votos/votosListaCandidatoGeneroGeneral/false"
+        }
+    }
+}
+{
+    "metric": "data_sent",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:10.899848788-05:00",
+        "value": 137,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "data_received",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:10.899848788-05:00",
+        "value": 2628,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iteration_duration",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:10.899848788-05:00",
+        "value": 1860.383234,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
+{
+    "metric": "iterations",
+    "type": "Point",
+    "data": {
+        "time": "2023-04-07T22:32:10.899848788-05:00",
+        "value": 1,
+        "tags": {
+            "group": "",
+            "scenario": "default"
+        }
+    }
+}
