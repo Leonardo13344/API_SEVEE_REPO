@@ -13,7 +13,7 @@ import com.example.demo.service.IActaService;
 
 @RestController
 @RequestMapping("/actas")
-@CrossOrigin("http://localhost:3000/")
+@CrossOrigin("http://192.168.5.109/")
 public class ActaRestFulController {
 	
 	@Autowired

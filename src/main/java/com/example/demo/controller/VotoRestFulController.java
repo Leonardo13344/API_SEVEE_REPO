@@ -19,7 +19,7 @@ import com.example.demo.sevee.repository.modelo.to.CandidatoGenero;
 
 @RestController
 @RequestMapping("/votos")
-@CrossOrigin("http://localhost:3000/")
+@CrossOrigin("http://192.168.5.109/")
 public class VotoRestFulController {
 
 	@Autowired
